@@ -64,12 +64,12 @@ export default function Contact() {
 
                 <form action="" method="" className="mx-auto mt-16 max-w-xl sm:mt-20 w-1/2">
                     <div>
-                        <div className='text-3xl font-extrabold py-4'>Enquiry</div>
+                        <div className='text-3xl font-extrabold py-4'>{translatedText.enquiry}</div>
                     </div>
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
-                                First name
+                                {translatedText.firstName}
                             </label>
                             <div className="mt-2.5">
                                 <input
@@ -83,7 +83,7 @@ export default function Contact() {
                         </div>
                         <div>
                             <label htmlFor="last-name" className="block text-sm font-semibold leading-6 text-gray-900">
-                                Last name
+                                {translatedText.lastName}
                             </label>
                             <div className="mt-2.5">
                                 <input
@@ -97,7 +97,7 @@ export default function Contact() {
                         </div>
                         <div className="sm:col-span-2">
                             <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
-                                Email
+                                {translatedText.email}
                             </label>
                             <div className="mt-2.5">
                                 <input
@@ -111,7 +111,7 @@ export default function Contact() {
                         </div>
                         <div className="sm:col-span-2">
                             <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
-                                Phone number
+                                {translatedText.phoneNumber}
                             </label>
                             <div className="relative mt-2.5">
                                 <input
@@ -125,7 +125,7 @@ export default function Contact() {
                         </div>
                         <div className="sm:col-span-2">
                             <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
-                                Message
+                                {translatedText.message}
                             </label>
                             <div className="mt-2.5">
                                 <textarea
@@ -168,6 +168,12 @@ function getTranslatedText(language: string) {
     switch (language) {
         case "English":
             return {
+                firstName: "First Name",
+                lastName: "Last Name",
+                email: "Email",
+                phoneNumber: "Phone Number",
+                message: "Message",
+                enquiry: "Enquiry",
                 companyName: "Enjo-Chem Agrochemical Industries",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
@@ -181,6 +187,12 @@ function getTranslatedText(language: string) {
             };
         case "Marathi":
             return {
+                firstName: "पहिले नाव",
+                lastName: "आडनाव",
+                email: "ईमेल",
+                phoneNumber: "फोन नंबर",
+                message: "संदेश",
+                enquiry: "विचारांविषयी",
                 companyName: "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीज",
                 contactUs: "आमच्याशी संपर्क साधा",
                 officeTitle: "कार्यालय आणि निर्माण ठिकाण",
@@ -194,6 +206,12 @@ function getTranslatedText(language: string) {
             };
         case "Hindi":
             return {
+                firstName: "पहला नाम",
+                lastName: "उपनाम",
+                email: "ईमेल",
+                phoneNumber: "फोन नंबर",
+                message: "संदेश",
+                enquiry: "पूछताछ",
                 companyName: "एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज",
                 contactUs: "हमसे संपर्क करें",
                 officeTitle: "कार्यालय और निर्माण स्थल",
@@ -207,6 +225,12 @@ function getTranslatedText(language: string) {
             };
         default:
             return {
+                firstName: "First Name",
+                lastName: "Last Name",
+                email: "Email",
+                phoneNumber: "Phone Number",
+                message: "Message",
+                enquiry: "Enquiry",
                 companyName: "Enjo-Chem Agrochemical Industries",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",

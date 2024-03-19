@@ -3,7 +3,21 @@ import productsEnglish from '../assets/products.json';
 import productHindi from '../assets/productsHindi.json';
 import { RootState } from '../redux/store';
 import { useSelector } from 'react-redux';
+import { motion } from 'framer-motion';
 
+const fadeInAnimationVariants = {
+    initial: {
+        opacity: 0,
+        y: 100,
+    },
+    animate: (index: number) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: 0.01 * index,
+        },
+    }),
+}
 
 const ProductCard2 = () => {
     let products;
@@ -32,7 +46,15 @@ const ProductCard2 = () => {
         <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-12 lg:px-20 bg-green-50">
             {
                 products.map((product, index) => (
-                    <div key={index} className='rounded-sm overflow-hidden bg-white shadow-md m-2 flex justify-center items-center hover:cursor-pointer hover:shadow-xl'>
+                    <motion.div
+                        variants={fadeInAnimationVariants}
+                        initial="initial"
+                        whileInView={"animate"}
+                        viewport={{
+                            once: true,
+                        }}
+                        custom={index}
+                        key={index} className='rounded-sm overflow-hidden bg-white shadow-md m-2 flex justify-center items-center hover:cursor-pointer hover:shadow-xl'>
                         <div className="overflow-hidden h-52 w-52">
                             <img src={`/products/${index + 1}.png`} alt="insectiside1" width={200} height={200} className=' h-full w-full transition-transform duration-300 hover:scale-105' />
                         </div>
@@ -44,7 +66,7 @@ const ProductCard2 = () => {
                             <h1 className="text-l font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
                             <p className="text-sm">{product.dosage}</p>
                         </div>
-                    </div>
+                    </motion.div>
                 ))
             }
         </main>

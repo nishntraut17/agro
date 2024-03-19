@@ -2,10 +2,17 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
 import { Link } from 'react-router-dom';
 import { WiDirectionUpRight } from "react-icons/wi";
-import { motion } from 'framer-motion';
-// import LeafAnimation from './Temp';
+import { useRef } from 'react';
+import { useScroll, motion, useTransform } from "framer-motion";
 
 export default function AboutSection() {
+    const ref = useRef<HTMLDivElement>(null);
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["0 1", "1 1"],
+    });
+    // const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+    // const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.2, 1]);
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -43,9 +50,13 @@ export default function AboutSection() {
                 <div className='lg:w-3/4 xl:px-32 xl:py-4'>
                     {/* <LeafAnimation /> */}
                     <h1 className="text-4xl font-extrabold xl:pb-8">{aboutUs}</h1>
-                    <p className="text-lg leading-relaxed font-semibold">
+                    <motion.div
+                        // style={{
+                        //     scale: scaleProgress,
+                        // }}
+                        className="text-lg leading-relaxed font-semibold">
                         {aboutText}
-                    </p>
+                    </motion.div>
                     <motion.button
                         initial={{ opacity: 0.6 }}
                         whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
