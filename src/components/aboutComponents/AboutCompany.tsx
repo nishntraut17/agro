@@ -26,7 +26,7 @@ const AboutCompany = () => {
                 <p>{info}</p>
             </div>
             <div className="lg:w-1/2 md:h-[350px]">
-                <img src='/milestone.png' alt='timeline' className="h-full" />
+                <img src='/timeline.png' alt='timeline' className="h-full" />
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="z-20">
                 <div className="py-10 px-4 sm:px-6 lg:px-8">
                     {/* Company Description */}
-                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="col-span-1">
                             <img src='/ENJO.png' alt="logo" className="h-28 w-72" />
                             <p className="text-sm mt-4 ml-8">
@@ -25,19 +25,7 @@ export default function Footer() {
                         {/* Our Products */}
                         <div className="col-span-1 mt-20 mx-8">
                             <h1 className="text-2xl font-bold mb-4">{translatedText.ourProducts}</h1>
-                            <ul className="text-sm">
-                                <li>{translatedText.cropProtection}</li>
-                                <li>{translatedText.micronutrients}</li>
-                                <li>{translatedText.pesticides}</li>
-                                <li>{translatedText.fertilisers}</li>
-                                <li>{translatedText.pgr}</li>
-                            </ul>
-                        </div>
-
-                        {/* Our Products */}
-                        <div className="col-span-1 mt-20 mx-8">
-                            <h1 className="text-2xl font-bold mb-4">{translatedText.ourProducts}</h1>
-                            <ul className="text-sm">
+                            <ul className="flex flex-col gap-5 font-semibold">
                                 <li>{translatedText.cropProtection}</li>
                                 <li>{translatedText.micronutrients}</li>
                                 <li>{translatedText.pesticides}</li>

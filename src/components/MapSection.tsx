@@ -21,18 +21,13 @@ export default function LeafletMap() {
     const markers: MarkerData[] = [
         {
             id: 1,
-            coordinates: [20.5937, 78.9629], // India
+            coordinates: [20.055690, 74.489860], // Nashik
             title: "India",
         },
         {
             id: 2,
-            coordinates: [51.5074, -0.1278], // London
+            coordinates: [19.895210, 75.373050], // Sambhajinagar
             title: "London",
-        },
-        {
-            id: 3,
-            coordinates: [40.7128, -74.0060], // New York
-            title: "New York",
         },
     ];
 
@@ -41,13 +36,13 @@ export default function LeafletMap() {
     const getTextByLanguage1 = () => {
         switch (language) {
             case "English":
-                return "WE ARE ON THE WORLD";
+                return "WHERE ARE WE LOCATED?";
             case "Hindi":
-                return "हम दुनिया पर हैं";
+                return "हम कहाँ स्थित हैं?";
             case "Marathi":
-                return "आम्ही जगावर आहोत";
+                return "आम्ही कुठेत आहोत?";
             default:
-                return "WE ARE ON THE WORLD"; // Default text in English
+                return "WHERE ARE WE LOCATED?"; // Default text in English
         }
     };
 
@@ -57,22 +52,19 @@ export default function LeafletMap() {
             case "English":
                 return (
                     <p className="text-lg font-semibold text-left text-green-200">
-                        The company Swaroop Agrochemical Industries was launched by Mr. Sameer
-                        Pathare, a Chemical Engineer from Mumbai in 1993. The start-up activity
-                        was trading and re-packing of various agro chemicals and hormones
-                        useful for grape cultivation and focused area.
+                        The Head Office of Egro-Chem Agrochemical Industries is located at B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136. <br /> Manufacturing Plant is located at Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401
                     </p>
                 );
             case "Hindi":
                 return (
                     <p className="text-lg font-semibold text-left text-green-200">
-                        स्वरुप एग्रोकेमिकल इंडस्ट्रीज़ कंपनी का आग्रह श्री समीर पठारे ने 1993 में मुंबई के एक रासायनिक इंजीनियर द्वारा किया था। शुरुआती गतिविधि ग्रेप उत्पादन और केंद्रित क्षेत्र के लिए उपयोगी विभिन्न कृषि रसायनों और हार्मोनों के व्यापार और पुनर्पैक करने की थी।
+                        एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज का मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 पर स्थित है। <br /> विनिर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ताल. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 पर स्थित है।
                     </p>
                 );
             case "Marathi":
                 return (
                     <p className="text-lg font-semibold text-left text-green-200">
-                        स्वरुप एग्रोकेमिकल इंडस्ट्रीज़ कंपनीची स्थापना मुंबईच्या श्री समीर पठारे यांनी 1993 मध्ये केली होती. प्रारंभिक गतिविधा ड्रेप उत्पादन आणि केंद्रित क्षेत्रासाठी उपयुक्त विविध कृषी रसायन आणि हार्मोन्सचे व्यापार आणि पुनर्पैक करणे होते.
+                        "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीजचा मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 येथे आहे. <br /> निर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 येथे आहे.
                     </p>
                 );
             default:
@@ -88,7 +80,7 @@ export default function LeafletMap() {
         >
             <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-4 lg:p-40">
                 <div className="border-4 rounded-xl w-full h-[400px] overflow-hidden">
-                    <MapContainer center={[20.5937, 78.9629]} zoom={5} style={{ height: '400px' }}>
+                    <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '400px' }}>
                         <TileLayer
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />

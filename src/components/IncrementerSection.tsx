@@ -26,12 +26,12 @@ const IncrementerSection = () => {
             <div className="absolute top-[30px] lg:top-[-75px] bg-lime-100 flex flex-col lg:flex-row rounded-lg">
                 <div className="z-10 p-12 flex flex-row gap-2">
                     <div className="rounded-full h-20 w-20 z-20 shadow-lg border-2">
-                        <img src='/farmer.png' alt="farmer" width={100} height={100} className="rounded-full h-full w-full" />
+                        <img src='/product.png' alt="farmer" width={100} height={100} className="rounded-full h-full w-full" />
                     </div>
                     <div>
                         <CountUp
                             start={0}
-                            end={250}
+                            end={75}
                             delay={0}
                             enableScrollSpy={true}
                             scrollSpyDelay={500}
@@ -54,7 +54,7 @@ const IncrementerSection = () => {
                     <div>
                         <CountUp
                             start={0}
-                            end={250}
+                            end={5000}
                             delay={0}
                             enableScrollSpy={true}
                             scrollSpyDelay={500}
@@ -72,7 +72,7 @@ const IncrementerSection = () => {
                 </div>
                 <div className="z-10 p-12 flex flex-row gap-2">
                     <div className="rounded-full h-20 w-20 z-20 shadow-lg border-2">
-                        <img src='/farmer.png' alt="farmer" width={100} height={100} className="rounded-full h-full w-full" />
+                        <img src='/dealer.png' alt="farmer" width={50} height={50} className="rounded-full h-full w-full" />
                     </div>
                     <div>
                         <CountUp
@@ -93,7 +93,7 @@ const IncrementerSection = () => {
                         </span>
                     </div>
                 </div>
-                <div className="z-10 p-12 flex flex-row gap-2">
+                {/* <div className="z-10 p-12 flex flex-row gap-2">
                     <div className="rounded-full h-20 w-20 z-20 shadow-lg border-2">
                         <img src='/manu.png' alt="factory" width={100} height={100} className="rounded-full h-full w-full" />
                     </div>
@@ -115,7 +115,7 @@ const IncrementerSection = () => {
                             {manufacturingUnitsText}
                         </span>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

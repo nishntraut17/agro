@@ -29,7 +29,7 @@ const ProductCard2 = () => {
     };
 
     return (
-        <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-12">
+        <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 pt-12 lg:px-20 bg-green-50">
             {
                 products.map((product, index) => (
                     <div key={index} className='rounded-sm overflow-hidden bg-white shadow-md m-2 flex justify-center items-center hover:cursor-pointer hover:shadow-xl'>
