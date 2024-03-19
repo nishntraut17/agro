@@ -36,12 +36,12 @@ const ProductCard2 = () => {
                         <div className="overflow-hidden h-52 w-52">
                             <img src={`/products/${index + 1}.png`} alt="insectiside1" width={200} height={200} className=' h-full w-full transition-transform duration-300 hover:scale-105' />
                         </div>
-                        <div className="p-4 hover:opacity-80">
-                            <h1 className="text-xl font-bold mb-2">{product.name}</h1>
+                        <div className="p-4 hover:opacity-80 text-green-950">
+                            <h1 className="text-xl font-extrabold mb-2">{product.name}</h1>
                             <p className="text-sm mb-2">{product.ingrediants}</p>
-                            <h1 className="text-xl font-bold mb-2">{getText('Packing Size', 'पॅकिंग साईझ', 'पॅकिंग साईझ')}</h1>
+                            <h1 className="text-l font-bold mb-2">{getText('Packing Size', 'पॅकिंग साईझ', 'पॅकिंग साईझ')}</h1>
                             <p className="text-sm mb-2">{product.packingSize}</p>
-                            <h1 className="text-xl font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
+                            <h1 className="text-l font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
                             <p className="text-sm">{product.dosage}</p>
                         </div>
                     </div>
