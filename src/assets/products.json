@@ -1,0 +1,577 @@
+[
+    {
+        "id": 1,
+        "name": "PROTHRIN",
+        "ingrediants": "Profenofos 40% + Cypermethrin 4% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 2,
+        "name": "WAR 505",
+        "ingrediants": "Chlorpyriphos 50% + Cypermethrin 5% EC",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 3,
+        "name": "JAVA",
+        "ingrediants": "Thiamethoxam 25% WG",
+        "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
+        "dosage": "100 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 4,
+        "name": "JAVA PLUS",
+        "ingrediants": "Thiamethoxam 30% FS",
+        "packingSize": "50 ml, 100ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per kg seed",
+        "type": "insecticide"
+    },
+    {
+        "id": 5,
+        "name": "FLY-KILL",
+        "ingrediants": "Acetamiprid 20% SP",
+        "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
+        "dosage": "100 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 6,
+        "name": "ENJOCLAIM",
+        "ingrediants": "Emamectin Benzoate 5% SG",
+        "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
+        "dosage": "100 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 7,
+        "name": "SHOTGUN",
+        "ingrediants": "Emamectin Benzoate 1.9% EC",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "300 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 8,
+        "name": "ACP",
+        "ingrediants": "Fipronil 40%  + Imidacloprid 40% WG",
+        "packingSize": "40 gm, 100gm, 250gm",
+        "dosage": "60 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 9,
+        "name": "VAJEER",
+        "ingrediants": "Chlorantraniliprole 18.5% SC",
+        "packingSize": "30 ml, 60ml, 150ml, 300ml",
+        "dosage": "60ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 10,
+        "name": "ENJOGUARD PLUS",
+        "ingrediants": "Chlorpyriphos 50% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 11,
+        "name": "LALISA",
+        "ingrediants": "Buprofezin 15% + Acephate 35% WP",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "500 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 12,
+        "name": "E-MIDA",
+        "ingrediants": "Imidacloprid 17.8% SL",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "250 ml. per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 13,
+        "name": "ENJONEEM",
+        "ingrediants": "Neem kernel based EC Containing Azadirachtin 0.3% (3000 ppm)",
+        "packingSize": "500 ml, 1 ltr",
+        "dosage": "1 ltr. per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 14,
+        "name": "ENJONEEM PLUS",
+        "ingrediants": "Neem kernel based EC Containing Azadirachtin 1% (10000 ppm)",
+        "packingSize": "500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 15,
+        "name": "E-MIDA PLUS",
+        "ingrediants": "Imidacloprid 30.5% SC",
+        "packingSize": "100 ml, 250 ml, 500 ml",
+        "dosage": "100 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 16,
+        "name": "ENJO-FYRE",
+        "ingrediants": "Imidacloprid 70% WG",
+        "packingSize": "10 gm, 30 gm, 75 gm, 100 gm",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 17,
+        "name": "JAVA POWER",
+        "ingrediants": "THiamethoxam 75% WG",
+        "packingSize": "50 gm,100 gm",
+        "dosage": "50 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 18,
+        "name": "AAKI",
+        "ingrediants": "Thiamethoxam 12.6% WG + Lambda Cyhalothrin 9% ZC",
+        "packingSize": "40 ml, 80ml, 200ml, 500ml",
+        "dosage": "80 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 19,
+        "name": "ENJOGUARG",
+        "ingrediants": "Chlopyrifos 20% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 20,
+        "name": "PROPHOS",
+        "ingrediants": "Profenofos 50% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 21,
+        "name": "THRIPKILL PLUS",
+        "ingrediants": "Tolfelpyrad 15% EC",
+        "packingSize": "50 ml, 100ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    { 
+        "id": 22,
+        "name": "ABAJIN",
+        "ingrediants": "Abamectin 1.9% EC",
+        "packingSize": "50 ml, 100ml, 250 ml",
+        "dosage": "250 ml per acre",
+        "type": "insecticide"
+    },
+    { 
+        "id": 23,
+        "name": "ENJOGUARD-DP",
+        "ingrediants": "Chlopyrifos 1.5%DP",
+        "packingSize": "1 kg, 10kg",
+        "dosage": "5-10 Kg. per acre",
+        "type": "insecticide"
+    },
+    { 
+        "id": 24,
+        "name": "CHLORONEX 10 G",
+        "ingrediants": "Chlorpyriphos 10% GR",
+        "packingSize": "1 kg, 5 kg",
+        "dosage": "5 kg per acre",
+        "type": "insecticide"
+    },
+    { 
+        "id": 25,
+        "name": "SECTOR",
+        "ingrediants": "Acephate 45% + Cypermethrin 5% DF",
+        "packingSize": "100 gm, 250 gm, 500 gm",
+        "dosage": "500 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 26,
+        "name": "ACEIMIDA",
+        "ingrediants": "Acephate 50% + Imidaclopride 1.8% SP",
+        "packingSize": "100 gm, 250 gm, 500 gm",
+        "dosage": "400 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 27,
+        "name": "ACELEX",
+        "ingrediants": "Acephate 75% SP",
+        "packingSize": "250 gm, 500 gm, 1kg",
+        "dosage": "400 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 28,
+        "name": "FIPRONEX",
+        "ingrediants": "Fipronil 5% SC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 29,
+        "name": "RETAINZA",
+        "ingrediants": "Fipronil 2.92 % EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 30,
+        "name": "FENPROTOL",
+        "ingrediants": "Fenpropathrin 10% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "400 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 31,
+        "name": "FIPRONEX PLUS",
+        "ingrediants": "Fipronil 80% WG",
+        "packingSize": "2 gm, 40 gm, 100 gm",
+        "dosage": "30 gm. pr acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 32,
+        "name": "CYPETHION",
+        "ingrediants": "Ethion 40% + Cypermethrin 5% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "400 ml per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 33,
+        "name": "ENJOTSU",
+        "ingrediants": "Clothianidin 50% WG",
+        "packingSize": "50 gm, 100 gm",
+        "dosage": "100 gm per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 34,
+        "name": "RAFEL",
+        "ingrediants": "Pyriproxyfen 8% + Dinotefuran 5% + Diafenthiuron 18% SC",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "350 ml. per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 35,
+        "name": "VAJEER GR",
+        "ingrediants": "Chlorantraniliprole 0.4% GR",
+        "packingSize": "4 Kg",
+        "dosage": "4 Kg",
+        "type": "insecticide"
+    },
+    {
+        "id": 36,
+        "name": "DIEFNOX",
+        "ingrediants": "Diafenthiuron 50% WP",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "250 gm. per acre",
+        "type": "insecticide"
+    },
+    {
+        "id": 37,
+        "name": "METALEX",
+        "ingrediants": "Metalaxyl 35% WS",
+        "packingSize": "100 gm, 250 gm, 500 gm",
+        "dosage": "500 gm. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 38,
+        "name": "THIOHONEX",
+        "ingrediants": "Thiophanate Methyl 70% WP",
+        "packingSize": "100 gm, 250 gm, 500 gm",
+        "dosage": "200 gm. per acre",
+        "type": "fungicide"
+    },{
+        "id": 39,
+        "name": "ENJOTAF PLUS",
+        "ingrediants": "Hexaconazole 5% SC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 40,
+        "name": "PROPINEX",
+        "ingrediants": "Propiconazole 25% EC",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "300 ml. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 41,
+        "name": "TESLA",
+        "ingrediants": "Tebuconazole 10% + Sulphur 65% WG",
+        "packingSize": "250 gm, 500 gm, 1 Kg",
+        "dosage": "500 gm. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 42,
+        "name": "UNIXX",
+        "ingrediants": "Azoxystrobin 11% + Tebuconazole 18.3% SC",
+        "packingSize": "100 ml, 250 ml, 500 ml",
+        "dosage": "300 ml. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 43,
+        "name": "THERI",
+        "ingrediants": "Carbendazim 12% + Mancozeb 63% WP",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "500 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 44,
+        "name": "CAPTEB",
+        "ingrediants": "Tebuconazole 6.7% + Captan 26.9% SC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "500 ml. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 45,
+        "name": "ANEX M-45",
+        "ingrediants": "Mancozeb 75% WB",
+        "packingSize": "250 gm, 500 gm, 1 Kg",
+        "dosage": "500 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 46,
+        "name": "ENJOTAF POWER",
+        "ingrediants": "Hexaconazole 75% SC",
+        "packingSize": "250 gm, 500 gm",
+        "dosage": "50-100 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 47,
+        "name": "PROPINOCOL",
+        "ingrediants": "Propineb 70% WB",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "500 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 48,
+        "name": "TEBUNEX",
+        "ingrediants": "Tebuconazole 25.9% EC",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "300-400 ml per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 49,
+        "name": "COPTIVA",
+        "ingrediants": "Copper Oxychloride 50% WB",
+        "packingSize": "500 gm",
+        "dosage": "500 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 50,
+        "name": "ENJOSULF POWER",
+        "ingrediants": "Sulphur 80% WDG",
+        "packingSize": "1 kg, 5 kg",
+        "dosage": "5 kg per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 51,
+        "name": "LUKA GLO",
+        "ingrediants": "Azoxystrobin 8.3% + Mancozeb 66.7% WG",
+        "packingSize": "250 gm, 500 gm",
+        "dosage": "600 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 52,
+        "name": "CROP CARE",
+        "ingrediants": "Azoxystrobin 2.5% + Thiophanate Methyl 11.25% + Thiamethoxam 2.5% FS",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "10 ml/ kg seed",
+        "type": "fungicide"
+    },
+    {
+        "id": 53,
+        "name": "EASTLINE",
+        "ingrediants": "Pyraclostrobin 20% WG",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "200 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 54,
+        "name": "ENJO-MYCIN",
+        "ingrediants": "Validamycin 3% L",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "600-800 ml. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 55,
+        "name": "BACKUP",
+        "ingrediants": "Chlorothalonil 75% WP",
+        "packingSize": "250 gm, 500 gm",
+        "dosage": "500 gm per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 56,
+        "name": "ENJOSULF",
+        "ingrediants": "Sulphur 85% DP",
+        "packingSize": "5 kg, 10 kg",
+        "dosage": "5-10 Kg. per acre",
+        "type": "fungicide"
+    },
+    {
+        "id": 57,
+        "name": "WEED BURN",
+        "ingrediants": "Glyphosate 41% SL",
+        "packingSize": "500 ml, 1 ltr, 5 ltr",
+        "dosage": "500 ml-1 ltr per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 58,
+        "name": "WEED BURN 71",
+        "ingrediants": "Ammonium Salt of Glyphosate 71% SG",
+        "packingSize": "100 gm, 1 kg",
+        "dosage": "1 Kg. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 59,
+        "name": "SAKRIP POWER",
+        "ingrediants": "Metsulfuron Methyl 20% WP",
+        "packingSize": "8 gm.",
+        "dosage": "8 gm. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 60,
+        "name": "GOLU",
+        "ingrediants": "Oxyfluorfen 23.5% EC",
+        "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "200-300 ml. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 61,
+        "name": "WEEDGO",
+        "ingrediants": "2,4 -D Amine Salt 58% SL",
+        "packingSize": "500 ml, 1 ltr",
+        "dosage": "500 ml. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 62,
+        "name": "DENSO",
+        "ingrediants": "Clodinafop Propargyl 15% WP",
+        "packingSize": "160 gm",
+        "dosage": "160 gm. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 63,
+        "name": "GLO POWER",
+        "ingrediants": "Glufosinate Ammonium 13.5% SL",
+        "packingSize": "500 ml, 1 ltr",
+        "dosage": "1 Kg. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 64,
+        "name": "DICLOQUAT",
+        "ingrediants": "Paraquat Dichloride 24% SL",
+        "packingSize": "500 ml, 1 ltr",
+        "dosage": "1 Kg. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 65,
+        "name": "METRINEX",
+        "ingrediants": "Metribuzin 70% WP",
+        "packingSize": "250 gm, 500 gm, 1 Kg",
+        "dosage": "250 gm. per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 66,
+        "name": "ENJOZINE",
+        "ingrediants": "Atrazine 50% WP",
+        "packingSize": "500 gm, 1 kg",
+        "dosage": "500 gm per acre",
+        "type": "herbicide"
+    },
+    {
+        "id": 67,
+        "name": "TRICONEX",
+        "ingrediants": "Triacontanol EW 0.01 % min",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "250 ml. per acre",
+        "type": "prg"
+    },
+    {
+        "id": 68,
+        "name": "ANGELS",
+        "ingrediants": "Paclobutrazol 40% SC",
+        "packingSize": "10 ml, 50 ml, 100 ml, 250 ml",
+        "dosage": "50 ml. per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 69,
+        "name": "TEJA PLUS",
+        "ingrediants": "Gibberellic Acid 0.001% L",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr, 5 ltr",
+        "dosage": "250 ml. per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 70,
+        "name": "TEJO PRO",
+        "ingrediants": "Gibberellic Acid 40% WSG",
+        "packingSize": "2.5 gm, 12.5 gm",
+        "dosage": "10 gm per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 71,
+        "name": "ETHENOX",
+        "ingrediants": "Ethephon 39% SL",
+        "packingSize": "250 ml, 500 ml, 1 kg",
+        "dosage": "500 ml. per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 72,
+        "name": "PACLOSTAR",
+        "ingrediants": "Paclobutrazole 23% SC",
+        "packingSize": "100 ml, 250 ml, 500 ml",
+        "dosage": "30 ml. per crop",
+        "type": "pgr"
+    }
+]
