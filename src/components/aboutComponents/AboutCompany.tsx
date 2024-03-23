@@ -20,10 +20,10 @@ const AboutCompany = () => {
     }
 
     return (
-        <div className='flex flex-col lg:flex-row gap-20 md:h-[500px]'>
-            <div className='lg:w-1/2'>
+        <div className='flex flex-col lg:flex-row gap-20 '>
+            <div className='lg:w-1/2 shadow-xl z-30 bg-stone-200 p-8'>
                 <div className='text-3xl font-extrabold mb-4'>{aboutCompany}</div>
-                <p>{info}</p>
+                <p className='font-light'>{info}</p>
             </div>
             <div className="lg:w-1/2 md:h-[350px]">
                 <img src='/timeline.png' alt='timeline' className="h-full" />

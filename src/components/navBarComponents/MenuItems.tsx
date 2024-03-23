@@ -39,6 +39,13 @@ const MenuItems = ({
         }
     };
 
+    const handleLinkClick = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return (
         <li className="menu-items" ref={ref} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
             {items.submenu ? (
@@ -49,12 +56,12 @@ const MenuItems = ({
                         aria-expanded={dropdown ? "true" : "false"}
                         onClick={() => setDropdown((prev) => !prev)}
                     >
-                        {items.title} {depthLevel > 0 ? <span className=""> &raquo; </span> : <span className="arrow" />}
+                        {items.title} {depthLevel > 0 ? <span className=""> &raquo; </span> : <span className="arrow absolute top-5" />}
                     </button>
                     <Dropdown depthLevel={depthLevel} submenus={items.submenu} dropdown={dropdown} />
                 </>
             ) : (
-                <Link to={`/${items.url}`}>{items.title}</Link>
+                <Link to={`/${items.url}`} onClick={handleLinkClick}>{items.title}</Link>
             )}
         </li>
     );

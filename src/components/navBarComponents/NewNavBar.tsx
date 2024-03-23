@@ -9,8 +9,12 @@ import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import LanguageUpdater from "../LanguageUpdater";
+import { useState } from "react";
+import NavMenu from "./NavMenu";
+import { FiMenu } from "react-icons/fi";
 
 const NewNavbar = () => {
+    const [isCollapsed, setIsCollapsed] = useState(true);
     let menuItems = [];
     const language = useSelector((state: RootState) => state.languageReducer.language);
     if (language === "Hindi") {
@@ -31,7 +35,7 @@ const NewNavbar = () => {
                     <img src="/ENJO.png" alt="logo" className="h-14 w-22" />
                 </Link>
             </div>
-            <ul className="flex flex-row gap-8" > {
+            <ul className="hidden md:flex md:flex-row md:gap-8" > {
                 menuItems.map((menu: any, index: number) => {
                     const depthLevel = 0;
                     return <MenuItems items={
@@ -48,6 +52,14 @@ const NewNavbar = () => {
             }
             </ul>
             <LanguageUpdater />
+            <FiMenu
+                className="block md:hidden text-xl cursor-pointer"
+                onClick={() => setIsCollapsed(!isCollapsed)}
+            />
+            <NavMenu
+                setIsCollapsed={setIsCollapsed}
+                isCollapsed={isCollapsed}
+            />
         </nav>
     );
 };

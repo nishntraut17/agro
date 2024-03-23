@@ -3,6 +3,10 @@ export const menuItemsEnglish = [{
     url: "",
 },
 {
+    title: "About",
+    url: "about",
+},
+{
     title: "Products",
 
     submenu: [{
@@ -40,8 +44,52 @@ export const menuItemsEnglish = [{
     ],
 },
 {
-    title: "About",
-    url: "about",
+    title: "Media",
+    submenu: [{
+        title: "New launch",
+        url: "media/new-launch",
+    },
+    {
+        title: "Company News",
+        url: "media/company-news",
+    },
+    ],
+},
+{
+    title: "Gallery",
+    submenu: [{
+        title: "Annual Dealers Meet",
+        url: "gallery/annual-dealers-meet",
+    },
+    {
+        title: "Field Visits",
+        url: "gallery/field-visits",
+    },
+    {
+        title: "Tour Photos",
+        url: "gallery/tour-photos",
+    },
+    {
+        title: "Video News",
+        url: "gallery/video-news",
+    },
+    ],
+},
+{
+    title: "Enquiry",
+    url: "enquiry",
+},
+{
+    title: "Careers",
+    url: "careers",
+},
+{
+    title: "Verticals",
+    submenu: [{
+        title: "B2B",
+        url: "verticals/b2b",
+    }
+    ]
 },
 {
     title: "Contact",

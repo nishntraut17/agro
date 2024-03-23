@@ -6,7 +6,7 @@ import "leaflet-defaulticon-compatibility";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
 import { useSelector } from "react-redux";
-import { RootState } from "../redux/store";
+import { RootState } from "../../redux/store";
 
 interface MarkerData {
     id: number;
@@ -14,7 +14,7 @@ interface MarkerData {
     title: string;
 }
 
-export default function Contact() {
+export default function Enquiry() {
     const language = useSelector((state: RootState) => state.languageReducer.language);
     const translatedText = getTranslatedText(language);
 

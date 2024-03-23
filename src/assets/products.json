@@ -656,14 +656,6 @@
     },
     {
         "id": 83,
-        "name": "N CATCH",
-        "ingrediants": "natural botanical extract",
-        "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "2 ml per 1 ltr of water",
-        "type": "pgr"
-    },
-    {
-        "id": 84,
         "name": "K CATCH",
         "ingrediants": "natural botanical extract",
         "packingSize": "250 ml, 500ml, 1 ltr",
@@ -671,7 +663,7 @@
         "type": "pgr"
     },
     {
-        "id": 85,
+        "id": 84,
         "name": "E-HUMIGRO",
         "ingrediants": "3 % Fulvic Acid",
         "packingSize": "250 ml, 500 ml, 1 ltr, 5 ltr",
@@ -679,7 +671,7 @@
         "type": "pgr"
     },
     {
-        "id": 86,
+        "id": 85,
         "name": "ENJOWET",
         "ingrediants": "non-iconic surfactant based on silicon",
         "packingSize": "50 ml, 100 ml, 250 ml,1 ltr",
@@ -687,7 +679,7 @@
         "type": "pgr"
     },
     {
-        "id": 87,
+        "id": 86,
         "name": "LEADEX",
         "ingrediants": "organic amino acid and fluvi acids",
         "packingSize": "250 ml, 500 ml, 1 ltr",
@@ -695,7 +687,7 @@
         "type": "pgr"
     },
     {
-        "id": 88,
+        "id": 87,
         "name": "ENJOMIN-40",
         "ingrediants": "Phosphorus 32% and Herbal Extractor 8%",
         "packingSize": "250 ml, 500 ml, 1 ltr",
@@ -703,7 +695,7 @@
         "type": "pgr"
     },
     {
-        "id": 89,
+        "id": 88,
         "name": "ALEX",
         "ingrediants": "lignin based organic product",
         "packingSize": "10 gm, 50 gm, 100 gm",
@@ -711,7 +703,7 @@
         "type": "pgr"
     },
     {
-        "id": 90,
+        "id": 89,
         "name": "TARZAN",
         "ingrediants": "",
         "packingSize": "",
@@ -719,7 +711,7 @@
         "type": "pgr"
     },
     {
-        "id": 91,
+        "id": 90,
         "name": "BACTOGUARD",
         "ingrediants": "",
         "packingSize": "",
@@ -727,7 +719,7 @@
         "type": "pgr"
     },
     {
-        "id": 92,
+        "id": 91,
         "name": "ANEX-BORDO",
         "ingrediants": "",
         "packingSize": "",
@@ -735,7 +727,7 @@
         "type": "pgr"
     },
     {
-        "id": 93,
+        "id": 92,
         "name": "BIO STIKCY TRAPS",
         "ingrediants": "",
         "packingSize": "",
@@ -743,7 +735,7 @@
         "type": "pgr"
     },
     {
-        "id": 94,
+        "id": 93,
         "name": "FLYKILLER GLASS",
         "ingrediants": "",
         "packingSize": "",
@@ -751,7 +743,7 @@
         "type": "pgr"
     },
     {
-        "id": 95,
+        "id": 94,
         "name": "ENJOFERT",
         "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Molybdenum 0.1%, Boron 0.5%",
         "packingSize": "20 ltr, 5 ltr, 1 ltr, 500 ml, 250 ml",
@@ -759,15 +751,15 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 96,
-        "name": "ANEN-D",
+        "id": 95,
+        "name": "ANEX-D",
         "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
         "packingSize": "2 kg, 5 kg, 10 kg",
         "dosage": "2 to 5 kg per acre",
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 97,
+        "id": 96,
         "name": "ANEX-COMBI",
         "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Boron 0.5%, Molybdenum 0.1%",
         "packingSize": "100 gm, 250 gm, 500 gm, 1 kg",
@@ -775,7 +767,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 98,
+        "id": 97,
         "name": "ENJOFERT SOIL",
         "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
         "packingSize": "10 kg, 25 kg, 50 kg",
@@ -783,15 +775,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 99,
-        "name": "COTKING",
-        "ingrediants":"Iron 2.5%, Mangnese 0%, Zinc 5%, Copper 0%, Boron 0.5%, Molybdenum 0%",
-        "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "",
-        "type": "micronutrients-fertiliser"
-    },
-    {
-        "id": 100,
+        "id": 98,
         "name": "ZINCBOR",
         "ingrediants": "Iron 0%, Mangnese 0%, Zinc 3%, Copper 0%, Boron 0.5%, Molybdenum 0.1%",
         "packingSize": "250 ml, 500 ml, 1 ltr",
@@ -799,7 +783,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 101,
+        "id": 99,
         "name": "CALFLOW",
         "ingrediants": "Calcium 11 %",
         "packingSize": "250 ml, 500 ml, 1000 ml",
@@ -807,7 +791,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 102,
+        "id": 100,
         "name": "ZINCFLOW",
         "ingrediants": "Zinc oxide suspension concentrate - 39.5%",
         "packingSize": "250 ml, 500 ml, 1 ltr",
@@ -815,7 +799,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 103,
+        "id": 101,
         "name": "ENJOBOR",
         "ingrediants": "Athanolamine Boron - 10% (liquid)",
         "packingSize": "250 ml, 500 ml, 1 ltr",
@@ -823,15 +807,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 104,
-        "name": "ENJOSULF PLUS",
-        "ingrediants": "Sulfur Fertilizer - 90% WG Powder",
-        "packingSize": "1 kg, 3 kg",
-        "dosage": "",
-        "type": "micronutrients-fertiliser"
-    },
-    {
-        "id": 105,
+        "id": 102,
         "name": "ANEX-B",
         "ingrediants": "Boron 20%",
         "packingSize": "250 gm, 500 gm, 1 Kg",
@@ -839,31 +815,15 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 106,
-        "name": "ANEX MAGNATE",
-        "ingrediants": "Magnesium Sulphate 1.5%",
-        "packingSize": "1 kg, 10 kg, 25 kg",
+        "id": 103,
+        "name": "ANEX-ZN",
+        "ingrediants": "",
+        "packingSize": "",
         "dosage": "",
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 107,
-        "name": "ANEX N20",
-        "ingrediants": "Nitrogen 20.6%, Sulphur 23%",
-        "packingSize": "25 kg, 50 kg",
-        "dosage": "",
-        "type": "micronutrients-fertiliser"
-    },
-    {
-        "id": 108,
-        "name": "ENJOSULF GR",
-        "ingrediants": "Sulfer 90%",
-        "packingSize": "10 kg",
-        "dosage": "",
-        "type": "micronutrients-fertiliser"
-    },
-    {
-        "id": 109,
+        "id": 104,
         "name": "ANEX-FE",
         "ingrediants": "",
         "packingSize": "",
@@ -871,7 +831,23 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 110,
+        "id": 105,
+        "name": "ANEX MAGNET",
+        "ingrediants": "Magnesium Sulphate 1.5%",
+        "packingSize": "1 kg, 10 kg, 25 kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 106,
+        "name": "ENJOSULF PLUS",
+        "ingrediants": "Sulfur Fertilizer - 90% WG Powder",
+        "packingSize": "1 kg, 3 kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 107,
         "name": "ANEX GOLD KIT",
         "ingrediants": "",
         "packingSize": "",
@@ -879,7 +855,7 @@
         "type": "micronutrients-fertiliser"
     },
     {
-        "id": 111,
+        "id": 108,
         "name": "ANEX N-SET",
         "ingrediants": "Azentobactor",
         "packingSize": "1 ltr, 5 ltr",
@@ -887,7 +863,7 @@
         "type": "bio-fertilizer"
     },
     {
-        "id": 112,
+        "id": 109,
         "name": "ANEX RHIZO-N",
         "ingrediants": "Rhizobium",
         "packingSize": "1 ltr, 5 ltr",
@@ -895,7 +871,7 @@
         "type": "bio-fertilizer"
     },
     {
-        "id": 113,
+        "id": 110,
         "name": "ANEX K-STORE",
         "ingrediants": "potash catalysed bacteria",
         "packingSize": "1 ltr, 5 ltr",
@@ -903,7 +879,7 @@
         "type": "bio-fertilizer"
     },
     {
-        "id": 114,
+        "id": 111,
         "name": "ANEX BIO-ZN",
         "ingrediants": "Soluble Dissolving Bacteria",
         "packingSize": "1 ltr, 5 ltr",
@@ -911,7 +887,7 @@
         "type": "bio-fertilizer"
     },
     {
-        "id": 115,
+        "id": 112,
         "name": "ANEX P-BOOST",
         "ingrediants": "Phosphorus Solubilizing Bacteria",
         "packingSize": "1 ltr, 5 ltr",
@@ -919,7 +895,7 @@
         "type": "bio-fertilizer"
     },
     {
-        "id": 116,
+        "id": 113,
         "name": "ANEX MYCO Gold",
         "ingrediants": "Microrhiza",
         "packingSize": "100 gm, 200 gm",
@@ -927,3 +903,4 @@
         "type": "bio-fertilizer"
     }
 ]
+

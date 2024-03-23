@@ -23,13 +23,13 @@ const Vision = () => {
     }
 
     return (
-        <div className="mb-8 flex flex-col md:flex-row">
-            <div className="md:w-1/4">
-                <img src="/vision.png" alt="ceo" width={1000} height={1000} className="rounded-md h-[200px] w-[260px]" />
+        <div className="flex flex-col md:flex-row">
+            <div className="md:w-1/4 h-72 hidden md:block">
+                <img src="/vision.png" alt="ceo" className="rounded-md h-full w-full" />
             </div>
-            <div className="md:w-3/4">
-                <h1 className={` text-3xl font-extrabold`}>{vision}</h1>
-                <p className="">
+            <div className="md:w-3/4 shadow-xl z-30 bg-stone-200 p-10">
+                <h1 className={` text-3xl font-extrabold mb-4`}>{vision}</h1>
+                <p className="font-light">
                     {info}
                 </p>
             </div>

@@ -3,7 +3,7 @@ import LanguageUpdater from "../LanguageUpdater";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import NavMenu from "../NavMenu";
+import NavMenu from "./NavMenu";
 import { FiMenu } from "react-icons/fi";
 import ProductMenu from "../ProductMenu";
 

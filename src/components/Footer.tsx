@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../redux/store";
-import { FaInstagram, FaFacebookSquare, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebookSquare, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
 
@@ -55,10 +55,11 @@ export default function Footer() {
             <div className="flex flex-col-reverse sm:flex-row justify-between items-center">
                 {/* Social Icons */}
                 <div className="flex items-center gap-4 mb-4 sm:mb-0">
-                    <FaInstagram className="text-3xl" />
-                    <FaFacebookSquare className="text-3xl" />
-                    <FaTwitter className="text-3xl" />
-                    <FaLinkedin className="text-3xl" />
+                    <a href='https://www.instagram.com/enjo_chem?igsh=MXRrcGRiajJ1Zzl2NA%3D%3D&utm_source=qr' target='_blank' rel='noreferrer noopener' className="text-3xl"><FaInstagram /></a>
+                    <a href='https://www.facebook.com/share/TLFua9MGvwceGrsH/?mibextid=hu50Ix' target='_blank' rel='noreferrer noopener' className="text-3xl"><FaFacebookSquare /></a>
+                    <a href='https://x.com/enjochem8733?s=21&t=CnVxyHoohRO8ord7FIvguA' target='_blank' rel='noreferrer noopener' className="text-3xl"><FaTwitter /></a>
+                    <a href='https://www.linkedin.com/company/enjo-chem-agrochemical-industries/' target='_blank' rel='noreferrer noopener' className="text-3xl"><FaLinkedin /></a>
+                    <a href='https://youtube.com/@enjo-chemagrochemicalindus4018?si=KDHTtiA4JW9Q7nco' target='_blank' rel='noreferrer noopener' className="text-3xl"><FaYoutube /></a>
                 </div>
                 {/* Copyright */}
                 <div className="text-sm text-center sm:text-left mb-4 sm:mb-0">&copy; {new Date().getFullYear()} {translatedText.companyName}, {translatedText.allRightsReserved}</div>

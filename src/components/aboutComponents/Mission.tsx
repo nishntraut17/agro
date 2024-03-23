@@ -22,15 +22,15 @@ const Mission = () => {
         info = `आम्ही आमच्या ग्राहकांना समयमळ अतिरिक्त प्रतिस्पर्धी किंमतावर उच्च गुणवत्तेचे प्रदर्शन उत्पादन प्रदान करण्यासाठी प्रतिबद्ध आहोत आणि साथ ही कीटनाशकांच्या नवीन नमुना शोधून, विकसित करून आणि प्रदान करून तसेच आमच्या कुल गुणवत्ता नियंत्रण आणि गुणवत्ता आश्वासन धोरणांचा पूर्ण करण्यासाठी आमच्या कर्मचारींच्या आरोग्य आणि सुरक्षेची कमी करून नाही.`;
     }
     return (
-        <div className="mb-8 flex flex-col md:flex-row">
-            <div className="md:w-3/4">
-                <h1 className={`text-3xl font-extrabold`}>{mission}</h1>
-                <p>
+        <div className="flex flex-col md:flex-row md:justify-between">
+            <div className="md:w-3/4 shadow-xl z-30 bg-stone-200 p-10">
+                <h1 className={`text-3xl font-extrabold mb-4`}>{mission}</h1>
+                <p className='font-light'>
                     {info}
                 </p>
             </div>
-            <div className="md:w-1/4">
-                <img src="/mission.png" alt="ceo" width={1000} height={1000} className="rounded-md h-[200px] w-[260px]" />
+            <div className="md:w-1/4 h-72 hidden md:block">
+                <img src="/mission.png" alt="ceo" className="h-full w-full" />
             </div>
         </div>
     )

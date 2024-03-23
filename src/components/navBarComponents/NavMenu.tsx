@@ -58,7 +58,6 @@ const NavMenu = ({ isCollapsed, setIsCollapsed }: {
                                 Contact
                             </Link>
                         </li>
-
                     </ul>
                 </motion.aside>
             )}
