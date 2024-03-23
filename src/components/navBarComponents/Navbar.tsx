@@ -1,10 +1,11 @@
 import { useState } from "react";
-import LanguageUpdater from "./LanguageUpdater";
-import { RootState } from "../redux/store";
+import LanguageUpdater from "../LanguageUpdater";
+import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import NavMenu from "./NavMenu";
+import NavMenu from "../NavMenu";
 import { FiMenu } from "react-icons/fi";
+import ProductMenu from "../ProductMenu";
 
 const Navbar: React.FC = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
@@ -84,6 +85,9 @@ const Navbar: React.FC = () => {
                             >
                                 {(translate as any)[language].contact}
                             </Link>
+                        </li>
+                        <li>
+                            <ProductMenu />
                         </li>
                     </ul>
                 </nav>

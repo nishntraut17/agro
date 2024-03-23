@@ -573,5 +573,357 @@
         "packingSize": "100 ml, 250 ml, 500 ml",
         "dosage": "30 ml. per crop",
         "type": "pgr"
+    }, 
+    {
+        "id": 73,
+        "name": "HUMIGRAN-G",
+        "ingrediants": "Extract of indigo green algae, natural amino acid, Humic acid, Silicaa, dieback",
+        "packingSize": "8 kg, 10 kg, 25 kg, 50 kg",
+        "dosage": "8 to 16 kg per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 74,
+        "name": "EJNOZYME",
+        "ingrediants": "Sea Algae based peak cohesive enzyme",
+        "packingSize": "10 kg, 20 kg",
+        "dosage": "10 to 20 kg per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 75,
+        "name": "SUPREME G-40",
+        "ingrediants": "Glycine, octadecanoic acid, 9,12,15 octadecatriols",
+        "packingSize": "1 kg",
+        "dosage": "1 - 2 kg per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 76,
+        "name": "SILCARE",
+        "ingrediants": "endoplasmic reticulum of silicon",
+        "packingSize": "10 kg and 20 kg - Bucket, 250 g,500 g, 1 kg spray",
+        "dosage": "10 kg per acre",
+        "type": "pgr"
+    },
+    {
+        "id": 77,
+        "name": "E-CHARGE",
+        "ingrediants": "carboxylic acid, solvent e",
+        "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "1 to 1.5 ml per ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 78,
+        "name": "ENJOSTIM",
+        "ingrediants": "biological cell stimulants and amino acids",
+        "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "100 to 150 ml in 200 liters of water",
+        "type": "pgr"
+    },
+    {
+        "id": 79,
+        "name": "ALEX L-20",
+        "ingrediants": "Amino Acids, cytokinin auxins, vitams etc",
+        "packingSize": "5 ml,10ml, 25ml, 50ml,100ml, 250ml",
+        "dosage": "5 ml in 15 ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 80,
+        "name": "AMILOX-33",
+        "ingrediants": "Crop enhancer amino acid",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "dosage": "2 ml in 1 ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 81,
+        "name": "SUPREME-L40",
+        "ingrediants": "L-Glycine, Octadecadienoic acid, 9,12,15 Octadecatriols",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr, 5 ltr",
+        "dosage": "2 ml per litre of water",
+        "type": "pgr"
+    },
+    {
+        "id": 82,
+        "name": "HUMANIFLEX",
+        "ingrediants": "leonardite",
+        "packingSize": "100 gm, 250 gm, 500 gm, 1 kg, 2 kg",
+        "dosage": "1 to 2 kg  with 200 ltr of water for 1 acre",
+        "type": "pgr"
+    },
+    {
+        "id": 83,
+        "name": "N CATCH",
+        "ingrediants": "natural botanical extract",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "2 ml per 1 ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 84,
+        "name": "K CATCH",
+        "ingrediants": "natural botanical extract",
+        "packingSize": "250 ml, 500ml, 1 ltr",
+        "dosage": "1 ml per litre of water",
+        "type": "pgr"
+    },
+    {
+        "id": 85,
+        "name": "E-HUMIGRO",
+        "ingrediants": "3 % Fulvic Acid",
+        "packingSize": "250 ml, 500 ml, 1 ltr, 5 ltr",
+        "dosage": "2 ml per litre of water",
+        "type": "pgr"
+    },
+    {
+        "id": 86,
+        "name": "ENJOWET",
+        "ingrediants": "non-iconic surfactant based on silicon",
+        "packingSize": "50 ml, 100 ml, 250 ml,1 ltr",
+        "dosage": "0.1 to 0.5 ml per ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 87,
+        "name": "LEADEX",
+        "ingrediants": "organic amino acid and fluvi acids",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "2 ml in 1 ltr of water, 1 ltr per acre at critical stage",
+        "type": "pgr"
+    },
+    {
+        "id": 88,
+        "name": "ENJOMIN-40",
+        "ingrediants": "Phosphorus 32% and Herbal Extractor 8%",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "2 ml per litre of water",
+        "type": "pgr"
+    },
+    {
+        "id": 89,
+        "name": "ALEX",
+        "ingrediants": "lignin based organic product",
+        "packingSize": "10 gm, 50 gm, 100 gm",
+        "dosage": "2 gm in 15 ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 90,
+        "name": "TARZAN",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "0.5 ml per litre of water",
+        "type": "pgr"
+    },
+    {
+        "id": 91,
+        "name": "BACTOGUARD",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "20 gm in 60 ltr water",
+        "type": "pgr"
+    },
+    {
+        "id": 92,
+        "name": "ANEX-BORDO",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "2.5 gram per litre of water",
+        "type": "pgr"
+    },
+    {
+        "id": 93,
+        "name": "BIO STIKCY TRAPS",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "",
+        "type": "pgr"
+    },
+    {
+        "id": 94,
+        "name": "FLYKILLER GLASS",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "1 to 1.5 ml per ltr of water",
+        "type": "pgr"
+    },
+    {
+        "id": 95,
+        "name": "ENJOFERT",
+        "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Molybdenum 0.1%, Boron 0.5%",
+        "packingSize": "20 ltr, 5 ltr, 1 ltr, 500 ml, 250 ml",
+        "dosage": "600-100 ml per acre",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 96,
+        "name": "ANEN-D",
+        "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
+        "packingSize": "2 kg, 5 kg, 10 kg",
+        "dosage": "2 to 5 kg per acre",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 97,
+        "name": "ANEX-COMBI",
+        "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Boron 0.5%, Molybdenum 0.1%",
+        "packingSize": "100 gm, 250 gm, 500 gm, 1 kg",
+        "dosage": "250 gm per acre",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 98,
+        "name": "ENJOFERT SOIL",
+        "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
+        "packingSize": "10 kg, 25 kg, 50 kg",
+        "dosage": "10 to 20 kg per acre",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 99,
+        "name": "COTKING",
+        "ingrediants":"Iron 2.5%, Mangnese 0%, Zinc 5%, Copper 0%, Boron 0.5%, Molybdenum 0%",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 100,
+        "name": "ZINCBOR",
+        "ingrediants": "Iron 0%, Mangnese 0%, Zinc 3%, Copper 0%, Boron 0.5%, Molybdenum 0.1%",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 101,
+        "name": "CALFLOW",
+        "ingrediants": "Calcium 11 %",
+        "packingSize": "250 ml, 500 ml, 1000 ml",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 102,
+        "name": "ZINCFLOW",
+        "ingrediants": "Zinc oxide suspension concentrate - 39.5%",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 103,
+        "name": "ENJOBOR",
+        "ingrediants": "Athanolamine Boron - 10% (liquid)",
+        "packingSize": "250 ml, 500 ml, 1 ltr",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 104,
+        "name": "ENJOSULF PLUS",
+        "ingrediants": "Sulfur Fertilizer - 90% WG Powder",
+        "packingSize": "1 kg, 3 kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 105,
+        "name": "ANEX-B",
+        "ingrediants": "Boron 20%",
+        "packingSize": "250 gm, 500 gm, 1 Kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 106,
+        "name": "ANEX MAGNATE",
+        "ingrediants": "Magnesium Sulphate 1.5%",
+        "packingSize": "1 kg, 10 kg, 25 kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 107,
+        "name": "ANEX N20",
+        "ingrediants": "Nitrogen 20.6%, Sulphur 23%",
+        "packingSize": "25 kg, 50 kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 108,
+        "name": "ENJOSULF GR",
+        "ingrediants": "Sulfer 90%",
+        "packingSize": "10 kg",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 109,
+        "name": "ANEX-FE",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 110,
+        "name": "ANEX GOLD KIT",
+        "ingrediants": "",
+        "packingSize": "",
+        "dosage": "",
+        "type": "micronutrients-fertiliser"
+    },
+    {
+        "id": 111,
+        "name": "ANEX N-SET",
+        "ingrediants": "Azentobactor",
+        "packingSize": "1 ltr, 5 ltr",
+        "dosage": "100 gm pouch in powder form should be given using drip irrigation",
+        "type": "bio-fertilizer"
+    },
+    {
+        "id": 112,
+        "name": "ANEX RHIZO-N",
+        "ingrediants": "Rhizobium",
+        "packingSize": "1 ltr, 5 ltr",
+        "dosage": "100 gm pouch in powder form should be given using drip irrigation",
+        "type": "bio-fertilizer"
+    },
+    {
+        "id": 113,
+        "name": "ANEX K-STORE",
+        "ingrediants": "potash catalysed bacteria",
+        "packingSize": "1 ltr, 5 ltr",
+        "dosage": "100 gm pouch in powder form should be given using drip irrigation",
+        "type": "bio-fertilizer"
+    },
+    {
+        "id": 114,
+        "name": "ANEX BIO-ZN",
+        "ingrediants": "Soluble Dissolving Bacteria",
+        "packingSize": "1 ltr, 5 ltr",
+        "dosage": "100 gm pouch in powder form should be given using drip irrigation",
+        "type": "bio-fertilizer"
+    },
+    {
+        "id": 115,
+        "name": "ANEX P-BOOST",
+        "ingrediants": "Phosphorus Solubilizing Bacteria",
+        "packingSize": "1 ltr, 5 ltr",
+        "dosage": "100 gm pouch in powder form should be given using drip irrigation",
+        "type": "bio-fertilizer"
+    },
+    {
+        "id": 116,
+        "name": "ANEX MYCO Gold",
+        "ingrediants": "Microrhiza",
+        "packingSize": "100 gm, 200 gm",
+        "dosage": "200 gm pouch in powder form should be given using drip irrigation",
+        "type": "bio-fertilizer"
     }
 ]

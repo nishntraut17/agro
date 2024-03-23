@@ -27,9 +27,13 @@ export default function Footer() {
                             <h1 className="text-2xl font-bold mb-4">{translatedText.ourProducts}</h1>
                             <ul className="flex flex-col gap-5 font-semibold">
                                 <li>{translatedText.cropProtection}</li>
+                                <ul className="ml-5">
+                                    <li>{translatedText.insectisides}</li>
+                                    <li>{translatedText.fungicides}</li>
+                                    <li>{translatedText.herbicides}</li>
+                                </ul>
                                 <li>{translatedText.micronutrients}</li>
-                                <li>{translatedText.pesticides}</li>
-                                <li>{translatedText.fertilisers}</li>
+                                <li>{translatedText.biofertilisers}</li>
                                 <li>{translatedText.pgr}</li>
                             </ul>
                         </div>
@@ -92,10 +96,14 @@ function getTranslatedText(language: string) {
                 companyDescription: "Enjo-Chem Agrochemical is a Manufacturer of Crop protection, Micronutrients, Pesticides and Fertilisers. Enjo-Chem is a leading agrochemical company dedicated to advancing agricultural productivity and sustainability. Our innovative solutions have a wide range of crop protection products, fertilisers, PGR, Pesticides and Micronutrients solutions. Committed to empowering farmers and nourishing communities, we leverage science and technology to create a more resilient and prosperous agriculture industry.",
                 ourProducts: "Our Products",
                 cropProtection: "Crop Protection",
-                micronutrients: "Micronutrients",
+                insectisides: "Insectisides",
+                fungicides: "Fungicides",
+                herbicides: "Herbicides",
+                micronutrients: "Micronutrients Ferilizers",
+                biofertilisers: "Biofertilisers",
                 pesticides: "Pesticides",
                 fertilisers: "Fertilisers",
-                pgr: "PGR",
+                pgr: "Plant Growth Regulators",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
                 officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
@@ -116,10 +124,14 @@ function getTranslatedText(language: string) {
                 companyDescription: "एन्जो-केम अॅग्रोकेमिकल एक क्रॉप प्रोटेक्शन, मायक्रोन्यूट्रिएंट्स, पेस्टिसाइड्स आणि फर्टिलायझर्सचे निर्माता आहे. एन्जो-केम हे एक अग्रणी अॅग्रोकेमिकल कंपनी आहे ज्याने कृषीविज्ञान आणि शेतीविज्ञानाचा वापर करून कृषीची उत्पादनशीलता आणि सतततेचे वाढवण्यास समर्पित आहे. आमच्या अभिनव उपायांमुळे आपल्याला क्रॉप प्रोटेक्शन उत्पादनांची विशाल रेंज, फर्टिलायझर्स, पीजीआर, पेस्टिसाइड्स आणि मायक्रोन्यूट्रिएंट्स उपायांची आहे. कृषीक्षमतेची सुरक्षा करण्यासाठी आणि समुदायांना पोषित करण्यासाठी प्रतिबद्ध असून, आपल्याला विज्ञान आणि तंत्रज्ञानाचा वापर करून एक अधिक प्रतिस्पर्धी आणि समृद्ध कृषी उद्योग तयार करण्यासाठी प्रयत्नशील आहोत.",
                 ourProducts: "आमचे उत्पादन",
                 cropProtection: "क्रॉप प्रोटेक्शन",
-                micronutrients: "मायक्रोन्यूट्रिएंट्स",
+                insectisides: "कीटनाशके",
+                fungicides: "फंगीसाइड्स",
+                herbicides: "जैविक नाशके",
+                micronutrients: "मायक्रोन्यूट्रिएंट्स फर्टिलायझर्स",
+                biofertilisers: "जैविक खते",
                 pesticides: "पेस्टिसाइड्स",
                 fertilisers: "फर्टिलायझर्स",
-                pgr: "पीजीआर",
+                pgr: "प्लांट ग्रोथ रेग्युलेटर्स",
                 contactUs: "आमच्याशी संपर्क साधा",
                 officeTitle: "कार्यालय आणि निर्माण ठिकाण",
                 officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
@@ -140,10 +152,11 @@ function getTranslatedText(language: string) {
                 companyDescription: "एन्जो-केम एग्रोकेमिकल एक क्रॉप प्रोटेक्शन, माइक्रोन्यूट्रिएंट्स, पेस्टिसाइड्स और फर्टिलाइजर्स का निर्माता है। एन्जो-केम एक अग्रणी एग्रोकेमिकल कंपनी है जो कृषि उत्पादकता और स्थायित्व को बढ़ाने के लिए समर्पित है। हमारे नवाचारी समाधानों में क्रॉप प्रोटेक्शन उत्पादों, फर्टिलाइजर्स, पीजीआर, पेस्टिसाइड्स और माइक्रोन्यूट्रिएंट्स के विस्तृत रेंज हैं। किसानों को सशक्त बनाने और समुदायों को पोषित करने के लिए प्रतिबद्ध होकर, हम विज्ञान और प्रौद्योगिकी का उपयोग करके एक अधिक संवेदनशील और समृद्ध कृषि उद्योग बनाने का प्रयास करते हैं।",
                 ourProducts: "हमारे उत्पाद",
                 cropProtection: "क्रॉप प्रोटेक्शन",
-                micronutrients: "माइक्रोन्यूट्रिएंट्स",
+                micronutrients: "माइक्रोन्यूट्रिएंट्स फर्टिलाइझर्स",
+                biofertilizers: "जैविक खाद",
                 pesticides: "पेस्टिसाइड्स",
                 fertilisers: "फर्टिलाइजर्स",
-                pgr: "पीजीआर",
+                pgr: "प्लांट ग्रोथ रेगुलेटर्स",
                 contactUs: "हमसे संपर्क करें",
                 officeTitle: "कार्यालय और निर्माण स्थल",
                 officeContent: "सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",

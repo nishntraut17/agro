@@ -14,7 +14,7 @@ export default function HeroSection() {
     }
 
     return (
-        <div className="min-h-screen md:pt-20 relative">
+        <div className="min-h-screen md:pt-8 relative">
             <div className="flex flex-col lg:flex-row items-center justify-center text-green-950 px-8 lg:px-20">
                 <div className="p-20 sm:p-0 lg:w-2/3 lg:px-8 mb-8 lg:mb-0 text-center lg:text-left">
                     <h1 className="font-extrabold text-3xl lg:text-5xl mb-4">

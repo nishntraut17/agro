@@ -19,7 +19,7 @@ export default function ProductsPage() {
                 <img src='/aboutbackground.jpg' alt='about-banner' className="w-full" />
             </div>
             <div className="text-4xl font-extrabold py-4 px-8 bg-green-50 lg:px-20">{allProducts}</div>
-            <ProductCard2 />
+            <ProductCard2 filter={"none"} />
         </div>
     );
 } 
