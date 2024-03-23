@@ -43,18 +43,17 @@ export default function AboutSection() {
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black opacity-60"></div>
             {/* Content */}
-            <div className="flex flex-row items-center justify-center space-y-8 p-20 md:p-0 relative">
+            <div className="flex flex-row items-center justify-center space-y-8 p-8 md:p-0 relative">
                 <div className='lg:w-1/4'>
 
                 </div>
                 <div className='lg:w-3/4 xl:px-32 xl:py-4'>
-                    {/* <LeafAnimation /> */}
-                    <h1 className="text-4xl font-extrabold xl:pb-8">{aboutUs}</h1>
+                    <h1 className="text-2xl md:text-4xl font-extrabold pb-2 xl:pb-8">{aboutUs}</h1>
                     <motion.div
                         // style={{
                         //     scale: scaleProgress,
                         // }}
-                        className="text-lg leading-relaxed font-semibold">
+                        className="md:text-lg leading-relaxed md:font-semibold">
                         {aboutText}
                     </motion.div>
                     <motion.button

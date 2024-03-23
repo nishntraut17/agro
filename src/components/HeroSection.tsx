@@ -16,11 +16,11 @@ export default function HeroSection() {
     return (
         <div className="min-h-screen md:pt-8 relative">
             <div className="flex flex-col lg:flex-row items-center justify-center text-green-950 px-8 lg:px-20">
-                <div className="p-20 sm:p-0 lg:w-2/3 lg:px-8 mb-8 lg:mb-0 text-center lg:text-left">
+                <div className="p-2 md:p-20 sm:p-0 lg:w-2/3 lg:px-8 mb-8 lg:mb-0">
                     <h1 className="font-extrabold text-3xl lg:text-5xl mb-4">
                         {text}
                     </h1>
-                    <p className="text-base lg:text-lg leading-relaxed font-semibold">
+                    <p className="text-base lg:text-lg leading-relaxed md:font-semibold">
                         {language === "English" && (
                             <>
                                 Enjo-Chem Agrochemical is dedicated to providing premium agricultural goods for farmer prosperity. As a leading manufacturer of crop protection, micronutrients, pesticides, and fertilizers, we are committed to advancing agricultural productivity and sustainability. Our innovative solutions encompass a wide range of crop protection products, fertilizers, plant growth regulators (PGR), pesticides, and micronutrient solutions. By empowering farmers and nourishing communities, we leverage science and technology to create a more resilient and prosperous agriculture industry.
@@ -39,7 +39,7 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <div className="lg:w-1/3">
-                    <img src='/Header.png' width={500} height={500} alt="header" className="mx-auto lg:mx-0" />
+                    <img src='/Header.png' alt="header" className="mx-auto lg:mx-0" />
                 </div>
             </div>
         </div>

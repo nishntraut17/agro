@@ -51,19 +51,19 @@ export default function LeafletMap() {
         switch (language) {
             case "English":
                 return (
-                    <p className="text-lg font-semibold text-left text-green-200">
+                    <p className="md:text-lg md:font-semibold text-left text-green-200">
                         The Head Office of Egro-Chem Agrochemical Industries is located at B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136. <br /> Manufacturing Plant is located at Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401
                     </p>
                 );
             case "Hindi":
                 return (
-                    <p className="text-lg font-semibold text-left text-green-200">
+                    <p className="md:text-lg md:font-semibold text-left text-green-200">
                         एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज का मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 पर स्थित है। <br /> विनिर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ताल. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 पर स्थित है।
                     </p>
                 );
             case "Marathi":
                 return (
-                    <p className="text-lg font-semibold text-left text-green-200">
+                    <p className="md:text-lg md:font-semibold text-left text-green-200">
                         "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीजचा मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 येथे आहे. <br /> निर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 येथे आहे.
                     </p>
                 );
@@ -78,7 +78,7 @@ export default function LeafletMap() {
             whileInView={{ left: "2rem" }}
             transition={transition}
         >
-            <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-4 lg:p-40">
+            <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-8 lg:p-40">
                 <div className="border-4 rounded-xl w-full h-[400px] overflow-hidden">
                     <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '400px' }}>
                         <TileLayer
@@ -94,8 +94,8 @@ export default function LeafletMap() {
                     </MapContainer>
                 </div>
                 <div className="max-w-xl text-center lg:text-left">
-                    <h1 className="text-5xl font-bold mb-4 text-green-400">{getTextByLanguage1()}</h1>
-                    <div>
+                    <h1 className="text-2xl md:text-5xl font-bold md:font-extrabold mb-4 text-green-400 text-left">{getTextByLanguage1()}</h1>
+                    <div className=''>
                         {getTextByLanguage2()}
                     </div>
                 </div>

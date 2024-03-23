@@ -28,7 +28,7 @@ const Vision = () => {
                 <img src="/vision.png" alt="ceo" className="rounded-md h-full w-full" />
             </div>
             <div className="md:w-3/4 shadow-xl z-30 bg-stone-200 p-10">
-                <h1 className={` text-3xl font-extrabold mb-4`}>{vision}</h1>
+                <h1 className={` text-2xl md:text-3xl font-extrabold mb-4`}>{vision}</h1>
                 <p className="font-light">
                     {info}
                 </p>

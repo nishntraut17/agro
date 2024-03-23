@@ -93,21 +93,21 @@ const IncrementerSection = () => {
                         </span>
                     </div>
                 </div>
-                {/* <div className="z-10 p-12 flex flex-row gap-2">
+                <div className="z-10 p-12 flex flex-row gap-2">
                     <div className="rounded-full h-20 w-20 z-20 shadow-lg border-2">
                         <img src='/manu.png' alt="factory" width={100} height={100} className="rounded-full h-full w-full" />
                     </div>
                     <div>
                         <CountUp
                             start={0}
-                            end={75}
+                            end={1}
                             delay={0}
                             enableScrollSpy={true}
                             scrollSpyDelay={500}
                         >
                             {({ countUpRef }) => (
                                 <div className="text-green-800 font-bold">
-                                    <span ref={countUpRef} />+
+                                    <span ref={countUpRef} />
                                 </div>
                             )}
                         </CountUp>
@@ -115,7 +115,7 @@ const IncrementerSection = () => {
                             {manufacturingUnitsText}
                         </span>
                     </div>
-                </div> */}
+                </div>
             </div>
         </section>
     );

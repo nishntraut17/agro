@@ -53,7 +53,7 @@ const ProductsSection = () => {
 
 
     return (
-        <div className="px-8 py-16 grid grid-cols-1 md:grid-cols-4 gap-4 pt-12 scale-90 text-green-900">
+        <div className="md:px-24 md:py-16 grid grid-cols-1 md:grid-cols-4 gap-4 px-4 text-green-900">
             <div className="col-span-1 md:col-span-2 p-4 flex flex-col gap-4">
                 <h1 className="text-5xl font-bold mb-2 text-dark-green-custom">
                     {language === "English" && "Enjo-Chem Agrochemicals Products"}

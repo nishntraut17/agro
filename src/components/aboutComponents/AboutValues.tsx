@@ -52,11 +52,11 @@ const AboutValues = () => {
                 <img src="/values.png" alt="ceo" width={1000} height={1000} className="rounded-md  h-3/4 w-full" />
             </div>
             <div className="md:w-3/4 shadow-xl z-30 bg-stone-200 p-8">
-                <h1 className={`text-3xl font-extrabold mb-4`}>{values}</h1>
+                <h1 className={`text-2xl md:text-3xl font-extrabold mb-4`}>{values}</h1>
                 <p className='font-light'>
                     {info}
                 </p>
-                <ul className="font-light text-lg mt-2 opacity-85">
+                <ul className="font-light text-sm md:text-lg mt-2 opacity-85">
                     <li className="flex flex-row gap-2"><MdDone />{ethics}</li>
                     <li className="flex flex-row gap-2"><MdDone />{transparency}</li>
                     <li className="flex flex-row gap-2"><MdDone />{innovation}</li>
