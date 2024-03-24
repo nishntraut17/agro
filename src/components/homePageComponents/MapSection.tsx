@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet-defaulticon-compatibility";
-import { RootState } from "../redux/store";
+import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 
 interface MarkerData {
@@ -22,12 +22,12 @@ export default function LeafletMap() {
         {
             id: 1,
             coordinates: [20.055690, 74.489860], // Nashik
-            title: "India",
+            title: "Nashik",
         },
         {
             id: 2,
             coordinates: [19.895210, 75.373050], // Sambhajinagar
-            title: "London",
+            title: "SambhaJinagar",
         },
     ];
 
@@ -78,7 +78,7 @@ export default function LeafletMap() {
             whileInView={{ left: "2rem" }}
             transition={transition}
         >
-            <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-8 lg:p-40">
+            <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-8 lg:pt-40 ">
                 <div className="border-4 rounded-xl w-full h-[400px] overflow-hidden">
                     <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '400px' }}>
                         <TileLayer

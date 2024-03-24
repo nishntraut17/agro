@@ -33,7 +33,7 @@ export default function Enquiry() {
 
     return (
         <div className="mb-20">
-            <div className="h-[300px] overflow-hidden">
+            <div className="max-h-[300px] overflow-hidden">
                 <img src='/aboutbackground.jpg' alt='about-banner' className="w-full" />
             </div>
             <div className='flex flex-col md:flex-row'>

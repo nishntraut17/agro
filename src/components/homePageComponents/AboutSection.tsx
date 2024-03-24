@@ -1,19 +1,10 @@
 import { useSelector } from 'react-redux';
-import { RootState } from '../redux/store';
+import { RootState } from '../../redux/store';
 import { Link } from 'react-router-dom';
 import { WiDirectionUpRight } from "react-icons/wi";
-import { useRef } from 'react';
-import { useScroll, motion, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function AboutSection() {
-    const ref = useRef<HTMLDivElement>(null);
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ["0 1", "1 1"],
-    });
-    // const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
-    // const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.2, 1]);
-
     const scrollToTop = () => {
         window.scrollTo({
             top: 0,
@@ -39,39 +30,31 @@ export default function AboutSection() {
     }
 
     return (
-        <section className="bg-green-950 text-white relative pt-12 md:pt-0 lg:h-screen" style={{ backgroundImage: "url('/spray.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+        <section className=" text-white relative pt-12 md:pt-0 pb-8" style={{ backgroundImage: "url('/spray.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black opacity-60"></div>
             {/* Content */}
-            <div className="flex flex-row items-center justify-center space-y-8 p-8 md:p-0 relative">
-                <div className='lg:w-1/4'>
-
-                </div>
-                <div className='lg:w-3/4 xl:px-32 xl:py-4'>
-                    <h1 className="text-2xl md:text-4xl font-extrabold pb-2 xl:pb-8">{aboutUs}</h1>
-                    <motion.div
-                        // style={{
-                        //     scale: scaleProgress,
-                        // }}
-                        className="md:text-lg leading-relaxed md:font-semibold">
-                        {aboutText}
-                    </motion.div>
-                    <motion.button
-                        initial={{ opacity: 0.6 }}
-                        whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
-                        whileTap={{ scale: 0.9 }}
-                        whileInView={{ opacity: 1 }}
-                        className="border-2 rounded-md bg-green-800 w-48 h-10 mt-4 flex flex-row gap-2 justify-center items-center"
-                        onClick={scrollToTop}
-                    >
-                        <Link to="/about" className="flex flex-row text-white justify-center items-center">
-                            {language === "English" && "Read More"}
-                            {language === "Hindi" && "और पढ़ें"}
-                            {language === "Marathi" && "अधिक वाचा"}
-                        </Link>
-                        <WiDirectionUpRight className="text-3xl pt-1" />
-                    </motion.button>
-                </div>
+            <div className='px-6 xl:px-10 xl:py-20 relative'>
+                <h1 className="text-2xl md:text-5xl font-extrabold pb-2 xl:pb-8">{aboutUs}</h1>
+                <motion.div
+                    className="md:text-2xl">
+                    {aboutText}
+                </motion.div>
+                <motion.button
+                    initial={{ opacity: 0.6 }}
+                    whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
+                    whileTap={{ scale: 0.9 }}
+                    whileInView={{ opacity: 1 }}
+                    className="border-2 rounded-md bg-green-800 w-48 h-10 mt-4 flex flex-row gap-2 justify-center items-center"
+                    onClick={scrollToTop}
+                >
+                    <Link to="/about" className="flex flex-row text-white justify-center items-center">
+                        {language === "English" && "Read More"}
+                        {language === "Hindi" && "और पढ़ें"}
+                        {language === "Marathi" && "अधिक वाचा"}
+                    </Link>
+                    <WiDirectionUpRight className="text-3xl pt-1" />
+                </motion.button>
             </div>
         </section>
     )

@@ -10,14 +10,14 @@ export default function Footer() {
     const translatedText = getTranslatedText(language); // Define this function to fetch translated text
 
     return (
-        <div className="relative bg-lime-950 p-8 text-white bg-cover bg-center" >
+        <div className="relative bg-lime-950 text-white bg-cover bg-center" >
             <div className="z-20">
-                <div className="py-10 px-4 sm:px-6 lg:px-8">
+                <div className="py-10 sm:px-2 lg:px-4">
                     {/* Company Description */}
                     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div className="col-span-1">
                             <img src='/ENJO.png' alt="logo" className="h-28 w-72" />
-                            <p className="text-sm mt-4 ml-8">
+                            <p className="font-light mt-4 ml-8">
                                 {translatedText.companyDescription}
                             </p>
                         </div>
@@ -26,12 +26,9 @@ export default function Footer() {
                         <div className="col-span-1 mt-20 mx-8">
                             <h1 className="text-2xl font-bold mb-4">{translatedText.ourProducts}</h1>
                             <ul className="flex flex-col gap-5 font-semibold">
-                                <li>{translatedText.cropProtection}</li>
-                                <ul className="ml-5">
-                                    <li>{translatedText.insectisides}</li>
-                                    <li>{translatedText.fungicides}</li>
-                                    <li>{translatedText.herbicides}</li>
-                                </ul>
+                                <li>{translatedText.insectisides}</li>
+                                <li>{translatedText.fungicides}</li>
+                                <li>{translatedText.herbicides}</li>
                                 <li>{translatedText.micronutrients}</li>
                                 <li>{translatedText.biofertilisers}</li>
                                 <li>{translatedText.pgr}</li>
@@ -44,7 +41,7 @@ export default function Footer() {
                             <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.officeTitle} content={translatedText.officeContent} />
                             <ContactInfo icon={<FaPhoneVolume className="text-lg text-white" />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
                             <ContactInfo icon={<MdEmail className="text-lg text-white" />} title={translatedText.emailTitle} content={translatedText.emailContent} />
-                            <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.branchTitle} content={translatedText.branchContent} />
+                            <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.headTitle} content={translatedText.branchContent} />
                         </div>
                     </div>
                 </div>
@@ -112,7 +109,7 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "Branch Office",
+                headTitle: "Head Office",
                 branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
                 about: "About",
                 products: "Products",
@@ -140,7 +137,7 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "शाखा कार्यालय",
+                headTitle: "मुख्य कार्यालय",
                 branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूग खंड, गंगापूर, छ. संभाजीनगर-431136",
                 about: "विषयी",
                 products: "उत्पादने",
@@ -165,7 +162,7 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "शाखा कार्यालय",
+                headTitle: "मुख्य कार्यालय",
                 branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूग खंड, गंगापूर, छ. संभाजीनगर-431136",
                 about: "के बारे में",
                 products: "उत्पाद",
@@ -189,7 +186,7 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "Branch Office",
+                headTitle: "Head Office",
                 branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
                 about: "About",
                 products: "Products",

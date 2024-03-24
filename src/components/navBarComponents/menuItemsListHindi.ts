@@ -1,9 +1,14 @@
 export const menuItemsHindi = [{
-    title: "घर",
+    title: "होम",
     url: "",
 },
 {
+    title: "के बारे में",
+    url: "about",
+},
+{
     title: "उत्पाद",
+
     submenu: [{
         title: "सभी उत्पाद",
         url: "products",
@@ -18,7 +23,7 @@ export const menuItemsHindi = [{
             url: "products/fungicides",
         },
         {
-            title: "हर्बिसाइड्स",
+            title: "हरबिसाइड्स",
             url: "products/herbicides",
         }
         ],
@@ -33,17 +38,61 @@ export const menuItemsHindi = [{
         url: "products/plant-growth-regulators",
     },
     {
-        title: "जैव उर्वरक",
+        title: "बायो-उर्वरक",
         url: "products/bio-fertilizers",
     }
     ],
 },
 {
-    title: "हमारे बारे में",
-    url: "about",
+    title: "मीडिया",
+    submenu: [{
+        title: "नई लॉन्च",
+        url: "media/new-launch",
+    },
+    {
+        title: "कंपनी की खबरें",
+        url: "media/company-news",
+    },
+    ],
 },
 {
-    title: "संपर्क करें",
+    title: "गैलरी",
+    submenu: [{
+        title: "वार्षिक डीलर्स मीट",
+        url: "gallery/annual-dealers-meet",
+    },
+    {
+        title: "फ़ील्ड विज़िट",
+        url: "gallery/field-visits",
+    },
+    {
+        title: "यात्रा फ़ोटो",
+        url: "gallery/tour-photos",
+    },
+    {
+        title: "वीडियो समाचार",
+        url: "gallery/video-news",
+    },
+    ],
+},
+{
+    title: "पूछताछ",
+    url: "enquiry",
+},
+{
+    title: "करियर",
+    url: "careers",
+},
+{
+    title: "उच्चतम स्तर",
+    submenu: [{
+        title: "व्यापार-से-व्यापार",
+        url: "verticals/b2b",
+    }
+    ]
+},
+{
+    title: "संपर्क",
     url: "contact",
 }
 ];

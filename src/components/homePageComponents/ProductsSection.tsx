@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import { WiDirectionUpRight } from "react-icons/wi";
 import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
-import { RootState } from "../redux/store";
-import productsEnglish from '../assets/products.json';
-import productHindi from '../assets/productsHindi.json';
+import { RootState } from "../../redux/store";
+import productsEnglish from '../../assets/products.json';
+import productHindi from '../../assets/productsHindi.json';
 
 const fadeInAnimationVariants = {
     initial: {
@@ -53,7 +53,7 @@ const ProductsSection = () => {
 
 
     return (
-        <div className="md:px-24 md:py-16 grid grid-cols-1 md:grid-cols-4 gap-4 px-4 text-green-900">
+        <div className="md:px-8 md:py-8 grid grid-cols-1 md:grid-cols-4 gap-4 px-4 text-green-900">
             <div className="col-span-1 md:col-span-2 p-4 flex flex-col gap-4">
                 <h1 className="text-5xl font-bold mb-2 text-dark-green-custom">
                     {language === "English" && "Enjo-Chem Agrochemicals Products"}

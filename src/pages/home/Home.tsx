@@ -1,13 +1,15 @@
-import HeroSection from "../../components/HeroSection";
-import AboutSection from "../../components/AboutSection";
-import ProductsSection from "../../components/ProductsSection";
-import IncrementerSection from "../../components/IncrementerSection";
-import LeafletMap from "../../components/MapSection";
+import HeroSection from "../../components/homePageComponents/HeroSection";
+import AboutSection from "../../components/homePageComponents/AboutSection";
+import ProductsSection from "../../components/homePageComponents/ProductsSection";
+import IncrementerSection from "../../components/homePageComponents/IncrementerSection";
+import LeafletMap from "../../components/homePageComponents/MapSection";
+import Banner from "../../components/homePageComponents/Banner";
 // import Temp from "../components/Temp";
 
 export default function Home() {
     return (
         <div>
+            <Banner />
             <HeroSection />
             <AboutSection />
             <IncrementerSection />
