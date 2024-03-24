@@ -14,7 +14,7 @@ const NavMenu = ({ isCollapsed, setIsCollapsed }: {
                 <motion.aside
                     initial={{ width: 0 }}
                     animate={{ width: 300 }}
-                    exit={{ width: 0, transition: { delay: 0.7, duration: 0.3 } }}
+                    exit={{ width: 0, transition: { delay: 0.7, duration: 3 } }}
                     className="block md:hidden h-screen fixed top-0 right-0 backdrop-blur-sm bg-[#fffefbde] z-30 p-6"
                 >
                     <FiMenu
