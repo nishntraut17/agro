@@ -79,7 +79,7 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
                         className="transition-opacity duration-[2000] ease-in-out focus:outline-none flex hover:bg-slate-200 hover:bg-opacity-50 hover:border-l-4 hover:border-stone-300 w-full"
                     >
                         {
-                            menu.title !== 'Products' && menu.title !== 'Media' && menu.title !== 'Gallery' && menu.title !== 'Verticals' ? <button onClick={handleLinkClick}><Link to={`/${menu.url}`}>{menu.title}</Link></button> : menu.title
+                            menu.title !== 'Products' && menu.title !== 'Media' && menu.title !== 'Gallery' && menu.title !== 'Verticals' ? <Link to={`/${menu.url}`}><button onClick={handleLinkClick}>{menu.title}</button></Link> : menu.title
                         }
                         <div className='pl-2'>{menu.title === 'Products' || menu.title === 'Media' || menu.title === 'Gallery' || menu.title === 'Verticals' ? <IoMdArrowDropdown /> : ''}</div>
                     </button>
@@ -93,12 +93,10 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
                             <li key={index} className="pl-10">
                                 <button
                                     onClick={() => onClickHandler(subMenu)}
-                                    className="transition-opacity duration-2000 ease-in-out focus:outline-none flex"
+                                    className="transition-opacity duration-2000 ease-in-out focus:outline-none flex hover:bg-slate-200 hover:bg-opacity-50 hover:border-l-4 hover:border-stone-300 w-full"
                                 >
                                     {subMenu.title !== 'Crop Protection' &&
-                                        <button onClick={handleLinkClick}>
-                                            <Link to={`/${subMenu?.url}`}>{subMenu.title}</Link>
-                                        </button>
+                                        <Link to={`/${subMenu?.url}`}><button onClick={handleLinkClick}>{subMenu.title}</button></Link>
                                     }
                                     {subMenu.title === 'Crop Protection' ? subMenu.title : ''}
                                     {subMenu.title === 'Crop Protection' ? <IoMdArrowDropdown /> : ''}
@@ -107,7 +105,7 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
                                     ${subMenu.title === 'Crop Protection' ? (dropdownCropProtection ? 'opacity-100' : 'opacity-0 hidden') : ''}`}
                                 >
                                     {subMenu?.submenu?.map((subSubMenu, index) => (
-                                        <button key={index} className="pl-10" onClick={handleLinkClick}>
+                                        <button key={index} className="pl-2 hover:bg-slate-200 hover:bg-opacity-50 hover:border-l-4 hover:border-stone-300 w-full " onClick={handleLinkClick}>
                                             <Link to={`/${subSubMenu?.url}`}>{subSubMenu.title}</Link>
                                         </button>
                                     ))}

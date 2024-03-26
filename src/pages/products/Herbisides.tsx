@@ -1,4 +1,4 @@
-import ProductCard2 from "../../components/ProductCard2";
+import ProductCard2 from "../../components/products/ProductCard2";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 

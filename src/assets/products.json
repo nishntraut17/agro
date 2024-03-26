@@ -2,39 +2,54 @@
     {
         "id": 1,
         "name": "PROTHRIN",
+        "feature": "Prothrin is formulated using a combination of two active ingredients namely Profenofos 40% and Cypermethrin 4% EC. Prothrin is a topical and enteric insecticide. It is effective against many insects (chewing and sucking). Prothrin acts as an anthelmintic. Excellent control to kill bollworms. The penetrative action of prothrin kills insects on the lower and upper surfaces of leaves.",
         "ingrediants": "Profenofos 40% + Cypermethrin 4% EC",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
-        "type": "insecticide"
+        "type": "insecticide",
+        "crops": "Cotton.",
+        "insects": "bollworms."
     },
     {
         "id": 2,
         "name": "WAR 505",
+        "feature": "War (Chlorpyrifos 50% + Cypermethrin 5% EC) is a combination insecticide of two active ingredients, Chlorpyrifos and Cypermethrin. It is a topical and topical insecticide. It is a broad spectrum insecticide and poison is produced by contact as well as by vapor action in the stomach. Their combination provides synergistic action to provide long-lasting protection.",
         "ingrediants": "Chlorpyriphos 50% + Cypermethrin 5% EC",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
+        "crops": "cotton",
+        "pest": "Pink bollworm, American bollworm, thrips, whitefly",
         "type": "insecticide"
     },
     {
         "id": 3,
         "name": "JAVA",
+        "feature":"Java (Thiamethoxam 25% Wg) is a granular soluble insecticide. It protects against insects for longer than other insecticides. Java is highly effective at low doses against a wide spectrum of sap-sucking insects, soil and foliar insects. Java is highly systematic and therefore suitable for application through spray, drench or drip irrigation.",
         "ingrediants": "Thiamethoxam 25% WG",
+        "crops":"Cotton, Rice, Mango, Wheat, Okra, Mustard, Tomato, Potato, Mossambi, Eggplant.",
         "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
+        "pest":"thrips, moth, whitefly, stem borer, hopper, mosquito bug, thrips.",
         "dosage": "100 ml per acre",
         "type": "insecticide"
     },
     {
         "id": 4,
         "name": "JAVA PLUS",
+        "feature":"Java Plus (Thymethoxam 30% FS) is an intercurrent insecticide. Java Plus works on various insect activity sites. Java Plus is used as a seed dresser. Java Plus provides control of a wide range of leaf-chewing, leaf-eating and soil-dwelling pests such as aphids, wireworms, flea beetles and leaf miners.",
         "ingrediants": "Thiamethoxam 30% FS",
+        "crops":"Chilli, Cotton, Okra, Maize, Sorghum, Wheat, Soybean, Sunflower.",
+        "insects": "thrips, mites, maggots, shoot fly, whitefly.",
         "packingSize": "50 ml, 100ml, 250 ml, 500 ml, 1 ltr",
-        "dosage": "500 ml per kg seed",
+        "dosage": "3-5 ml per kg of seed",
         "type": "insecticide"
     },
     {
         "id": 5,
         "name": "FLY-KILL",
+        "feature": "Flykill (Acetamiprid 20% SP) is a soluble powder formulation. It has a unique translaminar characteristic, it survives in crops and thus has the ability to control long-hidden pests. It is a very effective insecticide.",
         "ingrediants": "Acetamiprid 20% SP",
+        "crops":"Cotton, Paddy, Chilli.",
+        "insects":"mealybugs, whiteflies, maggots, thrips.",
         "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
         "dosage": "100 gm per acre",
         "type": "insecticide"
@@ -42,15 +57,21 @@
     {
         "id": 6,
         "name": "ENJOCLAIM",
+        "feature": "Enjoclaim (Emamectin Benzoate 5% SG) is a modern insecticide of the Avermectin group. Enjnclaim is a popular multi-purpose soluble granular insecticide. Enzoclam has a remarkable translaminar action by which it controls the larvae on the lower surface of leaves. Worms stop damaging crops 2 hours after applying EnjoClaim.",
         "ingrediants": "Emamectin Benzoate 5% SG",
         "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
+        "crops": "Cotton, Cauliflower, Gram, Grapes, Okra, Chilli, Cabbage, Onion, Eggplant.",
         "dosage": "100 gm per acre",
+        "pest": "Bollworm, thrips, pod borer, shoot and fruit borer.",
         "type": "insecticide"
     },
     {
         "id": 7,
         "name": "SHOTGUN",
+        "feature": "Shotgun is a water soluble liquid formulation containing Emamectin Benzoate 1.9% EC as the active ingredient, recommended for bollworm control in cotton. It is a stomach poison insecticide. When the larvae come in contact with the shotgun along with the food, the affected larvae become paralyzed and immediately stop eating and then die after 2-4 days.",
         "ingrediants": "Emamectin Benzoate 1.9% EC",
+        "crops": "cotton, okra, safflower.",
+        "insects": "bollworms, mites, maggots",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
         "dosage": "300 ml per acre",
         "type": "insecticide"
@@ -58,7 +79,10 @@
     {
         "id": 8,
         "name": "ACP",
+        "feature":"ACP (Fipronil 40% + Imidacloprid 40% WG) is an intermittent and topical insecticide, containing 400 g of Fipronil and 400 g of Imidacloprid as active ingredients, per kg of formulation",
         "ingrediants": "Fipronil 40%  + Imidacloprid 40% WG",
+        "crops":"Sugarcane, Groundnut",
+        "pest":"Humani worms",
         "packingSize": "40 gm, 100gm, 250gm",
         "dosage": "60 gm per acre",
         "type": "insecticide"
@@ -66,15 +90,20 @@
     {
         "id": 9,
         "name": "VAJEER",
-        "ingrediants": "Chlorantraniliprole 18.5% SC",
-        "packingSize": "30 ml, 60ml, 150ml, 300ml",
-        "dosage": "60ml per acre",
+        "feature":"Vajeer is a natural insecticide made from various plant extracts, Vajeer protects crops from various types of insects, mites, mealybugs and caterpillars.",
+        "ingrediants": "Botanical extracts",
+        "crops": "cotton, vegetables, fruit crops",
+        "packingSize": "25 ml, 50 ml, 100 ml, 250 ml",
+        "dosage": "0.4 ml per liter of water for spraying",
         "type": "insecticide"
     },
     {
         "id": 10,
         "name": "ENJOGUARD PLUS",
+        "feature":"EnjoGuard Plus with Chlorpyrifos 50% EC is used to control stem borer and leaf roller in rice and bollworms in buildings, during construction and in cotton crops",
         "ingrediants": "Chlorpyriphos 50% EC",
+        "crops":"Cotton, Rice.",
+        "pest":"Bollworm, stem borer and leaf licker",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
         "type": "insecticide"
@@ -82,7 +111,10 @@
     {
         "id": 11,
         "name": "LALISA",
+        "feature":"Lalisa (Buprofezin 15% + Acephate 35% WP) is an effective pre-mix insecticide of buprofezin and acephate and is a unique combination product with two distinct actions. It acts as a regulator of insect growth and at the same time affects the nervous system of insects by inhibiting the transmission of messages through the disruption of acetylcholine",
         "ingrediants": "Buprofezin 15% + Acephate 35% WP",
+        "crops":"cotton, okra, rice",
+        "insects":"whitefly, thrips, thrips",
         "packingSize": "250 gm, 500 gm, 1 kg",
         "dosage": "500 gm per acre",
         "type": "insecticide"
@@ -90,24 +122,33 @@
     {
         "id": 12,
         "name": "E-MIDA",
+        "feature":"E-Mida Super contains the ingredient IMIDACLOPRID 30.5% SC. It is a systemic intravenous and topical insecticide with enteric action. E-Mida Super is easily absorbed by the leaf and diffuses into all parts.",
         "ingrediants": "Imidacloprid 17.8% SL",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "crops":"Rice, Cotton, Vegetables.",
+        "insects":"hoppers, thrips, moths, whiteflies, whiteflies, brown thrips, white-backed thrips",
         "dosage": "250 ml. per acre",
         "type": "insecticide"
     },
     {
         "id": 13,
         "name": "ENJONEEM",
+        "feature":"Enjoneem is a neem-based biopesticide, containing 3,000 ppm azadirectin, used both prophylactically and as a tank mix spray to control sucking and chewing insects, including mites.",
         "ingrediants": "Neem kernel based EC Containing Azadirachtin 0.3% (3000 ppm)",
         "packingSize": "500 ml, 1 ltr",
+        "crops":"Flowers, Pomegranate, Chilli, Tomato, Cotton, Grapes, Watermelon, Onion, Cabbage, Ornamentals.",
         "dosage": "1 ltr. per acre",
+        "pest": "Early instars of whiteflies, thrips, moths, moths, mites, fruit borers.",
         "type": "insecticide"
     },
     {
         "id": 14,
         "name": "ENJONEEM PLUS",
+        "feature": "Enjoneem Plus is a neem based biopesticide with a blend of 10,000 ppm azadirachtin and neem oil, which provides all liminoids for effective insecticidal action. It is effective against sucking and chewing insects including mites. The product is suitable for use in integrated pest management (IPM) and pest resistant management (IRM) programs, with multiple modes of action.",
         "ingrediants": "Neem kernel based EC Containing Azadirachtin 1% (10000 ppm)",
+        "crops":"Flowers, Pomegranate, Chilli, Tomato, Cotton, Grapes, Watermelon, Onion, Cabbage, Mango, Okra, Eggplant, Mossambi, Ornamentals.",
         "packingSize": "500 ml, 1 ltr",
+        "pest":"Whiteflies, thrips, moths, moths, mites, fruit borers, mealybugs, flea beetles, armyworms.",
         "dosage": "500 ml per acre",
         "type": "insecticide"
     },
@@ -130,7 +171,10 @@
     {
         "id": 17,
         "name": "JAVA POWER",
+        "feature":"Java Power is a broad spectrum intercurrent insecticide containing Thiamethoxam 75% SG as the active ingredient. Java Power is an instant solution to soil-sucking insects and chewing insects. Java Power improves plants from primary treatment and leads to higher yields. It has negligible effect on beneficial insects.",
         "ingrediants": "THiamethoxam 75% WG",
+        "crops":"Cotton, Sugarcane, Rice, Groundnut.",
+        "pest":"Weevil, early shoot borer, green leaf hopper, brown plant hopper, thrips, thrips.",
         "packingSize": "50 gm,100 gm",
         "dosage": "50 gm per acre",
         "type": "insecticide"
@@ -138,7 +182,10 @@
     {
         "id": 18,
         "name": "AAKI",
+        "feature":"Aaki (Lambda Cyhalothrin 9.5% + Thiamethoxam 12.6% ZC) is an intercurrent and topical insecticide, a new innovative formulation ZC (combination of CS and SC formulations), an excellent for proper start of crop with effective control of sucking insects. The yield is. A better crop overall and a greener crop with more branch flowers.",
         "ingrediants": "Thiamethoxam 12.6% WG + Lambda Cyhalothrin 9% ZC",
+        "crops":"Cotton, Maize, Chilli, Groundnut, Soybean, Tomato",
+        "pest":"Whitefly, thrips, thrips, bollworm, stem fly, fruit borer, mava, leaf folder",
         "packingSize": "40 ml, 80ml, 200ml, 500ml",
         "dosage": "80 ml per acre",
         "type": "insecticide"
@@ -146,6 +193,9 @@
     {
         "id": 19,
         "name": "ENJOGUARG",
+        "crops":"Cotton, Soybean, Gram, Barley, Rice, Mossambi, Cabbage, Onion, Eggplant",
+        "pest":"Bollworm, Cutworm, Cutworm, Whitefly, Weevil, Hispa, Stem Borer, Shoot and Fruit Borer, Diamond Backmoth.",
+        "feature":"Enjoguard with Chorpyriphos 20 %EC is a broad spectrum organophosphorus insecticide. It controls a wide range of soil or foliar pests in a variety of crops, by contact, ingestion and vapor action. Enzogard is used for the control of sucking and chewing insects.",
         "ingrediants": "Chlopyrifos 20% EC",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
@@ -154,7 +204,10 @@
     {
         "id": 20,
         "name": "PROPHOS",
+        "feature": "Prophos with Profenofos 50% EC is an intercurrent and topical insecticide. After the insect feeds on the plant or crawls onto the treated leaf, the insect first becomes paralyzed and then quickly dies. Profos works to control insects that normally hide under the underside of leaves. Broad spectrum also controls all sucking insects and leaf-eating larvae.",
         "ingrediants": "Profenofos 50% EC",
+        "crops":"cotton, soybeans.",
+        "insects": "bollworms, thrips, maggots.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
         "type": "insecticide"
@@ -162,9 +215,11 @@
     {
         "id": 21,
         "name": "THRIPKILL PLUS",
-        "ingrediants": "Tolfelpyrad 15% EC",
+        "feature":"Thripkill Plus is a biochemical that effectively manages and prevents thrips, mites, whiteflies and sucking insects on crops",
+        "ingrediants": "Karanj Oil - 60%, Essential Oil - 14%.",
+        "crops":"Vegetables, Fruits, Cotton",
         "packingSize": "50 ml, 100ml, 250 ml, 500 ml, 1 ltr",
-        "dosage": "500 ml per acre",
+        "dosage": "1 ml per liter of water for spraying",
         "type": "insecticide"
     },
     { 
@@ -194,7 +249,10 @@
     { 
         "id": 25,
         "name": "SECTOR",
+        "feature":"Sector (Acephate 45% + Cypermethrin 5% DF) is a broad-spectrum topical and enteric insecticide against aphids, jasids, thrips, and bollworms in cotton. controls it",
         "ingrediants": "Acephate 45% + Cypermethrin 5% DF",
+        "crops":"cotton",
+        "insects":"bollworms, mealybugs, maggots, thrips",
         "packingSize": "100 gm, 250 gm, 500 gm",
         "dosage": "500 gm per acre",
         "type": "insecticide"
@@ -202,7 +260,10 @@
     {
         "id": 26,
         "name": "ACEIMIDA",
+        "feature":"Aceimida (Acephate 50% + Imidacloprid 1.8% SP) is formulated to provide cost effective control of several pests to vegetable growers. It is a combination of two systemic insecticides from different classes. Asmida is a good defense against sap-sucking insects",
         "ingrediants": "Acephate 50% + Imidaclopride 1.8% SP",
+        "crops":"Cotton, Rice",
+        "insects":"Whiteflies, thrips, thrips, bollworms",
         "packingSize": "100 gm, 250 gm, 500 gm",
         "dosage": "400 gm per acre",
         "type": "insecticide"
@@ -210,6 +271,9 @@
     {
         "id": 27,
         "name": "ACELEX",
+        "feature":"Acilex (Acephate 75% SP) is a systemic insecticide that controls pests by contact and stomach action. It mainly acts on the nervous system of target insects. Acelex remains effective for a long period of time and thus provides protection for a long period of time",
+        "crops": "Cotton, Rice",
+        "pest":"stem borer, thrips, bollworm",
         "ingrediants": "Acephate 75% SP",
         "packingSize": "250 gm, 500 gm, 1kg",
         "dosage": "400 gm per acre",
@@ -218,23 +282,31 @@
     {
         "id": 28,
         "name": "FIPRONEX",
+        "feature":"Fipronex (Fipronil 5% SC) is an intravenous and topical insecticide. It provides low dose, highly effective pest control against a wide range of important pests. It has also been found to be particularly effective for the management of thrips. Fipronil helps increase crop yields by controlling pests that slow crop growth.",
         "ingrediants": "Fipronil 5% SC",
+        "crops":"Cotton, Rice, Sugarcane, Cabbage, Chili",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
+        "pest":"Whitefly, thrips, thrips, bollworm, green leaf hopper, stem borer, leaf folder, brown plant hopper, diamond back moth, fruit borer, root borer",
         "type": "insecticide"
     },
     {
         "id": 29,
         "name": "RETAINZA",
-        "ingrediants": "Fipronil 2.92 % EC",
+        "feature":"Retainza is a biochemical that provides effective control and prevention of thrips, mites, whiteflies and sucking insects on crops",
+        "ingrediants": "Karanj Oil - 60%, Essential Oil - 14%.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "500 ml per acre",
+        "dosage": "1 ml per liter of water for spraying",
+        "crops":"Vegetables, Fruits, Cotton",
         "type": "insecticide"
     },
     {
         "id": 30,
         "name": "FENPROTOL",
+        "feature":"Fenpropathrin 10 % EC is the active ingredient in Fenpropathol and is a pyrethroid insecticide with a high degree of acaricidal-insecticidal activity. It acts on the nervous system of insects and kills the insects",
         "ingrediants": "Fenpropathrin 10% EC",
+        "crops":"cotton",
+        "pest":"American bollworm, pink bollworm",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "400 gm per acre",
         "type": "insecticide"
@@ -281,7 +353,10 @@
     },
     {
         "id": 36,
-        "name": "DIEFNOX",
+        "name": "DIEFENOX",
+        "feature":"Difenox (Diafenthiuron 50% WP) is an intermittent and topical insecticide that controls insects as well as mites. It has a trans-laminar action, which can control insects hiding in the canopy and underside of leaves. It has vapor action so works well in dense crops and large fields",
+        "crops":"eggplant, cotton, potato, chilli, cabbage, lemon",
+        "pest":"Whitefly, thrips, thrips, mites, capsule borer",
         "ingrediants": "Diafenthiuron 50% WP",
         "packingSize": "250 gm, 500 gm, 1 kg",
         "dosage": "250 gm. per acre",
@@ -290,38 +365,53 @@
     {
         "id": 37,
         "name": "METALEX",
+        "feature":"Metalex (Metalaxyl 35% WS) is a systemic, phenylamide intermittent fungicide with protective and curative activity. Recommended as a spray on tropical and sub-tropical crops, also as a drench for control of soil-borne pathogens and as a seed treatment for fungal control.",
         "ingrediants": "Metalaxyl 35% WS",
         "packingSize": "100 gm, 250 gm, 500 gm",
         "dosage": "500 gm. per acre",
-        "type": "fungicide"
+        "type": "fungicide",
+        "fungi":"die blight, downy mildew, powdery mildew, white rust.",
+        "crops": "Mustard, Maize, Cabbage, Flower, Sunflower, Tobacco, Tomato, Eggplant, Okra, Chilli, Potato, Cucumber."
     },
     {
         "id": 38,
-        "name": "THIOHONEX",
+        "name": "THIPHONEX",
+        "feature": "Thiphonex (Thiphonate Methyl 70 % WP) is a broad spectrum enteric fungicide and has a unique combination of preventive, curative and systemic fungicidal properties. Anthoceros, Cercospora leaf spot, Powdery mildew, Venturia scab, Fusarium, Bosrotinia, are successfully treated with Thiphonex.",
+        "crops":"Potato, Chilli, Tomato.",
         "ingrediants": "Thiophanate Methyl 70% WP",
         "packingSize": "100 gm, 250 gm, 500 gm",
-        "dosage": "200 gm. per acre",
+        "dosage": "200 gm. per acre, Spraying - Spray 250 grams per acre. (0.5 g/liter of water), Seed treatment - 2 to 3 g/kg seed, Drinching- 2 to 4 g/L of water.",
+        "fungi":"powdery mildew, fruit rot, wilt, stem rot, leaf spot, black scurf,Tuber decay, tuber rot.",
         "type": "fungicide"
     },{
         "id": 39,
         "name": "ENJOTAF PLUS",
+        "feature":"Enjotaf Plus (Hexaconazole 5% SC) is a unique topical fungicide. Enjotaf Plus is a broad-spectrum fungicide that controls a wide range of diseases affecting many crops. Enjotaf Plus provides excellent control of Anscomycetes, Basidomycetes and Deuteromycetes. Enjotaf Plus is a safe fungicide with low toxicity to mammals, fish, birds and natural enemies.",
         "ingrediants": "Hexaconazole 5% SC",
         "packingSize": "250 ml, 500 ml, 1 ltr",
+        "crops":"grapes, rice, mango.",
         "dosage": "500 ml per acre",
-        "type": "fungicide"
+        "type": "fungicide",
+        "fungi": "Sheath Blight, Powdery Mildew."
     },
     {
         "id": 40,
         "name": "PROPINEX",
+        "feature":"Propiconazole (Propiconazole 25% EC) is an intermittent fungicide of the triazole group. Propinex is indicated for the control of a wide range of leaf and stem diseases in cereals. Propinex has both curative and protective action, so the plant effectively controls diseases. Propinex has a long-lasting effect, thus controlling diseases for a long period of time. Application of propinex in rice prevents black spot.",
+        "crops":"wheat, groundnut, soybean, paddy, banana",
         "ingrediants": "Propiconazole 25% EC",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "fungi":"brown rust, black rust, yellow rust, tick disease, black rot.",
         "dosage": "300 ml. per acre",
         "type": "fungicide"
     },
     {
         "id": 41,
         "name": "TESLA",
+        "feature":"Tesla (Tebuconazole 10% + Sulfur 65%) is an effective mix fungicide with protective, and eradication action. It controls powdery mildew, fruit rot disease of chilli and leaf spot, pod blight disease of soybean. Effective and cost-effective remedy for fungal diseases. Instant and uniform solubility. Good yield and quality with phytotonic effect.",
         "ingrediants": "Tebuconazole 10% + Sulphur 65% WG",
+        "crops":"Crops- Chilli, Soybean.",
+        "fungi":"leaf spot and pod blight, powdery mildew, fruit rot.",
         "packingSize": "250 gm, 500 gm, 1 Kg",
         "dosage": "500 gm. per acre",
         "type": "fungicide"
@@ -329,7 +419,10 @@
     {
         "id": 42,
         "name": "UNIXX",
+        "feature":"Unixx is a high quality fungicide containing Azoxystrobin 11% and Tebuconazole 18.3% SC components. It inhibits fungal respiration and ergosterol synthesis. Unix is a powerful combination of triazole and strobilurin chemicals that rapidly penetrate the plant system and kill fungal cells",
         "ingrediants": "Azoxystrobin 11% + Tebuconazole 18.3% SC",
+        "crops":"Grapes, Rice, Potato, Chilli, Tomato, Wheat, Onion.",
+        "fungi":"Downy mildew, powdery mildew, sheath spot, purple spot, yellow rust",
         "packingSize": "100 ml, 250 ml, 500 ml",
         "dosage": "300 ml. per acre",
         "type": "fungicide"
@@ -337,7 +430,10 @@
     {
         "id": 43,
         "name": "THERI",
+        "feature":"Theri (Carbendazim 12% + Mencozeb 63% WP) is a high quality intercurrent and topical fungicide. Theri is recommended on various crops for the control of many diseases. Theri is a preventive, curative and cost-effective fungicide with multi-site action on fungi",
         "ingrediants": "Carbendazim 12% + Mancozeb 63% WP",
+        "crops":"grapes, rice, potato, chilli, maize, mango, groundnut",
+        "fungi":"Downy mildew, powdery mildew, sheath blight, fruit rot, tick disease",
         "packingSize": "250 gm, 500 gm, 1 kg",
         "dosage": "500 gm per acre",
         "type": "fungicide"
@@ -353,6 +449,9 @@
     {
         "id": 45,
         "name": "ANEX M-45",
+        "feature":"Anex M-45 (Mancozeb 75% WP) is a topical fungicide, which inhibits the growth of fungi and the spread of diseases. It reduces the activity of enzymes in the fungus which leads to reduced energy production and ultimately death of the fungus. It is used in many crops for spraying, nursery drenching and seed treatment. In addition to disease control, it also provides manganese and zinc to crops, keeping plants green and healthy. Compared to other fungicides, it is less expensive in the long run due to its nutritional benefits and superior crop protection, leading to higher yields and better quality",
+        "crops":"grapes, rice, potato, potato, groundnut, chili, tomato",
+        "fungi":"rust, downy mildew, early blight, late blight, fruit spot,Brown and black rust, Tikka",
         "ingrediants": "Mancozeb 75% WB",
         "packingSize": "250 gm, 500 gm, 1 Kg",
         "dosage": "500 gm per acre",
@@ -361,15 +460,21 @@
     {
         "id": 46,
         "name": "ENJOTAF POWER",
+        "feature":"Enzotaf Power (HEXACONAZOLE 75%WG ) is a spectrum, intermittent triazole fungicide, with protective, curative, eradication and antisporulant activity. Hexaconazole is a sterol biosynthesis inhibitor. It controls a wide range of foliar and soil-borne (ascomycetes and basidiomycetes) diseases.",
         "ingrediants": "Hexaconazole 75% SC",
         "packingSize": "250 gm, 500 gm",
+        "crops":"Rice, Chilli, Groundnut.",
+        "fungi":"powdery mildew, leaf spot, tick.",
         "dosage": "50-100 gm per acre",
         "type": "fungicide"
     },
     {
         "id": 47,
         "name": "PROPINOCOL",
+        "feature":"Characteristics and Benefits- Propinocol (Propineb 70% WP) is a fungicide that works against various crop diseases. Propinocol is anti-resistant due to its special mechanism of action. .Propincol is a polymeric zinc containing dithiocarbamate, due to its zinc content, application of propinocol has a greening effect on the crop and subsequent improvement in yield quality",
         "ingrediants": "Propineb 70% WB",
+        "crops":"Grapes, Rice, Potato, Pomegranate, Chilli, Tomato",
+        "fungi":"Scab, Downy Mildew, Early Blight, Late Blight, Buck Eye Rot",
         "packingSize": "250 gm, 500 gm, 1 kg",
         "dosage": "500 gm per acre",
         "type": "fungicide"
@@ -377,6 +482,9 @@
     {
         "id": 48,
         "name": "TEBUNEX",
+        "feature":"Tebunex contains Tebuconazole 25.9 EC. It is a systemic triazole fungicide. Triazoles are the leading chemical class of fungicides worldwide. Tabunex offers an effective solution to a wide spectrum of diseases in many crops through protective, curative and eradication action. Application of Tebunex has a greening effect on the leaves of the crop",
+        "crops":"Rice, Groundnut, Onion, Chilli, Soybean",
+        "fungi":"blast, sheath blight, powdery mildew, fruit rot tikka and rust, purple spot",
         "ingrediants": "Tebuconazole 25.9% EC",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "300-400 ml per acre",
@@ -385,7 +493,10 @@
     {
         "id": 49,
         "name": "COPTIVA",
+        "feature":"Coptiva (copper oxychloride 50% WP) is a copper based broad spectrum fungicide which controls fungal as well as bacterial diseases through its contact action. Due to its fine particles, it adheres to the leaves and helps prevent fungal growth. Copexa releases copper ions slowly, allowing it to control the disease for a longer period of time. Gives thickness to the leaves and provides copper nutrition to the crop. Suitable fungicide during hail/rain",
         "ingrediants": "Copper Oxychloride 50% WB",
+        "crops":"Grapes, Bananas, Potatoes, Potatoes, Chillies, Tomatoes, Mossambi",
+        "pest":"rust, downy mildew, early blight, late blight, fruit spot, leaf spot, canker",
         "packingSize": "500 gm",
         "dosage": "500 gm per acre",
         "type": "fungicide"
@@ -401,6 +512,9 @@
     {
         "id": 51,
         "name": "LUKA GLO",
+        "feature":"Luca Glow (Azoxystrobin 8.3% + Mancozeb 66.7% WDG) is an excellent intercurrent and topical fungicide that provides excellent disease control with remarkable phytotonic benefits.",
+        "crops":"grapes, chillies",
+        "fungi":"Downy mildew, powdery mildew, leaf spot",
         "ingrediants": "Azoxystrobin 8.3% + Mancozeb 66.7% WG",
         "packingSize": "250 gm, 500 gm",
         "dosage": "600 gm per acre",
@@ -409,9 +523,11 @@
     {
         "id": 52,
         "name": "CROP CARE",
-        "ingrediants": "Azoxystrobin 2.5% + Thiophanate Methyl 11.25% + Thiamethoxam 2.5% FS",
+        "feature":"Crop care is used along with herbicides on the main crop. It takes care of crop shock. Reduces herbicide effect on main crop. Rapid and uniform application improves herbicide action.",
+        "ingrediants": "Humic acid-5000 ppm, C vid- 2000 ppm.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "10 ml/ kg seed",
+        "crops":"All crops",
+        "dosage": "3 ml per liter of water for spraying",
         "type": "fungicide"
     },
     {
@@ -425,7 +541,10 @@
     {
         "id": 54,
         "name": "ENJO-MYCIN",
+        "feature":"Enjomycin (Validamycin 3% L) is an antibiotic fungicide that controls rice sheath blight disease very effectively. It acts on hyphae and destroys fungi through its contact action and controls the spread of diseases. Enjomycin is also most effective against soil-borne diseases and is used for the control of Rhizoctonia solani in rice. Enjomycin remains effective for a long time even after rainfall",
         "ingrediants": "Validamycin 3% L",
+        "crops":"Rice",
+        "fungi":"sheath blight",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "600-800 ml. per acre",
         "type": "fungicide"
@@ -433,7 +552,10 @@
     {
         "id": 55,
         "name": "BACKUP",
+        "feature":"Chlorothalonil in Backup - 75% WP is a broad-spectrum topical fungicide Chlorothalonil is a multi-site inhibitor that affects various enzymes and other metabolic processes in fungi. It is toxic to fungal cells",
         "ingrediants": "Chlorothalonil 75% WP",
+        "crops":"Grapes, Groundnut, Potato, Chilli, Cabbage, Watermelon",
+        "fungi":"Downy mildew, sheath spot, fruit rot, tick disease",
         "packingSize": "250 gm, 500 gm",
         "dosage": "500 gm per acre",
         "type": "fungicide"
@@ -441,6 +563,9 @@
     {
         "id": 56,
         "name": "ENJOSULF",
+        "feature":"Enzosulph is a contact fungicide containing 85% DP sulfur active ingredient",
+        "crops":"Grapes, Coriander, Groundnut, Pea, Moong",
+        "fungi":"Rust, Downy Mildew, Tikka",
         "ingrediants": "Sulphur 85% DP",
         "packingSize": "5 kg, 10 kg",
         "dosage": "5-10 Kg. per acre",
@@ -449,7 +574,9 @@
     {
         "id": 57,
         "name": "WEED BURN",
+        "feature":"Weed Burn (glyphosate 41% SL) is a non-selective systemic herbicide of the organophosphorus group, which inhibits synthesis in weed plants. It controls annual and perennial weeds very effectively. After weed burn is sprayed, it is absorbed by weeds, plants and migrates to the roots and completely kills all types of weeds. It is also used to control weeds in cultivated crops, waterways, embankments and open fields. All kinds of green weeds can be controlled.",
         "ingrediants": "Glyphosate 41% SL",
+        "crops":"Tea, open fields.",
         "packingSize": "500 ml, 1 ltr, 5 ltr",
         "dosage": "500 ml-1 ltr per acre",
         "type": "herbicide"
@@ -457,6 +584,8 @@
     {
         "id": 58,
         "name": "WEED BURN 71",
+        "feature":"Widburn-71 is an ammonium salt type herbicide of glyphosate 71% S.G., a non-selective herbicide for the control of annual perennial, broadleaf and grassy weeds. When sprayed on leaves, Widburn-71 reaches plant roots and rhizomes through the process of transpiration, killing weeds below ground. Widburn-71 is very rapidly absorbed by weed plants and kills the plant at the root 7-12 days after spraying. It does not affect the germination of subsequent crops and any crop can be grown after its application",
+        "crops":"Tea, open fields",
         "ingrediants": "Ammonium Salt of Glyphosate 71% SG",
         "packingSize": "100 gm, 1 kg",
         "dosage": "1 Kg. per acre",
@@ -465,15 +594,19 @@
     {
         "id": 59,
         "name": "SAKRIP POWER",
+        "feature": "Features and Benefits- Sacrip Power (Metsulfuron Methyl 20% WP) is a selective intercurrent herbicide, very effective in controlling a wide range of grasses, weeds and broadleaf weeds in wheat rice sugarcane. Sacrifice Power is rapidly absorbed by the plant's leaves and roots.",
         "ingrediants": "Metsulfuron Methyl 20% WP",
         "packingSize": "8 gm.",
+        "crops": "sugarcane, paddy, wheat.",
         "dosage": "8 gm. per acre",
         "type": "herbicide"
     },
     {
         "id": 60,
         "name": "GOLU",
+        "feature":"Golu (oxyfluorfen 23.5 ec) is a selective herbicide of the diphenyl-ether group. Golu forms a chemical barrier on the soil surface and affects weed plants through direct contact. It is used for the control of annual and grassy weeds in field crops",
         "ingrediants": "Oxyfluorfen 23.5% EC",
+        "crops":"Rice, Potato, Onion, Groundnut",
         "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
         "dosage": "200-300 ml. per acre",
         "type": "herbicide"
@@ -489,7 +622,9 @@
     {
         "id": 62,
         "name": "DENSO",
+        "feature":"Denso (Clodinafop Propargyl 15% WP) is a post-emergence herbicide for the control of most important grass weeds in wheat",
         "ingrediants": "Clodinafop Propargyl 15% WP",
+        "crops":"Wheat",
         "packingSize": "160 gm",
         "dosage": "160 gm. per acre",
         "type": "herbicide"
@@ -513,7 +648,9 @@
     {
         "id": 65,
         "name": "METRINEX",
+        "feature": "Metrinex (Metribuzin 70% WP) is a selective, intercurrent and topical herbicide of the triazinone group, which inhibits photosynthesis in the photo-system. It acts through roots and leaves and, therefore, is used for both pre- and post-emergence experiments. It controls narrow and broadleaf weeds.",
         "ingrediants": "Metribuzin 70% WP",
+        "crops":"Sugarcane, Soybean, Wheat, Potato, Tomato.",
         "packingSize": "250 gm, 500 gm, 1 Kg",
         "dosage": "250 gm. per acre",
         "type": "herbicide"
@@ -530,14 +667,18 @@
         "id": 67,
         "name": "TRICONEX",
         "ingrediants": "Triacontanol EW 0.01 % min",
+        "feature":"Triconex contains Tricontanol 0.1% EW It is a plant growth regulator. Tricontanol is a naturally occurring fatty alcohol, phytohormone or plant growth stimulant found in the cuticle and wax of plants. When used properly, tricontanol can significantly increase the amount of chlorophyll in leaves, resulting in an improved rate of photosynthesis. It is a non-toxic and eco-friendly formulation",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
+        "crops":"cotton, rice, fruits and leafy vegetables etc",
         "dosage": "250 ml. per acre",
         "type": "prg"
     },
     {
         "id": 68,
         "name": "ANGELS",
+        "feature":"Paclobutrazol 40% SC synthesizes growth hormones in plants and influences developmental processes. Such retardants reduce shoot length and divert nutrients toward fruit and seed production. It also improves fruit maturity, fruit color and shape",
         "ingrediants": "Paclobutrazol 40% SC",
+        "crops":"Peas",
         "packingSize": "10 ml, 50 ml, 100 ml, 250 ml",
         "dosage": "50 ml. per acre",
         "type": "pgr"
@@ -545,6 +686,8 @@
     {
         "id": 69,
         "name": "TEJA PLUS",
+        "feature": "Features and Benefits - Teja Plus is a highly effective plant growth regulator containing gibberellic acid 0.001% in liquid form as the active ingredient. Teja Plus works synergistically with plant metabolism and accelerates plant growth. Teja Plus also enhances the physical performance of the crop by stimulating hormonal and enzymatic activity. Teja Plus enables more photosynthesis during plants. Teja Plus also plays an important role in plant growth processes such as stem elongation, better flowering and grain/fruit formation along with grain/fruit maturation. Teja Plus compensates for micronutrient deficiencies.",
+        "crops": "Crops- Rice, sugarcane, cotton, banana, groundnut, grapes, brinjal, okra, onion, cauliflower.",
         "ingrediants": "Gibberellic Acid 0.001% L",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr, 5 ltr",
         "dosage": "250 ml. per acre",
@@ -561,7 +704,9 @@
     {
         "id": 71,
         "name": "ETHENOX",
+        "feature":"Ethanox (Ethephon 39% SL) is a systemic plant growth regulator of the phosphonate family. It is easily absorbed by the plant and releases ethylene which is a natural plant hormone. Ethylene directly influences many physiological processes (ripening, ripening, etc.) and stimulates endogenous ethylene production. Ethanox is used in fruits and vegetables to stimulate flowering and side branching and to reduce plant height and fruit ripening",
         "ingrediants": "Ethephon 39% SL",
+        "crops":"Mango, Coffee, Pineapple, Tomato and Pomegranate",
         "packingSize": "250 ml, 500 ml, 1 kg",
         "dosage": "500 ml. per acre",
         "type": "pgr"
@@ -569,38 +714,48 @@
     {
         "id": 72,
         "name": "PACLOSTAR",
+        "feature":"Paclostar (Paclobutrazol 23% SC) is one of the widely used plant growth regulators especially for mango. Mainly, the role of paclobutrazol is to inhibit gibberellin synthesis and promote flowering and fruiting. Thus, vegetative growth is reduced and assimilates are transferred to reproductive organs and production capacity is increased",
         "ingrediants": "Paclobutrazole 23% SC",
         "packingSize": "100 ml, 250 ml, 500 ml",
+        "crops":"Mango",
         "dosage": "30 ml. per crop",
         "type": "pgr"
     }, 
     {
         "id": 73,
         "name": "HUMIGRAN-G",
-        "ingrediants": "Extract of indigo green algae, natural amino acid, Humic acid, Silicaa, dieback",
+        "feature":"Humigran-G is a bio-organic granule. Humigran-G enhances the quality of the crop by accelerating the growth of seedlings, root growth. Accelerates vegetative and reproductive growth of the crop. Being natural and organic, it improves soil structure, improves water holding capacity and increases organic carbon. It is non-toxic and can be used with all types of fertilizers and other soil conditioners",
+        "ingrediants": "Humic Acid - 5%, Amino Acid - 2%, Sea Weed Extract - 2%.",
         "packingSize": "8 kg, 10 kg, 25 kg, 50 kg",
-        "dosage": "8 to 16 kg per acre",
+        "crops":"All crops",
+        "dosage": "25 kg per acre",
         "type": "pgr"
     },
     {
         "id": 74,
-        "name": "EJNOZYME",
-        "ingrediants": "Sea Algae based peak cohesive enzyme",
-        "packingSize": "10 kg, 20 kg",
-        "dosage": "10 to 20 kg per acre",
+        "name": "ENJOZYME",
+        "feature":"Enzozyme is in granule form and improves the quality of the crop by accelerating root growth. Being natural and organic, it improves soil structure, improves water holding capacity and increases organic carbon. It is non-toxic and can be used with all types of fertilizers and other soil conditioners",
+        "ingrediants": "Humic Acid - 5%, Amino Acid - 2%, Seaweed Extract - 10%.",
+        "packingSize": "10 kg, 25 kg, 50 kg",
+        "crops":"All crops",
+        "dosage": "25 kg per acre",
         "type": "pgr"
     },
     {
         "id": 75,
         "name": "SUPREME G-40",
-        "ingrediants": "Glycine, octadecanoic acid, 9,12,15 octadecatriols",
+        "feature":"0.5 Misuprem G-40 for Spray is a special granular plant growth regulator that is a useful flowering stimulant for crops. Also increase in number of vines, increase in vegetative growth, increase in number of flowers, overall plant growth with root development are all benefits of Supreme G-40",
+        "ingrediants": "L-Glycine-2.6%, Octadecadienoic Acid-1.4%.",
         "packingSize": "1 kg",
         "dosage": "1 - 2 kg per acre",
+        "crops":"All crops",
         "type": "pgr"
     },
     {
         "id": 76,
-        "name": "SILCARE",
+        "name": "SILCARE SOIL",
+        "feature":"Silcare Soil (Diatomite silicon) is useful for increasing silicon biomass and essential nutrients. It also protects the plant from fungal diseases, insects and pests by strengthening the cell walls. Improves plant vigor, health and productivity. Improves drought and frost resistance. Protects against biotic and abiotic stress.",
+        "crops": "All crops",
         "ingrediants": "endoplasmic reticulum of silicon",
         "packingSize": "10 kg and 20 kg - Bucket, 250 g,500 g, 1 kg spray",
         "dosage": "10 kg per acre",
@@ -609,7 +764,9 @@
     {
         "id": 77,
         "name": "E-CHARGE",
-        "ingrediants": "carboxylic acid, solvent e",
+        "feature":"E-Charge is a natural biostimulant, a research product to rapidly increase yield potential by stimulating crops. In E-Charge, bio-enzymes provide stimulants through a specific process on amino acids obtained from protein materials, thereby greatly increasing the productivity of the crop. Also, the number of flowers increases, resulting in healthy and fast growth of the crop",
+        "ingrediants": "L-Cysteine-5.2%, Vitamin-1.5%, Protein-18%.",
+        "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, vegetables.",
         "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
         "dosage": "1 to 1.5 ml per ltr of water",
         "type": "pgr"
@@ -617,40 +774,50 @@
     {
         "id": 78,
         "name": "ENJOSTIM",
-        "ingrediants": "biological cell stimulants and amino acids",
+        "feature":"Enjostim improves the general health and biochemical characteristics of the crop. Application of Enzostim has been shown to have a stimulating effect on cell size and cell growth in fruit crops. Enzostim is a basic organic biostimulant, anti-stress. Enzostim is useful for more reproductive flower growth, better fruit setting, improved fruit quality and increased sugar content",
+        "ingrediants": "Amino Acids- 3000 ppm, Protein-1%, Plant Extracts- 500 ppm",
+        "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, vegetables",
         "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
-        "dosage": "100 to 150 ml in 200 liters of water",
+        "dosage": "2 ml per liter of water for spraying",
         "type": "pgr"
     },
     {
         "id": 79,
         "name": "ALEX L-20",
-        "ingrediants": "Amino Acids, cytokinin auxins, vitams etc",
+        "feature":"Alex L-20 is a unique and highly effective combination of vitamins and proteins. It promotes flower growth and reduces flower drop. Improves fruit quality, and increases resistance against extreme temperatures, high humidity, frost, insect attack and natural wilt. Application during seed germination, flowering and fruit set stages of all crops significantly increases yield",
+        "ingrediants": "Carboxylic Acid-12%, Vitamin- 5%, Protein-13%.",
+        "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, vegetables",
         "packingSize": "5 ml,10ml, 25ml, 50ml,100ml, 250ml",
-        "dosage": "5 ml in 15 ltr of water",
+        "dosage": "0.5 ml per liter of water for spraying",
         "type": "pgr"
     },
     {
         "id": 80,
         "name": "AMILOX-33",
-        "ingrediants": "Crop enhancer amino acid",
+        "feature":"Amylox-33 promotes plant physiological activity and healthy plant growth. Application of amylox-33 before, during and after stressful conditions develops resistance to environmental stress. Amylox-33 increases pollination and fruit formation. Amylox-33 of these amino acids act as phytohormones and growth activators, thereby producing auxins",
+        "ingrediants": "Sea Weed Extract - 6% Minerals - 2% Protein - 30%",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
-        "dosage": "2 ml in 1 ltr of water",
+        "crops":"All crops",
+        "dosage": "2 ml per liter of water for spraying",
         "type": "pgr"
     },
     {
         "id": 81,
         "name": "SUPREME-L40",
-        "ingrediants": "L-Glycine, Octadecadienoic acid, 9,12,15 Octadecatriols",
-        "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr, 5 ltr",
-        "dosage": "2 ml per litre of water",
+        "feature": "Supreme L-40 is a unique flowering stimulant, yield enhancer and plant protectant. Supreme L-40 is a research product based on nitrobenzene, containing nitrobenzene and additional ingredients such as silica absorbent plant protection. Supreme L-40 also increases vegetative growth, and reduces flower and fruit drop",
+        "ingrediants": "Myrrh Oil-40%, Silica-12%.",
+        "crops":"Vegetables, Fruits, Cotton, Floriculture",
+        "packingSize": "250 ml, 500 ml, 1 l",
+        "dosage": "2 ml per liter of water for spraying",
         "type": "pgr"
     },
     {
         "id": 82,
-        "name": "HUMANIFLEX",
-        "ingrediants": "leonardite",
+        "name": "HUMIFLEX",
+        "feature":"Benefits of Humiflex Plus: White root development and nutrient uptake by the plant. Improve soil fertility by influencing water holding capacity, increase plant sugar (Brix) levels, help plant resistance to disease and insect attack. Protect the plant from chlorosis, increase photosynthesis, vegetative growth, resulting in higher yield and healthy crops",
+        "ingrediants": "leonarIngredients- Humic Acid -98%, Fulvic Acid - 2%.dite",
         "packingSize": "100 gm, 250 gm, 500 gm, 1 kg, 2 kg",
+        "crops": "All crops",
         "dosage": "1 to 2 kg  with 200 ltr of water for 1 acre",
         "type": "pgr"
     },
@@ -665,15 +832,18 @@
     {
         "id": 84,
         "name": "E-HUMIGRO",
-        "ingrediants": "3 % Fulvic Acid",
+        "feature":"E-Humigro is a mixture of humic acid and seaweed. It greatly accelerates root growth and vigorous plant germination. It also improves the uptake of micro and macro nutrients and helps to resist drought conditions and make them strong",
+        "ingrediants": "Humic Acid – 6% C vid – 2%",
+        "crops":"All crops",
         "packingSize": "250 ml, 500 ml, 1 ltr, 5 ltr",
-        "dosage": "2 ml per litre of water",
+        "dosage": "3 ml per liter of water for spraying 1L per acre for drip irrigation",
         "type": "pgr"
     },
     {
         "id": 85,
         "name": "ENJOWET",
-        "ingrediants": "non-iconic surfactant based on silicon",
+        "feature":"Enjowet is an effective silicone based non ionic sticker. Enzo-Wet All Kinds of Agrochemicals viz. Can be used effectively and compatible with pesticides, fertilizers and plant growth regulators. Enzo-Wet promotes reduced spray volume by improving spray coverage. Enzo-Wet is useful for rapid spreading and increased penetration when spraying",
+        "ingrediants": "Non Ionic 80 % Emulsifier - 5%",
         "packingSize": "50 ml, 100 ml, 250 ml,1 ltr",
         "dosage": "0.1 to 0.5 ml per ltr of water",
         "type": "pgr"
@@ -681,49 +851,61 @@
     {
         "id": 86,
         "name": "LEADEX",
-        "ingrediants": "organic amino acid and fluvi acids",
+        "feature":"Lidex is a protein based biostimulants product of natural origin. Lidex contains a balanced ratio of short chain peptides, long chain peptides and free amino acids. Lidex is quickly absorbed and transported by the plant, it activates basic enzyme systems, reducing energy loss. It helps in creating a balance of hormones that favor reproductive activity, fruit set and ripening",
+        "ingrediants": "Solid Amino-65%, Organic Carbon - 20%.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
+        "crops":"All crops",
         "dosage": "2 ml in 1 ltr of water, 1 ltr per acre at critical stage",
         "type": "pgr"
     },
     {
         "id": 87,
         "name": "ENJOMIN-40",
-        "ingrediants": "Phosphorus 32% and Herbal Extractor 8%",
+        "feature":"Enjomin-40 is a natural alexin mixed with a phosphorus compound and a unique organic biostimulant that induces resistance in the plant system, besides providing systemic protection against fungi such as Downy Mildew, Phytophthora and Pythium",
+        "ingrediants": "Phosphonic Acid-32%, Organic Salt-08%.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "2 ml per litre of water",
+        "crops":"grapes, cucumber, potato, tomato, ginger.",
+        "dosage": "2 ml per liter of water for spraying, 1 per acre for drip irrigation",
         "type": "pgr"
     },
     {
         "id": 88,
         "name": "ALEX",
-        "ingrediants": "lignin based organic product",
+        "feature":"The use of Alex increases flower and fruit set, as well as the formation of more branches in the plant, the color and taste of fruits and vegetables are increased and the yield is increased",
+        "ingrediants": "Constituents- Organic Content- 44%, Lignin- 5%, Amino Acids- 16%",
+        "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, vegetables",
         "packingSize": "10 gm, 50 gm, 100 gm",
-        "dosage": "2 gm in 15 ltr of water",
+        "dosage": "20 grams per acre for spraying",
         "type": "pgr"
     },
     {
         "id": 89,
         "name": "TARZAN",
-        "ingrediants": "",
-        "packingSize": "",
-        "dosage": "0.5 ml per litre of water",
+        "feature":"Tarzan is a natural insecticide based on the flower and leaf extract of natural plants like Stomona root, Langdu root, Fructus cnidii, Tarzan is effective against bollworm complex like Heliothisis and Spodoptera",
+        "ingrediants": "Botanical extracts",
+        "packingSize": "Packing Size- 25 ml, 50 ml, 100 ml, 250 ml,",
+        "crops":"cotton, vegetables, fruit crops",
+        "dosage": "Dosage- 0.4 ml per liter of water for spraying",
         "type": "pgr"
     },
     {
         "id": 90,
         "name": "BACTOGUARD",
-        "ingrediants": "",
-        "packingSize": "",
-        "dosage": "20 gm in 60 ltr water",
+        "feature":"Bactoguard is a natural anti-bacterial and it induces immunity against bacterial diseases like leaf blight, black arm, canker, angular leaf spot, seedling blight etc. in cotton, citrus, rice, chilli, vegetables, flowers, ginger, tomato, onion, pomegranate",
+        "ingrediants": "2-BROMO-2-NITRO PROPANE-1,3-DIOL",
+        "packingSize": "10 grams, 20 grams",
+        "crops":"fruits, vegetables.",
+        "dosage": "20 grams per acre for spraying.",
         "type": "pgr"
     },
     {
         "id": 91,
         "name": "ANEX-BORDO",
-        "ingrediants": "",
-        "packingSize": "",
-        "dosage": "2.5 gram per litre of water",
+        "feature":"Anex Bordeaux mixture is mainly used in orchards, vineyards, nurseries and fields to control fungal infections, primary downy mildew, as well as fungal infections on grape vines. The copper ions of Bordeaux mixture affect the enzymes in the fungal spores in such a way that the fungus inhibits germination. This means that the mixture needs to be applied before the outbreak of fungal diseases",
+        "ingrediants": "Copper-20%, Calcium-10%.",
+        "crops":"Fruits, Vegetables, Nursery",
+        "packingSize": "500 gm, 1 kg",
+        "dosage": "3 grams per liter of water for spraying",
         "type": "pgr"
     },
     {
@@ -737,15 +919,19 @@
     {
         "id": 93,
         "name": "FLYKILLER GLASS",
+        "feature": "The fly killer is high efficiency, economical, eco-friendly and best for effective control of all major fruit flies affecting orchards, flower gardens, vegetables, nurseries etc. Cut open the pack of fly killer and avoid touching the fly with your bare hands. Hang this lure in a scientifically designed catch trap, change the piece of lure once in 45 days for effective control",
         "ingrediants": "",
-        "packingSize": "",
-        "dosage": "1 to 1.5 ml per ltr of water",
+        "crops":"Orchards, flower gardens, vegetables, nurseries",
+        "packingSize": "10 units",
+        "dosage": "10 nos per acre",
         "type": "pgr"
     },
     {
         "id": 94,
         "name": "ENJOFERT",
+        "feature": "Enjofert is a balanced multi-micronutrient product in liquid form. Enjofert effectively supplies all the essential trace elements to the crop to produce fast, healthy growth with high yields. Enjofert helps in proper application of NPK fertilizers. Enzofert increases chlorophyll synthesis which produces more food for plants.",
         "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Molybdenum 0.1%, Boron 0.5%",
+        "crops": "Crops - All crops",
         "packingSize": "20 ltr, 5 ltr, 1 ltr, 500 ml, 250 ml",
         "dosage": "600-100 ml per acre",
         "type": "micronutrients-fertiliser"
@@ -753,15 +939,19 @@
     {
         "id": 95,
         "name": "ANEX-D",
+        "feature":"Annex-D is a mixture of water soluble micronutrients and is a well-balanced mixture of essential micronutrients as per the standards approved by the state government. Annex-D provides important micronutrients required by plants. The use of Annex-D increases the availability and absorption of other major and secondary essential nutrients. Annex-D improves flower aroma and fruit color, fruit size. Annex-D is specially formulated for drip and should be applied by drip only.",
         "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
         "packingSize": "2 kg, 5 kg, 10 kg",
         "dosage": "2 to 5 kg per acre",
+        "crops":"All crops",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 96,
         "name": "ANEX-COMBI",
         "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Boron 0.5%, Molybdenum 0.1%",
+        "feature":"Anex-combi increases the availability of micronutrients to crops, as well as increasing the nutrient carrying capacity of crops. Anex-combi improves the activity of photosynthesis by increasing the amount of chlorophyll. Anex-Combi is useful in overcoming micronutrient deficiency which develops resistance against pests and traces. Anex-combi increases flowering and fruiting and maximizes yield.",
+        "crops": "All crops",
         "packingSize": "100 gm, 250 gm, 500 gm, 1 kg",
         "dosage": "250 gm per acre",
         "type": "micronutrients-fertiliser"
@@ -769,6 +959,8 @@
     {
         "id": 97,
         "name": "ENJOFERT SOIL",
+        "feature":"Enzofert soil is a well-balanced mixture of essential micronutrients. Enzofert Soil provides important micronutrients that plants need. Enzofert soil application increases the availability and uptake of other major and secondary essential nutrients. Enjofert Soil helps plants grow healthy and well. Enzofert soil improves flower fragrance, fruit color, fruit size.",
+        "crops": "All crops",
         "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
         "packingSize": "10 kg, 25 kg, 50 kg",
         "dosage": "10 to 20 kg per acre",
@@ -777,39 +969,48 @@
     {
         "id": 98,
         "name": "ZINCBOR",
+        "feature":"Zinbor is a micronutrient blend fertilizer recommended for spraying on acid soil crops in Maharashtra state. Zinbor is in a fully chelated form. Zinbor is used as a fertilizer to overcome zinc and boron deficiency in plants and it also improves crop growth.",
         "ingrediants": "Iron 0%, Mangnese 0%, Zinc 3%, Copper 0%, Boron 0.5%, Molybdenum 0.1%",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "",
+        "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, tuber crops, vegetables",
+        "dosage": "2 ml per liter of water for spraying",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 99,
         "name": "CALFLOW",
         "ingrediants": "Calcium 11 %",
+        "feature":"Calflo (Concentrated Liquid Calcium 11%) is a liquid calcium fertilizer that is readily absorbed by the crop. Provides strength to plant tissues, plays an important role in cell wall formation. Improves absorption of nitrogen, iron, zinc, copper and manganese. Promotes early root development and plant growth. Improves flowering and fruit set Improves immunity against pests and diseases.",
+        "crops": "vegetables, fruit trees.",
         "packingSize": "250 ml, 500 ml, 1000 ml",
-        "dosage": "",
+        "dosage": "1 ml per liter of water for spraying 500 ml per acre for drip irrigation",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 100,
         "name": "ZINCFLOW",
+        "feature":"झिंकफ्लो (ZINC-OXIDE-39.5 % SC) हे एक झिंकची उच्च मात्रा असलेले सूक्ष्म पोषक खत आहे.झिंकफ्लो चे मुख्य कार्य म्हणजे वनस्पतीला क्लोरोफिल मध्ये वाढ करून प्रकाशसंश्लेषणात मदत करणे. तसेच स्टार्चचे शर्करामध्ये रूपांतर व कर्बोदके तयार करण्यासाठी झिंकचा वापर होतो. झिंकफ्लो हे प्रथिनांच्या चयापचय आणि नायट्रोजन संश्लेषणासंबंधित एंजाइमॅटिक संश्लेषण प्रक्रियेदरम्यान मदत करतात. ",
+        "crops":"All crops",
         "ingrediants": "Zinc oxide suspension concentrate - 39.5%",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "",
+        "dosage": "1.5 ml per liter of water for spraying 500 ml per acre for drip irrigation",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 101,
         "name": "ENJOBOR",
+        "feature":"Enzobor (Boran Ethanolamine B-10%) is a liquid boron that is readily available to the crop. It is used to stimulate the growth of cambium tissue and apical meristems, promote calcium mobilization and absorption, and promote pollen production and fertilization. It improves auxin metabolism and development of seeds and fruits.",
         "ingrediants": "Athanolamine Boron - 10% (liquid)",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "",
+        "dosage": "2 ml per liter of water for spraying 500 ml per acre for drip irrigation",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 102,
         "name": "ANEX-B",
         "ingrediants": "Boron 20%",
+        "feature":"Annex-B contains 20% boron as an element. Boron is a micronutrient that plants need for their health and growth. Some of the symptoms shown by crops suffering from boron deficiency are failure to flower, stunted fruit development, fruit and tuber rot, wilting and curling. Annex-B is used for growth of new cells, formation of flowers and fruits, development of roots",
+        "crops": "fruits, vegetables",
         "packingSize": "250 gm, 500 gm, 1 Kg",
         "dosage": "",
         "type": "micronutrients-fertiliser"
@@ -817,30 +1018,36 @@
     {
         "id": 103,
         "name": "ANEX-ZN",
+        "feature":"Anex-ZN is an EDTA complex containing at least 12% zinc. Annex-Z is used as a fertilizer to overcome zinc deficiency in crops. Anex-Z plays an important role in flower production, fruit setting and seed setting. Annex-Z is 100% water soluble.",
+        "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, tuber crops, vegetables",
         "ingrediants": "",
-        "packingSize": "",
-        "dosage": "",
+        "packingSize": "100 g, 250 g, 500 g",
+        "dosage": "For spraying - 1 gram per liter of water For drip irrigation - 500 per acre",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 104,
         "name": "ANEX-FE",
-        "ingrediants": "",
-        "packingSize": "",
-        "dosage": "",
+        "feature": "Anex-F contains 12% of ferrous EDTA in chelated form. Iron is a micronutrient essential for plant growth, the most effective source for iron deficiency in all crops, being chelated it is easily absorbed by plants. It is important for oxidation processes in plant cells and for improving the content of proteins, tannins, sugars and lipids in plants, seeds.",
+        "ingrediants": "12% of ferrous EDTA in chelated form",
+        "packingSize": "100 g, 250 g, 500 g",
+        "dosage": "For spraying – 0.5 g per liter of water",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 105,
         "name": "ANEX MAGNET",
         "ingrediants": "Magnesium Sulphate 1.5%",
+        "feature": "Anex-Magnet contains magnesium sulphate which is a secondary nutrient and is used to correct magnesium and sulfur deficiency in soil. It helps in the growth of new branches of the crops and also improves the absorption of nitrogen and phosphorus by the crops and keeps the crops green by increasing the chlorophyll content.",
         "packingSize": "1 kg, 10 kg, 25 kg",
-        "dosage": "",
+        "dosage": "5 grams per liter of water for spraying 50 kg per acre for field",
         "type": "micronutrients-fertiliser"
     },
     {
         "id": 106,
         "name": "ENJOSULF PLUS",
+        "feature":"Enzosulph Plus (Sulphur 90% WDG) is a sulfur fertilizer formulated to facilitate fusigation. Sulfur plays an important role in the synthesis of proteins, oils and vitamins and in the formation of chlorophyll. Enzosulfa Plus is very beneficial for oilseeds, pulses, cotton, sugarcane, cereals, fruit crops, tuber crops, vegetables and plantation crops etc.",
+        "crops":"Oilseeds, pulses, cotton, sugarcane, cereals, fruit crops, tuber crops, vegetables and plantation crops.",
         "ingrediants": "Sulfur Fertilizer - 90% WG Powder",
         "packingSize": "1 kg, 3 kg",
         "dosage": "",
@@ -849,9 +1056,11 @@
     {
         "id": 107,
         "name": "ANEX GOLD KIT",
-        "ingrediants": "",
-        "packingSize": "",
-        "dosage": "",
+        "feature": "Application of Anex God Kit corrects micronutrient deficiency in the soil and provides complete nutrients to the crop. The humic acid, amino acid present in it helps in the development and growth of plant roots. Magnesium Sulphate, Zinc Sulphate, Boric Acid, Ferrous Sulphate, Magnesium Sulphate, in proper quantity increase the rate of photosynthesis in the crop. By increasing the immune system in the crop, the crop becomes stronger and less susceptible to diseases. There is no need to give nutrients from time to time.",
+        "ingrediants": "Magnesium Sulphate, Zinc Sulphate, Boric Acid, Ferrous Sulphate, Manganese Sulphate, Silicon, Humic Acid, Amino Acid",
+        "packingSize": "25 kg, 51 kg",
+        "crops":"All crops",
+        "dosage": "51 kg per acre for field",
         "type": "micronutrients-fertiliser"
     },
     {
@@ -897,10 +1106,22 @@
     {
         "id": 113,
         "name": "ANEX MYCO Gold",
+        "feature": "ANEX - Application of Mycogold GR in agriculture improves soil structure, moisture retention, promotes root growth and provides plant nutrients including N, P, K, Mg, S and micronutrients. Contributes to increasing water uptake by plants, thereby improving soil characteristics by increasing microbial activity. It becomes more fertile and provides an increased amount of nutrients to the plant, thereby increasing the photosynthetic activity of the crop, as well as increasing disease and pest resistance in the crop.",
         "ingrediants": "Microrhiza",
-        "packingSize": "100 gm, 200 gm",
-        "dosage": "200 gm pouch in powder form should be given using drip irrigation",
+        "crops":"Oilseeds, Pulses, Cotton, Sugarcane, Cereals, Fruit Crops, Tuber Crops, Vegetables and Cultivated Crops",
+        "packingSize": "4 Kg",
+        "dosage": "4 kg per acre",
         "type": "bio-fertilizer"
+    },
+    {
+        "id": 114,
+        "name": "ANEX-MN",
+        "feature": "Anex-MN contains 12% manganese in EDTA chelated form. Manganese aids in photosynthesis, carbohydrate and metabolism, as well as the transport of other nutrient ions. Manganese increases the resistance to the multiplication of viruses in the plant system.",
+        "ingrediants": "Manganese 12%",
+        "crops":"All crops",
+        "packingSize": "250 gm, 500 gm, 1 kg",
+        "dosage": "For spraying – 0.5 g per liter of water",
+        "type": "micronutrients-fertiliser"
     }
 ]
 

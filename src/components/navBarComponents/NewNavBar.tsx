@@ -6,7 +6,7 @@ import MenuItems from "./MenuItems";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import LanguageUpdater from "../LanguageUpdater";
+import LanguageUpdater from "../Language/LanguageUpdater";
 import { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import NewNavMenu from "./NewNavMenu";
@@ -27,7 +27,7 @@ const NewNavbar = () => {
     }
 
     return (
-        <nav className="flex md:flex-col lg:flex-row justify-between items-center shadow-sm sticky md:px-24 top-0 backdrop-blur-sm bg-white z-[1200]">
+        <nav className="flex md:flex-col lg:flex-row justify-between items-center shadow-sm sticky md:px-24 top-0 backdrop-blur-sm bg-white z-[1800]">
             <div className="flex justify-between items-center py-3">
                 <Link to='/'>
                     <img src="/ENJO.png" alt="logo" className="h-16 w-32" />

@@ -4,12 +4,11 @@ import { store } from './redux/store';
 import './App.css';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
-// import Navbar from './components/navBarComponents/Navbar';
 import About from './pages/about/About';
 import ProductsPage from './pages/products/Products';
 import Contact from './pages/contact/Contact';
-import Footer from './components/Footer';
-import Whatsapp from './components/Whatsapp';
+import Footer from './components/extra/Footer';
+import Whatsapp from './components/extra/Whatsapp';
 import NewNavbar from './components/navBarComponents/NewNavBar';
 import Herbisides from './pages/products/Herbisides';
 import Fungisides from './pages/products/Fungisides';
@@ -35,7 +34,6 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        {/* <Navbar /> */}
         <NewNavbar />
         <Whatsapp />
         <Routes>

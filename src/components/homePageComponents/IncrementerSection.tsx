@@ -23,7 +23,7 @@ const IncrementerSection = () => {
 
     return (
         <section className="flex flex-row gap-20 h-[800px] lg:h-[0px] justify-center relative">
-            <div className="absolute top-[30px] lg:top-[-75px] bg-lime-200 flex flex-col lg:flex-row rounded-lg">
+            <div className="absolute top-[30px] lg:top-[-75px] bg-lime-200 flex flex-col lg:flex-row rounded">
                 <div className="z-10 p-12 flex flex-row gap-2">
                     <div className="rounded-full h-20 w-20 z-20 bg-white p-2 shadow-lg border-2">
                         <img src='/brandProduct-removebg-preview.png' alt="farmer" className="rounded-full h-full w-full" />

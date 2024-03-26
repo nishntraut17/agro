@@ -79,7 +79,7 @@ export default function LeafletMap() {
             transition={transition}
         >
             <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-8 lg:pt-40 ">
-                <div className="border-4 rounded-xl w-full h-[400px] overflow-hidden">
+                <div className="border-4 rounded-sm w-full h-[400px] overflow-hidden">
                     <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '400px' }}>
                         <TileLayer
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
