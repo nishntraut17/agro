@@ -14,7 +14,6 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
     const [dropdownCropProtection, setDropdownCropProtection] = useState(false);
     const [dropdownMedia, setDropdownMedia] = useState(false);
     const [dropdownGallery, setDropdownGallery] = useState(false);
-    const [dropdownVerticals, setDropdownVerticals] = useState(false);
     const language = useSelector((state: RootState) => state.languageReducer.language);
 
     let menuItems = [];
@@ -42,7 +41,6 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
                 setDropdownProducts(!dropdownProducts);
                 setDropdownMedia(false);
                 setDropdownGallery(false);
-                setDropdownVerticals(false);
                 break;
             case 'Crop Protection':
                 setDropdownCropProtection(!dropdownCropProtection);
@@ -51,16 +49,13 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
                 setDropdownMedia(!dropdownMedia);
                 setDropdownProducts(false);
                 setDropdownGallery(false);
-                setDropdownVerticals(false);
                 break;
             case 'Gallery':
                 setDropdownGallery(!dropdownGallery);
                 setDropdownMedia(false);
                 setDropdownProducts(false);
-                setDropdownVerticals(false);
                 break;
             case 'Verticals':
-                setDropdownVerticals(!dropdownVerticals);
                 setDropdownMedia(false);
                 setDropdownGallery(false);
                 setDropdownProducts(false);
@@ -81,13 +76,12 @@ const NewNavMenuItems = ({ setIsCollapsed }: {
                         {
                             menu.title !== 'Products' && menu.title !== 'Media' && menu.title !== 'Gallery' && menu.title !== 'Verticals' ? <Link to={`/${menu.url}`}><button onClick={handleLinkClick}>{menu.title}</button></Link> : menu.title
                         }
-                        <div className='pl-2'>{menu.title === 'Products' || menu.title === 'Media' || menu.title === 'Gallery' || menu.title === 'Verticals' ? <IoMdArrowDropdown /> : ''}</div>
+                        <div className='pl-2'>{menu.title === 'Products' || menu.title === 'Media' || menu.title === 'Gallery' ? <IoMdArrowDropdown /> : ''}</div>
                     </button>
                     <ul className={`transition-opacity duration-2000 ease-in-out 
                         ${menu.title === 'Products' ? (dropdownProducts ? 'opacity-100' : 'opacity-0 hidden') : ''} 
                         ${menu.title === 'Media' ? (dropdownMedia ? 'opacity-100' : 'opacity-0 hidden') : ''} 
-                        ${menu.title === 'Gallery' ? (dropdownGallery ? 'opacity-100' : 'opacity-0 hidden') : ''}
-                        ${menu.title === 'Verticals' ? (dropdownVerticals ? 'opacity-100' : 'opacity-0 hidden') : ''}`}
+                        ${menu.title === 'Gallery' ? (dropdownGallery ? 'opacity-100' : 'opacity-0 hidden') : ''}`}
                     >
                         {menu?.submenu?.map((subMenu, index) => (
                             <li key={index} className="pl-10">

@@ -17,13 +17,13 @@ const NewLaunch = () => {
 
     return (
         <div>
-            <h1>{newlaunchProducts}</h1>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4'>
+            <h1 className='pt-4 md:px-20 text-3xl md:text-5xl font-extrabold'>{newlaunchProducts}</h1>
+            <div className='grid grid-cols-1 p-4 md:p-20 gap-8'>
                 {
-                    [1, 2, 3, 4, 5].map((item, index) => {
+                    [1, 2].map((item, index) => {
                         return (
-                            <div key={index} className='col-span-1 h-[100px] w-[100px]'>
-                                <img src={`/products/${item}.png`} alt='product' className='w-full h-full' />
+                            <div key={index} className='col-span-1 h-full w-full'>
+                                <img src={`/newlaunch/${item}.jpg`} alt='product' className='w-full h-full' />
                             </div>
                         )
                     })

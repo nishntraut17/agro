@@ -84,12 +84,8 @@ export const menuItemsMarathi = [{
     url: "careers",
 },
 {
-    title: "वर्टिकल्स",
-    submenu: [{
-        title: "व्यापार-व्यापार",
-        url: "verticals/b2b",
-    }
-    ]
+    title: "व्यापार-व्यापार",
+    url: "b2b",
 },
 {
     title: "संपर्क",

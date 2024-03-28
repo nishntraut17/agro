@@ -84,12 +84,8 @@ export const menuItemsHindi = [{
     url: "careers",
 },
 {
-    title: "उच्चतम स्तर",
-    submenu: [{
-        title: "व्यापार-से-व्यापार",
-        url: "verticals/b2b",
-    }
-    ]
+    title: "व्यापार-से-व्यापार",
+    url: "b2b",
 },
 {
     title: "संपर्क",

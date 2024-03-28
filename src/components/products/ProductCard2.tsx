@@ -4,6 +4,7 @@ import productHindi from '../../assets/productsHindi.json';
 import { RootState } from '../../redux/store';
 import { useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const fadeInAnimationVariants = {
     initial: {
@@ -30,6 +31,13 @@ const ProductCard2 = ({ filter }: {
     else {
         products = productsEnglish;
     }
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Optional smooth scrolling
+        });
+    };
 
     const getText = (englishText: string, hindiText: string, marathiText: string) => {
         switch (language) {
@@ -74,6 +82,13 @@ const ProductCard2 = ({ filter }: {
                             <p className="text-sm mb-2">{product.packingSize}</p>
                             <h1 className="text-l font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
                             <p className="text-sm">{product.dosage}</p>
+                            <button
+                                onClick={scrollToTop}
+                                className='rounded bg-green-600 h-10 w-40 mt-2 hover:scale-105 transition duration-150 ease-in-out'>
+                                <Link to={`/products/${product.id}`}>
+                                    <p className='text-white'>View Product</p>
+                                </Link>
+                            </button>
                         </div>
                     </motion.div>
                 ))

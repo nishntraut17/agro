@@ -84,12 +84,8 @@ export const menuItemsEnglish = [{
     url: "careers",
 },
 {
-    title: "Verticals",
-    submenu: [{
-        title: "B2B",
-        url: "verticals/b2b",
-    }
-    ]
+    title: "B2B",
+    url: "b2b",
 },
 {
     title: "Contact",

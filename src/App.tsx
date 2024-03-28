@@ -25,6 +25,7 @@ import Enquiry from './pages/enquiry/Enquiry';
 import Career from './pages/career/Career';
 import B2B from './pages/verticals/B2B';
 import TourPhotos from './pages/gallery/TourPhotos';
+import SingleProduct from './pages/products/SingleProduct';
 
 function App() {
   const language = localStorage.getItem('language');
@@ -46,6 +47,7 @@ function App() {
           <Route path='/products/micro-nutrients-fertilizers' element={<MicroFertilizers />} />
           <Route path='/products/bio-fertilizers' element={<BioFertilizers />} />
           <Route path='/products/plant-growth-regulators' element={<PGR />} />
+          <Route path='/products/:id' element={<SingleProduct />} />
           <Route path='/media/new-launch' element={<NewLaunch />} />
           <Route path='/media/company-news' element={<CompanyNews />} />
           <Route path='/gallery/annual-dealers-meet' element={<AnnualDealerMeeting />} />
@@ -54,7 +56,7 @@ function App() {
           <Route path='/gallery/video-news' element={<VideoNews />} />
           <Route path='/enquiry' element={<Enquiry />} />
           <Route path='/careers' element={<Career />} />
-          <Route path='/verticals/b2b' element={<B2B />} />
+          <Route path='/b2b' element={<B2B />} />
           <Route path='/contact' element={<Contact />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
