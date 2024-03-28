@@ -73,6 +73,10 @@ export const menuItemsHindi = [{
         title: "वीडियो समाचार",
         url: "gallery/video-news",
     },
+    {
+        title: "किसानों से मिलना",
+        url: "gallery/farmers-meet",
+    }
     ],
 },
 {

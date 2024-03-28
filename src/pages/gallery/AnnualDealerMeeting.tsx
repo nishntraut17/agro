@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 // import { useSelector } from 'react-redux';
 // import { RootState } from '../../redux/store';
 
@@ -72,29 +72,22 @@ const AnnualDealerMeeting = () => {
 
 
     return (
-        <div className='px-4 md:p-20'>
-            <h1 className='text-4xl font-extrabold'>{annualDealerMeeting}</h1>
+        <div className='p-2 md:px-20 md:py-8'>
+            <h1 className='text-4xl p-2 md:px-10 font-extrabold'>{annualDealerMeeting}</h1>
             <div>
                 {
                     meetings.map((meeting: any, index) => {
                         return (
                             <div
                                 key={index}
-                                className='flex flex-col gap-20 py-8 bg-green-100 z-30 shadow-md rounded m-8 p-8'>
+                                className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded m-2 md:m-8 p-4 md:p-8'>
                                 <div className='text-2xl font-bold'>{meeting.heading}</div>
-                                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-10'>
+                                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10'>
                                     {
                                         meeting.size.map((item: number, index: number) => {
                                             return (
                                                 <div
-                                                    // variants={fadeInAnimationVariants}
-                                                    // initial="initial"
-                                                    // whileInView={"animate"}
-                                                    // viewport={{
-                                                    //     once: true,
-                                                    // }}
-                                                    // custom={index}
-                                                    key={index} className='col-span-1 h-[200px] w-[280px] rounded overflow-hidden border'>
+                                                    key={index} className='col-span-1 h-[200px] w-[330px] md:w-[280px] rounded overflow-hidden border'>
                                                     <img src={`/meetings/${meeting.path}/${item}.jpg`} alt='meeting' className='w-full h-full hover:scale-105 transition duration-150 ease-in-out' />
                                                 </div>
                                             )

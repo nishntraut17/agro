@@ -26,6 +26,8 @@ import Career from './pages/career/Career';
 import B2B from './pages/verticals/B2B';
 import TourPhotos from './pages/gallery/TourPhotos';
 import SingleProduct from './pages/products/SingleProduct';
+import FarmersMeet from './pages/gallery/FarmersMeet';
+import SingleB2B from './pages/verticals/SingleB2B';
 
 function App() {
   const language = localStorage.getItem('language');
@@ -54,9 +56,11 @@ function App() {
           <Route path='/gallery/field-visits' element={<FieldVisits />} />
           <Route path='/gallery/tour-photos' element={<TourPhotos />} />
           <Route path='/gallery/video-news' element={<VideoNews />} />
+          <Route path='/gallery/farmers-meet' element={<FarmersMeet />} />
           <Route path='/enquiry' element={<Enquiry />} />
           <Route path='/careers' element={<Career />} />
           <Route path='/b2b' element={<B2B />} />
+          <Route path='/b2b/:id' element={<SingleB2B />} />
           <Route path='/contact' element={<Contact />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>

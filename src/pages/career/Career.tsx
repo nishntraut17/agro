@@ -7,14 +7,15 @@ export default function Career() {
     const translatedText = getTranslatedText(language);
 
     return (
-        <div className="mb-20">
+        <div className="">
             <div className="md:h-[300px] overflow-hidden">
-                <img src='/aboutbackground.jpg' alt='about-banner' className="w-full" />
+                <img src='/crop.jpg' alt='about-banner' className="w-full" />
             </div>
-            <div className='flex flex-col md:flex-row'>
-                <form action="" method="" className="mx-auto mt-16 max-w-xl sm:mt-20">
+            <div className='flex flex-col md:flex-row' style={{ backgroundImage: "url('/careers.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+                <div className='w-0 md:w-1/2'></div>
+                <form action="" method="" className="bg-stone-100 w-full md:w-1/2 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
                     <div>
-                        <div className='text-3xl font-extrabold py-4'>{translatedText.enquiry}</div>
+                        <div className='text-3xl font-extrabold py-4'>{translatedText.career}</div>
                     </div>
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
@@ -173,7 +174,7 @@ export default function Career() {
                                 type="submit"
                                 className="block w-full rounded-md bg-green-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-950"
                             >
-                                Sent message
+                                Sent
                             </button>
                         </div>
                     </div>
@@ -200,7 +201,7 @@ function getTranslatedText(language: string) {
                 uploadResume: "Upload Resume",
                 coverLetter: "Cover Letter",
                 phoneNumber: "Phone Number",
-                enquiry: "Enquiry",
+                career: "Career",
             };
         case "Marathi":
             return {
@@ -216,7 +217,7 @@ function getTranslatedText(language: string) {
                 uploadResume: "रिझ्यूम अपलोड करा",
                 coverLetter: "कव्हर पत्र",
                 phoneNumber: "फोन नंबर",
-                enquiry: "विचारांविषयी",
+                career: "करिअर",
             };
         case "Hindi":
             return {
@@ -232,7 +233,7 @@ function getTranslatedText(language: string) {
                 uploadResume: "रिज्यूम अपलोड करें",
                 coverLetter: "कवर पत्र",
                 phoneNumber: "फोन नंबर",
-                enquiry: "पूछताछ",
+                career: "करियर",
             };
         default:
             return {
@@ -248,7 +249,7 @@ function getTranslatedText(language: string) {
                 uploadResume: "Upload Resume",
                 coverLetter: "Cover Letter",
                 phoneNumber: "Phone Number",
-                enquiry: "Enquiry",
+                career: "Career",
             };
     }
 }

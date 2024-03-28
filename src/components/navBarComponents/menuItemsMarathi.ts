@@ -73,6 +73,10 @@ export const menuItemsMarathi = [{
         title: "व्हिडिओ बातम्या",
         url: "gallery/video-news",
     },
+    {
+        title: "किसान संगणक",
+        url: "gallery/farmers-meet",
+    }
     ],
 },
 {

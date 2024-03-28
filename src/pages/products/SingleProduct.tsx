@@ -11,24 +11,43 @@ const SingleProduct = () => {
     let product: any = {};
     if (language === 'Hindi' || language === 'Marathi') {
         if (productHindi.hasOwnProperty(id as any)) {
-            product = productHindi[id as any];
+            product = productHindi[id - 1 as any];
         }
     }
     else {
-        product = productsEnglish[id as any];
+        product = productsEnglish[id - 1 as any];
     }
 
     return (
-        <div className='flex flex-col md:flex-row p-4 md:p-20'>
-            <div>
-                <img src={`/products/${id}.png`} alt="product" />
+        <div className='flex flex-col md:flex-row p-4 md:p-8'>
+            <div className='h-72 w-full md:h-[32rem] md:w-1/3 flex flex-row justify-center'>
+                <img src={`/products/${id}.png`} alt="product" className='h-full' />
             </div>
-            <div>
+            <div className='md:w-2/3 flex flex-col gap-4 p-4 md:px-20 md:py-4 bg-slate-100'>
                 <h1 className='text-2xl md:text-4xl font-extrabold'>{product.name}</h1>
                 <h1 className=''>{product?.feature}</h1>
-                <h1 className=''>{product?.dosage}</h1>
-                <h1 className=''>{product?.ingrediants}</h1>
-                <h1 className=''>{product?.packingSize}</h1>
+                <div>
+                    <h1 className='text-xl md:text-2xl font-bold'>Dosage</h1>
+                    <h1 className=''>{product?.dosage}</h1>
+                </div>
+                <div>
+                    <h1 className='text-xl md:text-2xl font-bold'>Composition</h1>
+                    <h1 className=''>{product?.ingrediants}</h1>
+                </div>
+                <div>
+                    <h1 className='text-xl md:text-2xl font-bold'>Packing Size</h1>
+                    <h1 className=''>{product?.packingSize}</h1>
+                </div>
+                <div>
+                    <h1 className='text-xl md:text-2xl font-bold'>Crops</h1>
+                    <h1 className=''>{product?.crops}</h1>
+                </div>
+                <div>
+                    <h1 className='text-xl md:text-2xl font-bold'>Insects</h1>
+                    <h1 className=''>{product?.insect}</h1>
+                    <h1 className=''>{product?.pest}</h1>
+                    <h1 className=''>{product?.fungi}</h1>
+                </div>
             </div>
         </div>
     )

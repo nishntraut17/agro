@@ -73,6 +73,10 @@ export const menuItemsEnglish = [{
         title: "Video News",
         url: "gallery/video-news",
     },
+    {
+        title: "Farmer's Meeting",
+        url: "gallery/farmers-meet",
+    }
     ],
 },
 {
