@@ -19,6 +19,9 @@ const B2B = () => {
 
     return (
         <div className='bg-lime-50'>
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
+            </div>
             <h1 className='font-extrabold text-2xl md:text-5xl px-4'>{b2bText}</h1>
             <div className='grid grid-cols-1 md:grid-cols-3'>
                 {array.map((item) => {

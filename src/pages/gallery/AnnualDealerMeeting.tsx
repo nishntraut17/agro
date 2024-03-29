@@ -73,6 +73,9 @@ const AnnualDealerMeeting = () => {
 
     return (
         <div className='p-2 md:px-20 md:py-8'>
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
+            </div>
             <h1 className='text-4xl p-2 md:px-10 font-extrabold'>{annualDealerMeeting}</h1>
             <div>
                 {

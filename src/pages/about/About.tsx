@@ -11,8 +11,8 @@ export default function About() {
 
     return (
         <main className="flex flex-col">
-            <div className="md:h-[270px] overflow-hidden">
-                <img src='/crop.jpg' alt='about-banner' className="w-full" />
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
             </div>
             <div className="px-4 md:px-20 text-green-950 md:text-2xl font-semibold flex flex-col gap-8">
                 <Ceo />

@@ -14,8 +14,8 @@ export default function MicroFertilizers() {
     }
     return (
         <div>
-            <div className="max-h-[300px] overflow-hidden">
-                <img src='/aboutbackground.jpg' alt='about-banner' className="w-full" />
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
             </div>
             <div className="text-4xl font-extrabold py-4 px-8 bg-green-50 lg:px-20">{allMicroNutrientFertilizers}</div>
             <ProductCard2 filter={"micronutrients-fertiliser"} />

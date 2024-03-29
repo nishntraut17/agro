@@ -39,6 +39,9 @@ const VideoNews = () => {
 
     return (
         <div className=''>
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
+            </div>
             <h1 className='text-2xl md:text-4xl font-extrabold px-4 md:px-24 pt-4'>{videoNews}</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-4 md:px-24'>
                 {

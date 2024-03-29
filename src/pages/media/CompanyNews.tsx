@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
 
@@ -16,23 +16,23 @@ const CompanyNews = () => {
     }
 
     const images = [1, 2, 3, 4, 5, 6, 7, 8];
+    const horizontalImage = [1, 2];
 
     return (
-        <div>
-            <h1>{companyNews}</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-4 md:px-16'>
-                {
-                    images.map((image, index) => {
-                        return (
-                            <div className='col-span-1 rounded-md overflow-hidden'>
-                                <img className="object-cover" key={index} src={`/company-news/${image}.jpg`} alt="random" />
-                            </div>
-                        )
-                    })
-                }
+        <div className='flex flex-col gap-8 p-10'>
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
+            </div>
+            <h1 className='text-4xl font-extrabold'>{companyNews}</h1>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-8 '>
+                {images.map((image, index) => (
+                    <div key={index} className={`flex flex-col gap-4 ${horizontalImage.includes(image) ? 'h-80 w-64' : 'h-64 w-80'} overflow-hidden rounded-sm`}>
+                        <img src={`/company-news/${image}.jpg`} alt='Company News' className='h-full w-full hover:scale-105 transition duration-150 ease-in-out' />
+                    </div>
+                ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default CompanyNews;

@@ -3,8 +3,6 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet-defaulticon-compatibility";
-import { MdEmail } from "react-icons/md";
-import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
 
@@ -32,21 +30,14 @@ export default function Enquiry() {
     ];
 
     return (
-        <div className="mb-20">
-            <div className="max-h-[300px] overflow-hidden">
-                <img src='/aboutbackground.jpg' alt='about-banner' className="w-full" />
+        <div className="">
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
             </div>
-            <div className='flex flex-col md:flex-row'>
-                <div className='flex flex-col gap-4 w-1/2 sm:mt-20 ml-28 md:ml-8'>
-                    <div className="">
-                        <h1 className="text-3xl font-extrabold py-4">{translatedText.contactUs}</h1>
-                        <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.officeTitle} content={translatedText.officeContent} />
-                        <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
-                        <ContactInfo icon={<MdEmail className="text-lg " />} title={translatedText.emailTitle} content={translatedText.emailContent} />
-                        <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.branchTitle} content={translatedText.branchContent} />
-                    </div>
-                    <div className="border-4 rounded-xl h-[310px] overflow-hidden">
-                        <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '310px' }}>
+            <div className='flex flex-col md:flex-row md:gap-8 gap-4 p-8 md:p-16'>
+                <div className='flex flex-col gap-4 md:w-1/2'>
+                    <div className="border rounded h-[320px] md:h-[540px] md:mt-10 w-full overflow-hidden">
+                        <MapContainer center={[19.766670, 74.475853]} zoom={6} className='h-full w-full'>
                             <TileLayer
                                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                             />
@@ -59,10 +50,9 @@ export default function Enquiry() {
                             ))}
                         </MapContainer>
                     </div>
-
                 </div>
 
-                <form action="" method="" className="mx-auto mt-16 max-w-xl sm:mt-20 w-1/2">
+                <form action="" method="" className="md:w-1/2">
                     <div>
                         <div className='text-3xl font-extrabold py-4'>{translatedText.enquiry}</div>
                     </div>
@@ -152,17 +142,6 @@ export default function Enquiry() {
     )
 }
 
-function ContactInfo({ icon, title, content }: { icon: JSX.Element, title: string, content: string }) {
-    return (
-        <div className="flex items-center gap-4">
-            <div className="bg-green-500 rounded-full p-2">{icon}</div>
-            <div>
-                <h1 className="text-lg font-bold">{title}</h1>
-                <p className="text-sm ">{content}</p>
-            </div>
-        </div>
-    );
-}
 
 function getTranslatedText(language: string) {
     switch (language) {

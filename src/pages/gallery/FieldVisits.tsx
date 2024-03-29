@@ -20,6 +20,9 @@ const FieldVisits = () => {
 
     return (
         <div className='p-4 md:px-20 md:py-8'>
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
+            </div>
             <h1 className='text-4xl py-8 font-extrabold'>{fieldVisits}</h1>
             <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
                 {

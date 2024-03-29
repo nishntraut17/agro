@@ -8,15 +8,19 @@ export default function Career() {
 
     return (
         <div className="">
-            <div className="md:h-[300px] overflow-hidden">
-                <img src='/crop.jpg' alt='about-banner' className="w-full" />
+            <div className="overflow-hidden">
+                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
             </div>
-            <div className='flex flex-col md:flex-row' style={{ backgroundImage: "url('/careers.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-                <div className='w-0 md:w-1/2'></div>
-                <form action="" method="" className="bg-stone-100 w-full md:w-1/2 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
+            <div className='flex flex-col md:flex-row'>
+                <div className='w-1/2'>
                     <div>
                         <div className='text-3xl font-extrabold py-4'>{translatedText.career}</div>
                     </div>
+                    <div className='relative'>
+                        <img src='/careers.jpg' alt='career' className="hidden md:block absolute top-20 left-20 h-[640px] w-[720px]" />
+                    </div>
+                </div>
+                <form action="" method="" className="bg-stone-100 w-full md:w-1/2 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
@@ -60,7 +64,7 @@ export default function Career() {
                                     className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6"
                                 />
                             </div>
-                            <div className="sm:col-span-2">
+                            <div className="">
                                 <label htmlFor="email" className="block text-sm font-semibold leading-6 text-gray-900">
                                     {translatedText.email}
                                 </label>
@@ -74,7 +78,7 @@ export default function Career() {
                                     />
                                 </div>
                             </div>
-                            <div className="sm:col-span-2">
+                            <div className="">
                                 <label htmlFor="phone" className="block text-sm font-semibold leading-6 text-gray-900">
                                     {translatedText.phone}
                                 </label>
