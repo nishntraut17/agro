@@ -22,13 +22,18 @@ export default function Contact() {
         {
             id: 1,
             coordinates: [20.055690, 74.489860], // Nashik
-            title: "India",
+            title: "Nashik",
         },
         {
             id: 2,
             coordinates: [19.895210, 75.373050], // Sambhajinagar
-            title: "London",
+            title: "Sambhajinagar",
         },
+        {
+            id: 3,
+            coordinates: [20.700216, 77.008171],
+            title: "Akola",
+        }
     ];
 
     return (
@@ -43,9 +48,12 @@ export default function Contact() {
                     <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
                     <ContactInfo icon={<MdEmail className="text-lg " />} title={translatedText.emailTitle} content={translatedText.emailContent} />
                     <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.branchTitle} content={translatedText.branchContent} />
+                    <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.headOfficePhone} content={translatedText.headOfficeContact} />
+                    <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.kishanHelplineText} content={translatedText.kishanHelpLine} />
+                    <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.akolaOfficeText} content={translatedText.akolaOffice} />
                 </div>
-                <div className="md:w-1/2 border-4 rounded-xl h-[310px] overflow-hidden">
-                    <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '310px' }}>
+                <div className="md:w-1/2 border rounded h-[450px] overflow-hidden">
+                    <MapContainer center={[19.766670, 74.475853]} zoom={6} className='h-full w-full'>
                         <TileLayer
                             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                         />
@@ -93,8 +101,14 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "Branch Office",
-                branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
+                branchTitle: "Head Office",
+                branchContent: "B-14/10/12, Colgate Chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
+                headOfficePhone: "Head Office Contact",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "Kishan Helpline",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, 444004",
+                akolaOfficeText: "Akola Sales Office"
             };
         case "Marathi":
             return {
@@ -112,8 +126,14 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "शाखा कार्यालय",
-                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूग खंड, गंगापूर, छ. संभाजीनगर-431136",
+                branchTitle: "मुख्य कार्यालय",
+                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
+                headOfficePhone: "मुख्य कार्यालय संपर्क",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "किसान सहाय्य लाईन",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पोलीस स्थानकाजवळ, मिडसी क्र. 2, 444004",
+                akolaOfficeText: "अकोला विक्री कार्यालय"
             };
         case "Hindi":
             return {
@@ -131,8 +151,14 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "शाखा कार्यालय",
-                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूग खंड, गंगापूर, छ. संभाजीनगर-431136",
+                branchTitle: "मुख्य कार्यालय",
+                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
+                headOfficePhone: "मुख्य कार्यालय संपर्क",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "किसान हेल्पलाइन",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पोलीस स्थानकाजवळ, मिडसी क्र. 2, 444004",
+                akolaOfficeText: "अकोला विक्री कार्यालय"
             };
         default:
             return {
@@ -150,8 +176,14 @@ function getTranslatedText(language: string) {
                 phoneContent: "+91 9420318312, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
-                branchTitle: "Branch Office",
-                branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
+                branchTitle: "Head Office",
+                branchContent: "B-14/10/12, Colgate Chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
+                headOfficePhone: "Head Office Contact",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "Kishan Helpline",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, 444004",
+                akolaOfficeText: "Akola Sales Office"
             };
     }
 }

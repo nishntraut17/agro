@@ -27,6 +27,11 @@ export default function Enquiry() {
             coordinates: [19.895210, 75.373050], // Sambhajinagar
             title: "London",
         },
+        {
+            id: 3,
+            coordinates: [20.700216, 77.008171],
+            title: "Akola",
+        }
     ];
 
     return (
@@ -162,7 +167,7 @@ function getTranslatedText(language: string) {
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "Branch Office",
-                branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
+                branchContent: "B-14/10/12, Colgate chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
             };
         case "Marathi":
             return {
@@ -219,7 +224,7 @@ function getTranslatedText(language: string) {
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "Branch Office",
-                branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
+                branchContent: "B-14/10/12, Colgate chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
             };
     }
 }

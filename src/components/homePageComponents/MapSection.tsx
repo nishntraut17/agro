@@ -29,6 +29,11 @@ export default function LeafletMap() {
             coordinates: [19.895210, 75.373050], // Sambhajinagar
             title: "SambhaJinagar",
         },
+        {
+            id: 3,
+            coordinates: [20.700216, 77.008171],
+            title: "Akola",
+        }
     ];
 
     const language = useSelector((state: RootState) => state.languageReducer.language);
@@ -52,19 +57,19 @@ export default function LeafletMap() {
             case "English":
                 return (
                     <p className="md:text-lg md:font-semibold text-left text-green-200">
-                        The Head Office of Egro-Chem Agrochemical Industries is located at B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136. <br /> Manufacturing Plant is located at Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401
+                        The Head Office of Enjo-Chem Agrochemical Industries is located at B-14/10/12, Colgate chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136. <br /> Manufacturing Plant is located at Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401. <br /> Sales Office is located at Akola, Maharashtra, India.
                     </p>
                 );
             case "Hindi":
                 return (
                     <p className="md:text-lg md:font-semibold text-left text-green-200">
-                        एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज का मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 पर स्थित है। <br /> विनिर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ताल. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 पर स्थित है।
+                        एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज का मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 पर स्थित है। <br /> विनिर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ताल. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 पर स्थित है। <br /> बिक्री कार्यालय अकोला, महाराष्ट्र, भारत पर स्थित है।
                     </p>
                 );
             case "Marathi":
                 return (
                     <p className="md:text-lg md:font-semibold text-left text-green-200">
-                        "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीजचा मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 येथे आहे. <br /> निर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 येथे आहे.
+                        "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीजचा मुख्यालय बी-14/10/12, कोलगेट चौक, एमआईडीसी वालुग ख, गंगापुर, छ. संभाजीनगर-431136 येथे आहे. <br /> निर्माण संयंत्र सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401 येथे आहे. <br /> विक्री कार्यालय अकोला, महाराष्ट्र, भारत येथे आहे."
                     </p>
                 );
             default:

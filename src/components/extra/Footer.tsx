@@ -5,6 +5,12 @@ import { FaInstagram, FaFacebookSquare, FaTwitter, FaLinkedin, FaYoutube } from 
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { GiFertilizerBag } from "react-icons/gi"; //micro & bio fertilizers
+import { FaBug } from "react-icons/fa"; //insecticides
+import { FaBugSlash } from "react-icons/fa6"; //fungicides
+import { RiPlantFill } from "react-icons/ri"; //pgr
+import { PiPlant } from "react-icons/pi"; //herbicide
+
 
 export default function Footer() {
     const language = useSelector((state: RootState) => state.languageReducer.language);
@@ -13,26 +19,26 @@ export default function Footer() {
     return (
         <div className="relative bg-lime-950 text-white bg-cover bg-center" >
             <div className="z-20">
-                <div className="py-10 sm:px-2 lg:px-4">
+                <div className="p-4 lg:px-12">
                     {/* Company Description */}
                     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div className="col-span-1">
+                        <div className="col-span-1 mt-10">
                             <img src='/ENJO.png' alt="logo" className="h-28 w-72" />
-                            <p className="font-light mt-4 ml-8">
+                            <p className="font-light mt-4">
                                 {translatedText.companyDescription}
                             </p>
                         </div>
 
                         {/* Our Products */}
-                        <div className="col-span-1 mt-20 mx-8">
+                        <div className="col-span-1 mt-20 ">
                             <h1 className="text-2xl font-bold mb-4">{translatedText.ourProducts}</h1>
                             <ul className="flex flex-col gap-5 font-semibold">
-                                <li><Link to='/products/insecticides'>{translatedText.insectisides}</Link></li>
-                                <li><Link to='/products/fungicides'>{translatedText.fungicides}</Link></li>
-                                <li><Link to='/products/herbicides'>{translatedText.herbicides}</Link></li>
-                                <li><Link to='/products/micro-nutrients-fertilizers'>{translatedText.micronutrients}</Link></li>
-                                <li><Link to='/products/bio-fertilizers'>{translatedText.biofertilisers}</Link></li>
-                                <li><Link to='/products/plant-growth-regulators'>{translatedText.pgr}</Link></li>
+                                <li><Link to='/products/insecticides' className="flex flex-row gap-4"><GiFertilizerBag className="text-lg text-white" />{translatedText.insectisides}</Link></li>
+                                <li><Link to='/products/fungicides' className="flex flex-row gap-4"><FaBug className="text-lg text-white" />{translatedText.fungicides}</Link></li>
+                                <li><Link to='/products/herbicides' className="flex flex-row gap-4"><PiPlant className="text-lg text-white" />{translatedText.herbicides}</Link></li>
+                                <li><Link to='/products/micro-nutrients-fertilizers' className="flex flex-row gap-4"><FaBugSlash className="text-lg text-white" />{translatedText.micronutrients}</Link></li>
+                                <li><Link to='/products/bio-fertilizers' className="flex flex-row gap-4"><GiFertilizerBag className="text-lg text-white" />{translatedText.biofertilisers}</Link></li>
+                                <li><Link to='/products/plant-growth-regulators' className="flex flex-row gap-4"><RiPlantFill className="text-lg text-white" />{translatedText.pgr}</Link></li>
                             </ul>
                         </div>
 
@@ -43,6 +49,9 @@ export default function Footer() {
                             <ContactInfo icon={<FaPhoneVolume className="text-lg text-white" />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
                             <ContactInfo icon={<MdEmail className="text-lg text-white" />} title={translatedText.emailTitle} content={translatedText.emailContent} />
                             <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.headTitle} content={translatedText.branchContent} />
+                            <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.headOfficePhone} content={translatedText.headOfficeContact} />
+                            <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.kishanHelplineText} content={translatedText.kishanHelpLine} />
+                            <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.akolaOfficeText} content={translatedText.akolaOffice} />
                         </div>
                     </div>
                 </div>
@@ -111,11 +120,17 @@ function getTranslatedText(language: string) {
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "Head Office",
-                branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
+                branchContent: "B-14/10/12, Colgate chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
                 about: "About",
                 products: "Products",
                 careers: "Careers",
                 allRightsReserved: "All Rights Reserved",
+                headOfficePhone: "Head Office Contact",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "Kishan Helpline",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, Akola-444004",
+                akolaOfficeText: "Akola Sales Office",
             };
         case "Marathi":
             return {
@@ -139,11 +154,17 @@ function getTranslatedText(language: string) {
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "मुख्य कार्यालय",
-                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूग खंड, गंगापूर, छ. संभाजीनगर-431136",
+                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
                 about: "विषयी",
                 products: "उत्पादने",
                 careers: "करिअर्स",
                 allRightsReserved: "सर्व हक्क राखीव",
+                headOfficePhone: "मुख्य कार्यालय संपर्क",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "किसान सहाय्य लाईन",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पोलीस स्थानकाजवळ, मिडसी क्र. 2, 444004",
+                akolaOfficeText: "अकोला विक्री कार्यालय",
             };
         case "Hindi":
             return {
@@ -167,11 +188,17 @@ function getTranslatedText(language: string) {
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "मुख्य कार्यालय",
-                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूग खंड, गंगापूर, छ. संभाजीनगर-431136",
+                branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
                 about: "के बारे में",
                 products: "उत्पाद",
                 careers: "करियर्स",
                 allRightsReserved: "सर्वाधिकार सुरक्षित",
+                headOfficePhone: "मुख्य कार्यालय संपर्क",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "किसान हेल्पलाइन",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पुलिस स्थानक के पास, मिडसी क्र. 2, 444004",
+                akolaOfficeText: "अकोला विक्री कार्यालय",
             };
         default:
             return {
@@ -191,11 +218,17 @@ function getTranslatedText(language: string) {
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "Head Office",
-                branchContent: "B-14/10/12, Colgate Chauk, MIDC Walug Kh, Gangapur, Chh. Sambhajinagar-431136",
+                branchContent: "B-14/10/12, Colgate chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
                 about: "About",
                 products: "Products",
                 careers: "Careers",
                 allRightsReserved: "All Rights Reserved",
+                headOfficePhone: "Head Office Contact",
+                headOfficeContact: "9420318312,8275017003",
+                kishanHelplineText: "Kishan Helpline",
+                kishanHelpLine: "+919699375115",
+                akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, 444004",
+                akolaOfficeText: "Akola Sales Office",
             };
     }
 }

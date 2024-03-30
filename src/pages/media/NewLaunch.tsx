@@ -16,11 +16,11 @@ const NewLaunch = () => {
     }
 
     return (
-        <div className='md:p-4'>
+        <div className=''>
             <div className="overflow-hidden">
                 <img src='/banner2.jpg' alt='about-banner' className="w-full" />
             </div>
-            <h1 className='pt-4 px-4 md:px-20 text-3xl md:text-5xl font-extrabold'>{newlaunchProducts}</h1>
+            <h1 className='pt-4 px-4 md:px-20 text-3xl md:text-5xl font-extrabold md:p-4'>{newlaunchProducts}</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 p-4 md:px-20 md:py-8 gap-8'>
                 {
                     [1, 2].map((item, index) => {
