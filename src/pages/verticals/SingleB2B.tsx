@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import array from './b2b-products';
-
+import { Link } from 'react-router-dom';
 const SingleB2B = () => {
     const { id } = useParams<{ id: any }>();
 
@@ -20,7 +20,16 @@ const SingleB2B = () => {
                     <div className='text-lg'>{array[id].description}</div>
                     <div className='text-lg'><span>Dosage: </span> {array[id].dosage}</div>
                     <div className='text-lg'><span>Packaging Size: </span>{array[id].package}</div>
+                    <div className='flex flex-row gap-10 text-white'>
+                        <button className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>Call us</button>
+                        <Link to='/enquiry' className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>
+                            <button>
+                                Enquiry Now
+                            </button>
+                        </Link>
+                    </div>
                 </div>
+
             </div>
         </>
     )

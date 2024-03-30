@@ -154,19 +154,25 @@
     },
     {
         "id": 15,
-        "name": "E-MIDA PLUS",
+        "name": "E-MIDA SUPER",
+        "feature": "E-Mida Super contains the ingredient IMIDACLOPRID 30.5% SC. It is a systemic intravenous and topical insecticide with enteric action. E-Mida Super is easily absorbed by the leaf and diffuses into all parts.",
         "ingrediants": "Imidacloprid 30.5% SC",
         "packingSize": "100 ml, 250 ml, 500 ml",
         "dosage": "100 ml per acre",
-        "type": "insecticide"
+        "type": "insecticide",
+        "crops": "Rice, cotton, vegetables.",
+        "insects": "hoppers, thrips, moths, whiteflies, whiteflies, brown thrips, white-backed thrips"
     },
     {
         "id": 16,
         "name": "ENJO-FYRE",
+        "feature": "Enzo-Fire contains Imidacloprid 70% WG as an intercurrent insecticide, it is very effective against various insects and is safe for plants, Enzo-Fire is absorbed faster by plants and spreads better resulting in better efficacy.",
         "ingrediants": "Imidacloprid 70% WG",
+        "crops": "Rice, Cotton, Cucumber, Okra.",
         "packingSize": "10 gm, 30 gm, 75 gm, 100 gm",
         "dosage": "500 ml per acre",
-        "type": "insecticide"
+        "type": "insecticide",
+        "insects": "Insects- hoppers, thrips, moths, thrips."
     },
     {
         "id": 17,
@@ -233,18 +239,24 @@
     { 
         "id": 23,
         "name": "ENJOGUARD-DP",
+        "feature": "Enjoguard DP (Chloropyrifos 1.5% DP) is in powder form and when it comes in contact with insects, it slows their respiration and kills the insects. It is useful against stem borer, green leaf hopper, brown plant hopper, gall midge and grass hopper in rice crop.",
         "ingrediants": "Chlopyrifos 1.5%DP",
         "packingSize": "1 kg, 10kg",
         "dosage": "5-10 Kg. per acre",
-        "type": "insecticide"
+        "type": "insecticide",
+        "crops": "Rice, gram.",
+        "insects": "Borer, stem borer and leaf roller, thrips."
     },
     { 
         "id": 24,
         "name": "CHLORONEX 10 G",
+        "feature": "Chloronex (chlorpyrifos 10% gr) is used early in the insect life cycle, Chloronex inhibits the growth of insect populations and increases crop yield potential. Chloronex inhibits rice root weevils, and all types of soil-borne pests such as whiteflies.",
+        "crops":"Rice, wheat, sugarcane, vegetable crops, groundnut, cotton and soybeans.",
         "ingrediants": "Chlorpyriphos 10% GR",
         "packingSize": "1 kg, 5 kg",
         "dosage": "5 kg per acre",
-        "type": "insecticide"
+        "type": "insecticide",
+        "pest": "Pests- Stem Borer, Gall Midge, Rice Hispa, Humani"
     },
     { 
         "id": 25,
@@ -314,15 +326,21 @@
     {
         "id": 31,
         "name": "FIPRONEX PLUS",
+        "feature": "Fipronex Plus (Fipronil 80 % WG) is a fipronil-based phenyl pyrazole insecticide. Fipronil not only effectively controls pests but also has effects on plant growth leading to higher yields as well as being effective against major pests at low dose rates.",
         "ingrediants": "Fipronil 80% WG",
         "packingSize": "2 gm, 40 gm, 100 gm",
         "dosage": "30 gm. pr acre",
-        "type": "insecticide"
+        "type": "insecticide",
+        "crops": "grapes, cotton, onion, chilli, cabbage, rice.",
+        "pest": "thrips, stem borer, leaf folder, diamond back moth."
     },
     {
         "id": 32,
         "name": "CYPETHION",
+        "feature": "Cypethion (Ethion 40% + Cypermethrin 5% EC) is a combination insecticide that provides effective control against a wide range of pests. Ethion and Cypermethrin act on the nervous system of insects, leading to their elimination.",
         "ingrediants": "Ethion 40% + Cypermethrin 5% EC",
+        "crops": "grapes, cotton, onion, chilli, cabbage, rice",
+        "pest": "thrips, stem borer, leaf folder, diamond back moth",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "400 ml per acre",
         "type": "insecticide"
@@ -330,6 +348,7 @@
     {
         "id": 33,
         "name": "ENJOTSU",
+        "feature": "Enjotsu (Clothianidin 50% WG) is an insecticide that provides effective control against a wide range of pests. It is formulated with Clothianidin, which acts on the nervous system of insects, leading to their elimination.",
         "ingrediants": "Clothianidin 50% WG",
         "packingSize": "50 gm, 100 gm",
         "dosage": "100 gm per acre",
@@ -338,17 +357,19 @@
     {
         "id": 34,
         "name": "RAFEL",
+        "feature": "Rafel (Pyriproxyfen 8% + Dinotefuran 5% + Diafenthiuron 18% SC) is a combination insecticide that provides effective control against a wide range of pests. Pyriproxyfen, Dinotefuran, and Diafenthiuron act on the nervous system of insects, leading to their elimination.",
         "ingrediants": "Pyriproxyfen 8% + Dinotefuran 5% + Diafenthiuron 18% SC",
         "packingSize": "250 gm, 500 gm, 1 kg",
-        "dosage": "350 ml. per acre",
+        "dosage": "350 ml per acre",
         "type": "insecticide"
     },
     {
         "id": 35,
         "name": "VAJEER GR",
+        "feature": "Vajeer GR (Chlorantraniliprole 0.4% GR) is an insecticide that provides effective control against a wide range of pests. It is formulated with Chlorantraniliprole, which acts on the nervous system of insects, leading to their elimination.",
         "ingrediants": "Chlorantraniliprole 0.4% GR",
         "packingSize": "4 Kg",
-        "dosage": "4 Kg",
+        "dosage": "4 Kg per acre",
         "type": "insecticide"
     },
     {
@@ -441,6 +462,7 @@
     {
         "id": 44,
         "name": "CAPTEB",
+        "feature": "Capteb (Tebuconazole 6.7% + Captan 26.9% SC) is a powerful fungicide with a unique combination of active ingredients. It provides effective control against a wide range of fungal diseases in various crops. Capteb exhibits both preventive and curative properties, offering protection against diseases and stopping their spread. With its excellent formulation, Capteb ensures optimal coverage and adherence to plant surfaces, maximizing its efficacy. It is easy to use and provides long-lasting protection, contributing to healthier and higher-yielding crops.",
         "ingrediants": "Tebuconazole 6.7% + Captan 26.9% SC",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml. per acre",
@@ -504,6 +526,7 @@
     {
         "id": 50,
         "name": "ENJOSULF POWER",
+        "feature":"Enjosulf Power (Sulphur 80% WDG) is a powerful fungicide that provides effective control against various fungal diseases. It contains a high concentration of sulfur, which acts as a contact fungicide, inhibiting the growth and spread of fungi. Enjosulf Power is suitable for use on a wide range of crops and offers both preventive and curative action against diseases. It is easy to use and provides long-lasting protection, contributing to healthier and higher-yielding crops.",
         "ingrediants": "Sulphur 80% WDG",
         "packingSize": "1 kg, 5 kg",
         "dosage": "5 kg per acre",
@@ -612,14 +635,6 @@
         "type": "herbicide"
     },
     {
-        "id": 61,
-        "name": "WEEDGO",
-        "ingrediants": "2,4 -D Amine Salt 58% SL",
-        "packingSize": "500 ml, 1 ltr",
-        "dosage": "500 ml. per acre",
-        "type": "herbicide"
-    },
-    {
         "id": 62,
         "name": "DENSO",
         "feature":"Denso (Clodinafop Propargyl 15% WP) is a post-emergence herbicide for the control of most important grass weeds in wheat",
@@ -630,8 +645,18 @@
         "type": "herbicide"
     },
     {
+        "id": 61,
+        "name": "WEEDGO",
+        "feature": "Weedgo (2,4-D Amine Salt 58% SL) is a selective post-emergence herbicide that effectively controls broadleaf weeds in various crops. It is absorbed by the leaves and stems of weeds, disrupting their growth and causing them to wither and die.",
+        "ingrediants": "2,4-D Amine Salt 58% SL",
+        "packingSize": "500 ml, 1 ltr",
+        "dosage": "500 ml. per acre",
+        "type": "herbicide"
+    },
+    {
         "id": 63,
         "name": "GLO POWER",
+        "feature": "Glo Power (Glufosinate Ammonium 13.5% SL) is a non-selective post-emergence herbicide that effectively controls a wide range of grasses and broadleaf weeds. It acts by inhibiting the enzyme involved in the synthesis of amino acids, leading to the death of the treated plants.",
         "ingrediants": "Glufosinate Ammonium 13.5% SL",
         "packingSize": "500 ml, 1 ltr",
         "dosage": "1 Kg. per acre",
@@ -640,6 +665,7 @@
     {
         "id": 64,
         "name": "DICLOQUAT",
+        "feature": "Dicloquat (Paraquat Dichloride 24% SL) is a non-selective contact herbicide that controls a wide range of grasses and broadleaf weeds. It acts by disrupting the photosynthesis process in plants, leading to their death. It is commonly used for weed control in agricultural and non-agricultural areas.",
         "ingrediants": "Paraquat Dichloride 24% SL",
         "packingSize": "500 ml, 1 ltr",
         "dosage": "1 Kg. per acre",
@@ -661,7 +687,8 @@
         "ingrediants": "Atrazine 50% WP",
         "packingSize": "500 gm, 1 kg",
         "dosage": "500 gm per acre",
-        "type": "herbicide"
+        "type": "herbicide",
+        "feature": "Enjozine is a herbicide containing Atrazine 50% WP. It is highly effective in controlling a wide range of grasses and broadleaf weeds. Enjozine acts by inhibiting photosynthesis in plants, leading to their death. It is commonly used for weed control in agricultural and non-agricultural areas. Enjozine is easy to apply and provides long-lasting weed control."
     },
     {
         "id": 67,
@@ -699,7 +726,8 @@
         "ingrediants": "Gibberellic Acid 40% WSG",
         "packingSize": "2.5 gm, 12.5 gm",
         "dosage": "10 gm per acre",
-        "type": "pgr"
+        "type": "pgr",
+        "feature": "Tejo Pro is a plant growth regulator containing Gibberellic Acid 40% WSG as the active ingredient. It is specifically designed to promote plant growth and development. Tejo Pro stimulates cell elongation, resulting in increased stem and leaf growth. It also enhances flowering and fruiting, leading to improved crop yield. Tejo Pro is easy to apply and provides effective results in promoting plant growth and productivity."
     },
     {
         "id": 71,
@@ -827,7 +855,8 @@
         "ingrediants": "natural botanical extract",
         "packingSize": "250 ml, 500ml, 1 ltr",
         "dosage": "1 ml per litre of water",
-        "type": "pgr"
+        "type": "pgr",
+        "feature": "K Catch is a plant growth regulator formulated with natural botanical extract. It enhances the overall growth and development of plants by promoting root development, nutrient absorption, and stress tolerance. K Catch improves plant vigor, increases yield potential, and enhances the plant's ability to withstand adverse environmental conditions."
     },
     {
         "id": 84,
@@ -1069,7 +1098,8 @@
         "ingrediants": "Azentobactor",
         "packingSize": "1 ltr, 5 ltr",
         "dosage": "100 gm pouch in powder form should be given using drip irrigation",
-        "type": "bio-fertilizer"
+        "type": "bio-fertilizer",
+        "feature": "ANEX N-SET is a bio-fertilizer containing Azentobactor. It helps in nitrogen fixation and improves soil fertility. It promotes root growth and enhances nutrient uptake by plants. ANEX N-SET is suitable for use with drip irrigation and comes in packing sizes of 1 ltr and 5 ltr."
     },
     {
         "id": 109,
@@ -1077,7 +1107,8 @@
         "ingrediants": "Rhizobium",
         "packingSize": "1 ltr, 5 ltr",
         "dosage": "100 gm pouch in powder form should be given using drip irrigation",
-        "type": "bio-fertilizer"
+        "type": "bio-fertilizer",
+        "feature": "ANEX RHIZO-N is a bio-fertilizer containing Rhizobium. It helps in nitrogen fixation and improves soil fertility. It promotes root growth and enhances nutrient uptake by plants. ANEX RHIZO-N is suitable for use with drip irrigation and comes in packing sizes of 1 ltr and 5 ltr."
     },
     {
         "id": 110,
@@ -1085,7 +1116,8 @@
         "ingrediants": "potash catalysed bacteria",
         "packingSize": "1 ltr, 5 ltr",
         "dosage": "100 gm pouch in powder form should be given using drip irrigation",
-        "type": "bio-fertilizer"
+        "type": "bio-fertilizer",
+        "feature": "ANEX K-STORE is a bio-fertilizer containing potash catalysed bacteria. It helps in improving potassium availability in the soil and enhances plant growth and development. ANEX K-STORE is suitable for use with drip irrigation and comes in packing sizes of 1 ltr and 5 ltr."
     },
     {
         "id": 111,
@@ -1093,7 +1125,8 @@
         "ingrediants": "Soluble Dissolving Bacteria",
         "packingSize": "1 ltr, 5 ltr",
         "dosage": "100 gm pouch in powder form should be given using drip irrigation",
-        "type": "bio-fertilizer"
+        "type": "bio-fertilizer",
+        "feature": "ANEX BIO-ZN is a bio-fertilizer containing Soluble Dissolving Bacteria. It helps in improving zinc availability in the soil and enhances plant growth and development. ANEX BIO-ZN is suitable for use with drip irrigation and comes in packing sizes of 1 ltr and 5 ltr."
     },
     {
         "id": 112,
@@ -1101,7 +1134,8 @@
         "ingrediants": "Phosphorus Solubilizing Bacteria",
         "packingSize": "1 ltr, 5 ltr",
         "dosage": "100 gm pouch in powder form should be given using drip irrigation",
-        "type": "bio-fertilizer"
+        "type": "bio-fertilizer",
+        "feature": "ANEX P-BOOST is a bio-fertilizer containing Phosphorus Solubilizing Bacteria. It helps in improving phosphorus availability in the soil and enhances plant growth and development. ANEX P-BOOST is suitable for use with drip irrigation and comes in packing sizes of 1 ltr and 5 ltr."
     },
     {
         "id": 113,

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import productsEnglish from '../../assets/products.json';
 import productHindi from '../../assets/productsHindi.json';
 import { RootState } from '../../redux/store';
@@ -31,26 +31,56 @@ const SingleProduct = () => {
                     <h1 className='text-2xl md:text-4xl font-extrabold'>{product.name}</h1>
                     <h1 className=''>{product?.feature}</h1>
                     <div>
-                        <h1 className='text-xl md:text-2xl font-bold'>Dosage</h1>
-                        <h1 className=''>{product?.dosage}</h1>
+                        {
+                            product?.dosage && <div>
+                                <h1 className='text-xl md:text-2xl font-bold'>Dosage</h1>
+                                <h1 className=''>{product?.dosage}</h1>
+                            </div>
+                        }
                     </div>
                     <div>
-                        <h1 className='text-xl md:text-2xl font-bold'>Composition</h1>
-                        <h1 className=''>{product?.ingrediants}</h1>
+                        {
+                            product?.ingredients && <div>
+                                <h1 className='text-xl md:text-2xl font-bold'>Composition</h1>
+                                <h1 className=''>{product?.ingrediants}</h1>
+                            </div>
+                        }
                     </div>
                     <div>
-                        <h1 className='text-xl md:text-2xl font-bold'>Packing Size</h1>
-                        <h1 className=''>{product?.packingSize}</h1>
+                        {
+                            product?.packingSize && <div>
+                                <h1 className='text-xl md:text-2xl font-bold'>Packing Size</h1>
+                                <h1 className=''>{product?.packingSize}</h1>
+                            </div>
+                        }
                     </div>
                     <div>
-                        <h1 className='text-xl md:text-2xl font-bold'>Crops</h1>
-                        <h1 className=''>{product?.crops}</h1>
+                        {
+                            product?.crops &&
+                            <div>
+                                <h1 className='text-xl md:text-2xl font-bold'>Crops</h1>
+                                <h1 className=''>{product?.crops}</h1>
+                            </div>
+                        }
                     </div>
                     <div>
-                        <h1 className='text-xl md:text-2xl font-bold'>Insects</h1>
-                        <h1 className=''>{product?.insect}</h1>
-                        <h1 className=''>{product?.pest}</h1>
-                        <h1 className=''>{product?.fungi}</h1>
+                        {
+                            (product?.insect || product?.pest || product?.fungi) &&
+                            <div>
+                                <h1 className='text-xl md:text-2xl font-bold'>Insects</h1>
+                                <h1 className=''>{product?.insect}</h1>
+                                <h1 className=''>{product?.pest}</h1>
+                                <h1 className=''>{product?.fungi}</h1>
+                            </div>
+                        }
+                    </div>
+                    <div className='flex flex-row gap-10 text-white'>
+                        <button className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>Call us</button>
+                        <Link to='/enquiry' className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>
+                            <button>
+                                Enquiry Now
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
