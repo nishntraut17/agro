@@ -231,6 +231,7 @@
     { 
         "id": 22,
         "name": "ABAJIN",
+        "feature": "Abajin is an insecticide containing Abamectin 1.9% EC as the active ingredient. It is effective against a wide range of insects and is suitable for use on various crops.",
         "ingrediants": "Abamectin 1.9% EC",
         "packingSize": "50 ml, 100ml, 250 ml",
         "dosage": "250 ml per acre",

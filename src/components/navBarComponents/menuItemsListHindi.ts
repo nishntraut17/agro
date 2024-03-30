@@ -3,7 +3,7 @@ export const menuItemsHindi = [{
     url: "",
 },
 {
-    title: "के बारे में",
+    title: "हमारे बारे में",
     url: "about",
 },
 {
