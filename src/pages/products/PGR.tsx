@@ -1,3 +1,4 @@
+import PageHeader from "../../components/extra/PageHeader";
 import ProductCard2 from "../../components/products/ProductCard2";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
@@ -17,11 +18,9 @@ export default function PGR() {
         extraInfo = "एन्जो-केम क्रॉप केयर, एन्जो-केम कृषि रसायन उद्योगाची सहाय्यक कंपनी";
     }
     return (
-        <div>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className="text-4xl font-extrabold py-4 px-8 bg-green-50 lg:px-20">
+        <div className="bg-slate-50">
+            <PageHeader title={allPGR} />
+            <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">
                 <div>{allPGR}</div>
                 <div className="text-2xl font-bold pt-2">{extraInfo}</div>
             </div>

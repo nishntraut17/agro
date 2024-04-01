@@ -9,6 +9,7 @@ import { FaBug } from "react-icons/fa";
 import { PiPlantBold } from "react-icons/pi";
 import { FiPackage } from "react-icons/fi";
 import { GiFertilizerBag } from "react-icons/gi";
+import PageHeader from '../../components/extra/PageHeader';
 
 
 const SingleProduct = () => {
@@ -37,10 +38,8 @@ const SingleProduct = () => {
     }
 
     return (
-        <div>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
+        <div className=''>
+            <PageHeader title={product.name} />
             <div className='flex flex-col md:flex-row p-4 md:p-8'>
                 <div className='h-72 w-full md:h-[32rem] md:w-1/3 flex flex-row justify-center'>
                     <img src={`/products/${id}.png`} alt="product" className='h-full' />

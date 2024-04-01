@@ -1,4 +1,5 @@
 
+import PageHeader from "../../components/extra/PageHeader";
 import ProductCard2 from "../../components/products/ProductCard2";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
@@ -14,11 +15,9 @@ export default function ProductsPage() {
         allProducts = "सर्व उत्पाद"
     }
     return (
-        <div>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className="text-4xl font-extrabold py-4 px-8 bg-green-50 lg:px-20">{allProducts}</div>
+        <div className="bg-slate-50">
+            <PageHeader title={allProducts} />
+            <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{allProducts}</div>
             <ProductCard2 filter={"none"} />
         </div>
     );

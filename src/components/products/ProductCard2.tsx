@@ -60,7 +60,7 @@ const ProductCard2 = ({ filter }: {
     };
 
     return (
-        <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:pt-12 lg:px-20 bg-green-50">
+        <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:px-20">
             {
                 products.filter(
                     (product: any) => {

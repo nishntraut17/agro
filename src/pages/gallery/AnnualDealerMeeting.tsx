@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
+import PageHeader from '../../components/extra/PageHeader';
 
 const AnnualDealerMeeting = () => {
     const language = useSelector((state: RootState) => state.languageReducer.language);
@@ -69,18 +70,16 @@ const AnnualDealerMeeting = () => {
 
     return (
         <div className=''>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className='p-2 md:px-20 md:py-8'>
-                <h1 className='text-4xl p-2 md:px-10 font-extrabold'>{annualDealerMeeting}</h1>
+            <PageHeader title={annualDealerMeeting} />
+            <div className='p-4 md:px-20'>
+                <h1 className='text-4xl py-8 font-extrabold'>{annualDealerMeeting}</h1>
                 <div>
                     {
                         meetings.map((meeting: any, index) => {
                             return (
                                 <div
                                     key={index}
-                                    className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded m-2 md:m-8 p-4 md:p-8'>
+                                    className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded p-4 md:p-8 '>
                                     <div className='text-2xl font-bold'>{
                                         language === "English" ? meeting.headingEnglish :
                                             language === "Marathi" ? meeting.headingMarathi :

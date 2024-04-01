@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
+import PageHeader from '../../components/extra/PageHeader';
 
 export default function Career() {
     const language = useSelector((state: RootState) => state.languageReducer.language);
@@ -8,19 +9,9 @@ export default function Career() {
 
     return (
         <div className="">
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className='flex flex-col md:flex-row'>
-                <div className='w-1/2'>
-                    <div>
-                        <div className='text-3xl font-extrabold py-4'>{translatedText.career}</div>
-                    </div>
-                    <div className='relative'>
-                        <img src='/careers.jpg' alt='career' className="hidden md:block absolute top-20 left-20 h-[640px] w-[720px]" />
-                    </div>
-                </div>
-                <form action="" method="" className="bg-stone-100 w-full md:w-1/2 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
+            <PageHeader title={translatedText.career} />
+            <div className='flex flex-col md:flex-row md:justify-center'>
+                <form action="" method="" className="bg-stone-100 w-2/3 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">

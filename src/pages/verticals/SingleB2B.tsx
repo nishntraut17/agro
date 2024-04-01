@@ -5,6 +5,7 @@ import arrayHindi from './b2b-products-hindi';
 import arrayMarathi from './b2b-products-marathi';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
+import PageHeader from '../../components/extra/PageHeader';
 
 import { Link } from 'react-router-dom';
 const SingleB2B = () => {
@@ -49,9 +50,7 @@ const SingleB2B = () => {
 
     return (
         <>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
+            <PageHeader title={array[id].title} />
             <div className='flex flex-col md:flex-row gap-4 p-4 md:p-20'>
                 <div className='h-64 w-full md:h-[360px] md:w-1/3'>
                     <img src={`/b2b/${id}.jpg`} alt={array[id].title} className='w-full h-full' />

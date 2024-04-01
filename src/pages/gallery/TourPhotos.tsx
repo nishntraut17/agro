@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
+import PageHeader from '../../components/extra/PageHeader';
 
 
 const TourPhotos = () => {
@@ -45,23 +46,26 @@ const TourPhotos = () => {
             path: "kashmir",
             heading: "Kashmir TOUR 2024",
             size: [1, 2],
+        }, {
+            id: 10,
+            path: "diu",
+            heading: "Somnath,Diu,Sasan Gir tour 2024",
+            size: [1, 2, 3, 4],
         }
     ]
 
     return (
         <div>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className='p-2 md:px-20 md:py-8'>
-                <h1 className='text-4xl p-2 md:px-10 font-extrabold'>{tourPhotos}</h1>
+            <PageHeader title={tourPhotos} />
+            <div className='p-4 md:px-20'>
+                <h1 className='text-4xl py-8 font-extrabold'>{tourPhotos}</h1>
                 <div>
                     {
                         meetings.map((meeting: any, index) => {
                             return (
                                 <div
                                     key={index}
-                                    className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded m-2 md:m-8 p-4 md:p-8'>
+                                    className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded p-4 md:p-8'>
                                     <div className='text-2xl font-bold'>{meeting.heading}</div>
                                     <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10'>
                                         {

@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 import arrayEnglish from './b2b-products';
 import arrayHindi from './b2b-products-hindi';
 import arrayMarathi from './b2b-products-marathi';
-
+import PageHeader from '../../components/extra/PageHeader';
 const B2B = () => {
     const language = useSelector((state: RootState) => state.languageReducer.language);
-    let b2bText = "B2B";
+    let b2bText = "Business to Business";
     let array = arrayEnglish;
     if (language === "English") {
-        b2bText = "B2B";
+        b2bText = "Business to Business";
         array = arrayEnglish;
     } else if (language === "Marathi") {
         b2bText = "व्यावसायिक दोनदारांसाठी";
@@ -20,7 +20,7 @@ const B2B = () => {
         b2bText = "व्यापारी दोस्तों के लिए";
         array = arrayHindi;
     } else {
-        b2bText = "B2B";
+        b2bText = "Business to Business";
         array = arrayEnglish;
     }
     const scrollToTop = () => {
@@ -31,17 +31,15 @@ const B2B = () => {
     };
 
     return (
-        <div className='bg-lime-50'>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <h1 className='font-extrabold text-2xl md:text-5xl px-4'>{b2bText}</h1>
-            <div className='grid grid-cols-1 md:grid-cols-3'>
+        <div className='bg-green-50'>
+            <PageHeader title={b2bText} />
+            <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{b2bText}</div>
+            <div className='"min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:px-20 bg-green-50"'>
                 {array.map((item) => {
                     return (
-                        <div className='flex flex-col items-center p-4 m-4 bg-white'>
-                            <div className='h-48 w-48'>
-                                <img src={`/b2b/${item.id}.jpg`} alt={item.title} className='h-full w-full' />
+                        <div className='flex flex-col z-30 shadow-sm hover:shadow-lg items-center p-4 m-4 bg-white'>
+                            <div className='h-48 w-48 overflow-hidden'>
+                                <img src={`/b2b/${item.id}.jpg`} alt={item.title} className='h-full w-full hover:scale-105 duration-200 ease-in-out' />
                             </div>
                             <h1 key={item.id}>{item.title}</h1>
                             <button className='bg-green-500 text-white p-2 rounded-md hover:scale-105 transition duration-150 ease-in-out'

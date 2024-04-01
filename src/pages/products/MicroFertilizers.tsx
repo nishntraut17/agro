@@ -1,3 +1,4 @@
+import PageHeader from "../../components/extra/PageHeader";
 import ProductCard2 from "../../components/products/ProductCard2";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
@@ -13,11 +14,9 @@ export default function MicroFertilizers() {
         allMicroNutrientFertilizers = 'सर्व मायक्रो न्यूट्रिएंट खते'
     }
     return (
-        <div>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className="text-4xl font-extrabold py-4 px-8 bg-green-50 lg:px-20">{allMicroNutrientFertilizers}</div>
+        <div bg-slate-50>
+            <PageHeader title={allMicroNutrientFertilizers} />
+            <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{allMicroNutrientFertilizers}</div>
             <ProductCard2 filter={"micronutrients-fertiliser"} />
         </div>
     );

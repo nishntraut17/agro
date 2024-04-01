@@ -5,6 +5,7 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import "leaflet-defaulticon-compatibility";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
+import PageHeader from '../../components/extra/PageHeader';
 
 interface MarkerData {
     id: number;
@@ -36,9 +37,7 @@ export default function Enquiry() {
 
     return (
         <div className="">
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
+            <PageHeader title={translatedText.enquiry} />
             <div className='flex flex-col md:flex-row md:gap-8 gap-4 p-8 md:p-16'>
                 <div className='flex flex-col gap-4 md:w-1/2'>
                     <div className="border rounded h-[320px] md:h-[540px] md:mt-10 w-full overflow-hidden">
@@ -57,7 +56,7 @@ export default function Enquiry() {
                     </div>
                 </div>
 
-                <form action="" method="" className="md:w-1/2">
+                <form action="" method="" className="md:w-1/2 p-10 bg-slate-100 rounded-sm z-10 shadow-md">
                     <div>
                         <div className='text-3xl font-extrabold py-4'>{translatedText.enquiry}</div>
                     </div>

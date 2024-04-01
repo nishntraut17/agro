@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
+import PageHeader from '../../components/extra/PageHeader';
 
 const FieldVisits = () => {
     const language = useSelector((state: RootState) => state.languageReducer.language);
@@ -20,10 +21,8 @@ const FieldVisits = () => {
 
     return (
         <div className=''>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className='p-4 md:px-20 md:py-8'>
+            <PageHeader title={fieldVisits} />
+            <div className='p-4 md:px-20'>
                 <h1 className='text-4xl py-8 font-extrabold'>{fieldVisits}</h1>
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
                     {

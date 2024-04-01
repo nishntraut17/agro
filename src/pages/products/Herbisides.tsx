@@ -1,3 +1,4 @@
+import PageHeader from "../../components/extra/PageHeader";
 import ProductCard2 from "../../components/products/ProductCard2";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
@@ -13,11 +14,9 @@ export default function Herbisides() {
         allHerbisides = 'सर्व शाकनाशी'
     }
     return (
-        <div>
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
-            <div className="text-4xl font-extrabold py-4 px-8 bg-green-50 lg:px-20">{allHerbisides}</div>
+        <div className="bg-slate-50">
+            <PageHeader title={allHerbisides} />
+            <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{allHerbisides}</div>
             <ProductCard2 filter={"herbicide"} />
         </div>
     );

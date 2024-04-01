@@ -7,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
 import { useSelector } from "react-redux";
 import { RootState } from "../../redux/store";
+import PageHeader from '../../components/extra/PageHeader';
 
 interface MarkerData {
     id: number;
@@ -38,9 +39,7 @@ export default function Contact() {
 
     return (
         <div className="mb-20">
-            <div className="overflow-hidden">
-                <img src='/banner2.jpg' alt='about-banner' className="w-full" />
-            </div>
+            <PageHeader title={translatedText.contactUs} />
             <div className='flex flex-col md:flex-row gap-4 sm:mt-20 mx-6 md:mx-20 lg:mx-40'>
                 <div className="md:w-1/2">
                     <h1 className="text-3xl font-extrabold py-4">{translatedText.contactUs}</h1>
