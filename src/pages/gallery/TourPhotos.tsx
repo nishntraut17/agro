@@ -20,36 +20,48 @@ const TourPhotos = () => {
         {
             id: 1,
             path: "dwarka2017",
-            heading: "DWARKA TOUR 2017",
+            headingEnglish: "DWARKA TOUR 2017",
+            headingHindi: "द्वारका यात्रा 2017",
+            headingMarathi: "द्वारका यात्रा 2017",
             size: [1, 2, 3, 4, 5, 6, 7],
         },
         {
             id: 6,
             path: "singapore",
-            heading: "SINGAPORE TOUR 2018",
+            headingEnglish: "SINGAPORE TOUR 2018",
+            headingHindi: "सिंगापुर यात्रा 2018",
+            headingMarathi: "सिंगापुर यात्रा 2018",
             size: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
         },
         {
             id: 7,
             path: "thailand24",
-            heading: "Thailand TOUR 2024",
+            headingEnglish: "Thailand TOUR 2024",
+            headingHindi: "थाईलैंड यात्रा 2024",
+            headingMarathi: "थाईलैंड यात्रा 2024",
             size: [1, 2, 3, 4, 5],
         },
         {
             id: 8,
             path: "thailand23",
-            heading: "Thailand TOUR 2023",
+            headingEnglish: "Thailand TOUR 2023",
+            headingHindi: "थाईलैंड यात्रा 2023",
+            headingMarathi: "थाईलैंड यात्रा 2023",
             size: [1, 2, 3, 4, 5],
         },
         {
             id: 9,
             path: "kashmir",
-            heading: "Kashmir TOUR 2024",
+            headingEnglish: "Kashmir TOUR 2024",
+            headingHindi: "कश्मीर यात्रा 2024",
+            headingMarathi: "कश्मीर यात्रा 2024",
             size: [1, 2],
         }, {
             id: 10,
             path: "diu",
-            heading: "Somnath,Diu,Sasan Gir tour 2024",
+            headingEnglish: "Somnath,Diu,Sasan Gir tour 2024",
+            headingHindi: "सोमनाथ, दिउ, सासन गिर यात्रा 2024",
+            headingMarathi: "सोमनाथ, दिउ, सासन गिर यात्रा 2024",
             size: [1, 2, 3, 4],
         }
     ]
@@ -66,7 +78,11 @@ const TourPhotos = () => {
                                 <div
                                     key={index}
                                     className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded p-4 md:p-8'>
-                                    <div className='text-2xl font-bold'>{meeting.heading}</div>
+                                    <div className='text-2xl font-bold'>{
+                                        language === "English" ? meeting.headingEnglish :
+                                            language === "Hindi" ? meeting.headingHindi :
+                                                language === "Marathi" ? meeting.headingMarathi : meeting.headingEnglish
+                                    }</div>
                                     <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10'>
                                         {
                                             meeting.size.map((item: number, index: number) => {
