@@ -24,12 +24,19 @@ const ProductCard2 = ({ filter }: {
     filter: string
 }) => {
     let products;
+    let viewProduct = "View Product";
     const language = useSelector((state: RootState) => state.languageReducer.language);
-    if (language === 'Hindi' || language === 'Marathi') {
+    if (language === 'Hindi') {
         products = productHindi;
+        viewProduct = "उत्पाद देखें";
+    }
+    else if (language === 'Marathi') {
+        products = productHindi;
+        viewProduct = "उत्पाद दर्शवा";
     }
     else {
         products = productsEnglish;
+        viewProduct = "View Product";
     }
 
     const scrollToTop = () => {
@@ -56,7 +63,7 @@ const ProductCard2 = ({ filter }: {
         <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:pt-12 lg:px-20 bg-green-50">
             {
                 products.filter(
-                    (product) => {
+                    (product: any) => {
                         if (filter === 'none') {
                             return product;
                         }
@@ -86,7 +93,7 @@ const ProductCard2 = ({ filter }: {
                                 onClick={scrollToTop}
                                 className='rounded bg-green-600 h-10 w-40 mt-2 hover:scale-105 transition duration-150 ease-in-out'>
                                 <Link to={`/products/${product.id}`}>
-                                    <p className='text-white'>View Product</p>
+                                    <p className='text-white'>{viewProduct}</p>
                                 </Link>
                             </button>
                         </div>

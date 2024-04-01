@@ -3,7 +3,7 @@ import productsEnglish from '../../assets/products.json';
 import productHindi from '../../assets/productsHindi.json';
 import { RootState } from '../../redux/store';
 import { useSelector } from 'react-redux';
-
+// import { Link } from 'react-router-dom';
 
 export default function ProductCard() {
     let products;

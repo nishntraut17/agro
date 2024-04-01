@@ -44,13 +44,13 @@ export default function Contact() {
             <div className='flex flex-col md:flex-row gap-4 sm:mt-20 mx-6 md:mx-20 lg:mx-40'>
                 <div className="md:w-1/2">
                     <h1 className="text-3xl font-extrabold py-4">{translatedText.contactUs}</h1>
-                    <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.officeTitle} content={translatedText.officeContent} />
-                    <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
-                    <ContactInfo icon={<MdEmail className="text-lg " />} title={translatedText.emailTitle} content={translatedText.emailContent} />
-                    <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.branchTitle} content={translatedText.branchContent} />
-                    <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.headOfficePhone} content={translatedText.headOfficeContact} />
-                    <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.kishanHelplineText} content={translatedText.kishanHelpLine} />
-                    <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.akolaOfficeText} content={translatedText.akolaOffice} />
+                    <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.officeTitle} content={translatedText.officeContent} />
+                    <ContactInfo icon={<FaPhoneVolume className="text-lg text-white" />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
+                    <ContactInfo icon={<MdEmail className="text-lg text-white" />} title={translatedText.emailTitle} content={translatedText.emailContent} />
+                    <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.branchTitle} content={translatedText.branchContent} />
+                    <ContactInfo icon={<FaPhoneVolume className="text-lg text-white" />} title={translatedText.headOfficePhone} content={translatedText.headOfficeContact} />
+                    <ContactInfo icon={<FaPhoneVolume className="text-lg text-white" />} title={translatedText.kishanHelplineText} content={translatedText.kishanHelpLine} />
+                    <ContactInfo icon={<FaLocationDot className="text-lg  text-white" />} title={translatedText.akolaOfficeText} content={translatedText.akolaOffice} />
                 </div>
                 <div className="md:w-1/2 border rounded h-[450px] overflow-hidden">
                     <MapContainer center={[19.766670, 74.475853]} zoom={6} className='h-full w-full'>
@@ -96,15 +96,15 @@ function getTranslatedText(language: string) {
                 companyName: "Enjo-Chem Agrochemical Industries",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
-                officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
+                officeContent: "Survey No. 53-2/1, kotamgaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
                 phoneTitle: "Phone",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "Head Office",
                 branchContent: "B-14/10/12, Colgate Chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
                 headOfficePhone: "Head Office Contact",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "Kishan Helpline",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, 444004",
@@ -121,15 +121,15 @@ function getTranslatedText(language: string) {
                 companyName: "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीज",
                 contactUs: "आमच्याशी संपर्क साधा",
                 officeTitle: "कार्यालय आणि निर्माण ठिकाण",
-                officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
+                officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटमगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
                 phoneTitle: "फोन",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "मुख्य कार्यालय",
                 branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
                 headOfficePhone: "मुख्य कार्यालय संपर्क",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "किसान सहाय्य लाईन",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पोलीस स्थानकाजवळ, मिडसी क्र. 2, 444004",
@@ -146,15 +146,15 @@ function getTranslatedText(language: string) {
                 companyName: "एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज",
                 contactUs: "हमसे संपर्क करें",
                 officeTitle: "कार्यालय और निर्माण स्थल",
-                officeContent: "सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",
+                officeContent: "सर्वेक्षण संख्या 53-2/1, कोटमगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",
                 phoneTitle: "फोन",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "मुख्य कार्यालय",
                 branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
                 headOfficePhone: "मुख्य कार्यालय संपर्क",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "किसान हेल्पलाइन",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पोलीस स्थानकाजवळ, मिडसी क्र. 2, 444004",
@@ -171,15 +171,15 @@ function getTranslatedText(language: string) {
                 companyName: "Enjo-Chem Agrochemical Industries",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
-                officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
+                officeContent: "Survey No. 53-2/1, kotamgaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
                 phoneTitle: "Phone",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "Head Office",
                 branchContent: "B-14/10/12, Colgate Chawk, MIDC waluj Kh, Gangapur, Chh. Sambhajinagar-431136",
                 headOfficePhone: "Head Office Contact",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "Kishan Helpline",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, 444004",

@@ -1,74 +1,70 @@
 import React from 'react'
-// import { motion } from 'framer-motion';
-// import { useSelector } from 'react-redux';
-// import { RootState } from '../../redux/store';
-
-// const fadeInAnimationVariants = {
-//     initial: {
-//         opacity: 0,
-//         y: 100,
-//     },
-//     animate: (index: number) => ({
-//         opacity: 1,
-//         y: 0,
-//         transition: {
-//             delay: 0.02 * index,
-//         },
-//     }),
-// }
+import { useSelector } from 'react-redux';
+import { RootState } from '../../redux/store';
 
 const AnnualDealerMeeting = () => {
-    // const language = useSelector((state: RootState) => state.languageReducer.language);
+    const language = useSelector((state: RootState) => state.languageReducer.language);
     let annualDealerMeeting = "Annual Dealer Meeting";
     let meetings = [
         {
             id: 2,
             path: "goa",
-            heading: "TOP SELLLERS MEET 2022 AT GOA",
+            headingEnglish: "TOP SELLLERS MEET 2022 AT GOA",
+            headingMarathi: "गोवा येथे टॉप सेलर्स मीट २०२२",
+            headingHindi: "गोवा में शीर्ष विक्रेताओं की मीट 2022",
             size: [1, 2, 3, 4, 5, 6, 7, 8, 9],
         },
         {
             id: 3,
             path: "kerala",
-            heading: "TOP SELLERS MEET 2014 AT KERALA ",
+            headingEnglish: "TOP SELLERS MEET 2014 AT KERALA ",
+            headingMarathi: "केरळ येथे टॉप सेलर्स मीट २०१४",
+            headingHindi: "केरला में शीर्ष विक्रेताओं की मीट 2014",
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
             id: 4,
             path: "sambhajinagar",
-            heading: "Annual Dealers meeting 2023 at Chtrapati Sambhajinagar",
+            headingEnglish: "Annual Dealers meeting 2023 at Chtrapati Sambhajinagar",
+            headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२३",
+            headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2023",
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
             id: 5,
             path: "sambhajinagar2",
-            heading: "Annual Dealers meeting 2022 AT Chtrapati Sambhajinagar",
+            headingEnglish: "Annual Dealers meeting 2022 AT Chtrapati Sambhajinagar",
+            headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२२",
+            headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2022",
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
             id: 7,
             path: "wardha",
-            heading: "ANNUAL DEALERS MEETING 2017 AT WARDHA",
+            headingEnglish: "ANNUAL DEALERS MEETING 2017 AT WARDHA",
+            headingMarathi: "वार्षिक डीलर सभा २०१७ वर्धा",
+            headingHindi: "वार्षिक डीलर सम्मेलन 2017 वर्धा",
             size: [1, 2, 3, 4]
         },
         {
             id: 8,
             path: "wardha2",
-            heading: "ANNUAL DEALER MEET 2014 AT WARDHA",
+            headingEnglish: "ANNUAL DEALER MEET 2014 AT WARDHA",
+            headingMarathi: "वार्षिक डीलर सभा २०१४ वर्धा",
+            headingHindi: "वार्षिक डीलर सम्मेलन 2014 वर्धा",
             size: [1, 2, 3, 4, 5, 6, 7, 8, 9],
         }
     ]
 
-    // if (language === "English") {
-    //     annualDealerMeeting = "Annual Dealer Meeting";
-    //     meetings = ["Meeting 1", "Meeting 2", "Meeting 3", "Meeting 4"];
-    // } else if (language === "Marathi") {
-    //     annualDealerMeeting = "वार्षिक डीलर सभा";
-    // } else if (language === "Hindi") {
-    //     annualDealerMeeting = "वार्षिक डीलर सम्मेलन";
-    // } else {
-    //     annualDealerMeeting = "Annual Dealer Meeting";
-    // }
+    if (language === "English") {
+        annualDealerMeeting = "Annual Dealer Meeting";
+    } else if (language === "Marathi") {
+        annualDealerMeeting = "वार्षिक डीलर सभा";
+    } else if (language === "Hindi") {
+        annualDealerMeeting = "वार्षिक डीलर सम्मेलन";
+    } else {
+        annualDealerMeeting = "Annual Dealer Meeting";
+    }
 
 
     return (
@@ -85,7 +81,11 @@ const AnnualDealerMeeting = () => {
                                 <div
                                     key={index}
                                     className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded m-2 md:m-8 p-4 md:p-8'>
-                                    <div className='text-2xl font-bold'>{meeting.heading}</div>
+                                    <div className='text-2xl font-bold'>{
+                                        language === "English" ? meeting.headingEnglish :
+                                            language === "Marathi" ? meeting.headingMarathi :
+                                                meeting.headingHindi
+                                    }</div>
                                     <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-10'>
                                         {
                                             meeting.size.map((item: number, index: number) => {

@@ -138,7 +138,7 @@ export default function Enquiry() {
                             type="submit"
                             className="block w-full rounded-md bg-green-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-950"
                         >
-                            Sent message
+                            {translatedText.sendMessage}
                         </button>
                     </div>
                 </form>
@@ -152,6 +152,7 @@ function getTranslatedText(language: string) {
     switch (language) {
         case "English":
             return {
+                sendMessage: "Sent message",
                 firstName: "First Name",
                 lastName: "Last Name",
                 email: "Email",
@@ -161,9 +162,9 @@ function getTranslatedText(language: string) {
                 companyName: "Enjo-Chem Agrochemical Industries",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
-                officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
+                officeContent: "Survey No. 53-2/1, kotamgaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
                 phoneTitle: "Phone",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "Branch Office",
@@ -171,6 +172,7 @@ function getTranslatedText(language: string) {
             };
         case "Marathi":
             return {
+                sendMessage: "संदेश पाठवा",
                 firstName: "पहिले नाव",
                 lastName: "आडनाव",
                 email: "ईमेल",
@@ -180,9 +182,9 @@ function getTranslatedText(language: string) {
                 companyName: "एन्जो-केम अॅग्रोकेमिकल इंडस्ट्रीज",
                 contactUs: "आमच्याशी संपर्क साधा",
                 officeTitle: "कार्यालय आणि निर्माण ठिकाण",
-                officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
+                officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटमगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
                 phoneTitle: "फोन",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "शाखा कार्यालय",
@@ -190,6 +192,7 @@ function getTranslatedText(language: string) {
             };
         case "Hindi":
             return {
+                sendMessage: "संदेश भेजें",
                 firstName: "पहला नाम",
                 lastName: "उपनाम",
                 email: "ईमेल",
@@ -199,9 +202,9 @@ function getTranslatedText(language: string) {
                 companyName: "एन्जो-केम एग्रोकेमिकल इंडस्ट्रीज",
                 contactUs: "हमसे संपर्क करें",
                 officeTitle: "कार्यालय और निर्माण स्थल",
-                officeContent: "सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",
+                officeContent: "सर्वेक्षण संख्या 53-2/1, कोटमगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",
                 phoneTitle: "फोन",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "शाखा कार्यालय",
@@ -209,6 +212,7 @@ function getTranslatedText(language: string) {
             };
         default:
             return {
+                sendMessage: "Sent message",
                 firstName: "First Name",
                 lastName: "Last Name",
                 email: "Email",
@@ -218,9 +222,9 @@ function getTranslatedText(language: string) {
                 companyName: "Enjo-Chem Agrochemical Industries",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
-                officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
+                officeContent: "Survey No. 53-2/1, kotamgaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
                 phoneTitle: "Phone",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 branchTitle: "Branch Office",

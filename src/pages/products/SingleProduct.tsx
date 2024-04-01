@@ -2,17 +2,35 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import productsEnglish from '../../assets/products.json';
 import productHindi from '../../assets/productsHindi.json';
+import productMarathi from '../../assets/productsMarathi.json';
 import { RootState } from '../../redux/store';
 import { useSelector } from 'react-redux';
+import { FaBug } from "react-icons/fa";
+import { PiPlantBold } from "react-icons/pi";
+import { FiPackage } from "react-icons/fi";
+import { GiFertilizerBag } from "react-icons/gi";
+
 
 const SingleProduct = () => {
+
     let { id } = useParams<{ id: any }>();
     const language = useSelector((state: RootState) => state.languageReducer.language);
     let product: any = {};
-    if (language === 'Hindi' || language === 'Marathi') {
+    let callUs = "Call us";
+    let enquiryNow = "Enquiry Now";
+    if (language === 'Hindi') {
         if (productHindi.hasOwnProperty(id as any)) {
             product = productHindi[id - 1 as any];
         }
+        callUs = "हमें कॉल करें";
+        enquiryNow = "अब पूछताछ करें";
+    }
+    else if (language === 'Marathi') {
+        if (productMarathi.hasOwnProperty(id as any)) {
+            product = productMarathi[id - 1 as any];
+        }
+        callUs = "आमच्याशी संपर्क साधा";
+        enquiryNow = "आता पूछताछ करा";
     }
     else {
         product = productsEnglish[id - 1 as any];
@@ -32,53 +50,53 @@ const SingleProduct = () => {
                     <h1 className=''>{product?.feature}</h1>
                     <div>
                         {
-                            product?.dosage && <div>
-                                <h1 className='text-xl md:text-2xl font-bold'>Dosage</h1>
-                                <h1 className=''>{product?.dosage}</h1>
+                            product?.dosage && <div className='flex flex-row gap-2'>
+                                <h1 className='text-lg md:text-xl'><GiFertilizerBag /></h1>
+                                <h1 className='text-lg md:text-xl'>{product?.dosage}</h1>
                             </div>
                         }
                     </div>
                     <div>
                         {
-                            product?.ingredients && <div>
-                                <h1 className='text-xl md:text-2xl font-bold'>Composition</h1>
-                                <h1 className=''>{product?.ingrediants}</h1>
+                            product?.ingredients && <div className='flex flex-row gap-2'>
+                                <h1 className='text-lg md:text-xl '>Composition:</h1>
+                                <h1 className='text-lg md:text-xl '>{product?.ingrediants}</h1>
                             </div>
                         }
                     </div>
                     <div>
                         {
-                            product?.packingSize && <div>
-                                <h1 className='text-xl md:text-2xl font-bold'>Packing Size</h1>
-                                <h1 className=''>{product?.packingSize}</h1>
+                            product?.packingSize && <div className='flex flex-row gap-2'>
+                                <h1 className='text-lg md:text-xl '><FiPackage /></h1>
+                                <h1 className='text-lg md:text-xl '>{product?.packingSize}</h1>
                             </div>
                         }
                     </div>
                     <div>
                         {
                             product?.crops &&
-                            <div>
-                                <h1 className='text-xl md:text-2xl font-bold'>Crops</h1>
-                                <h1 className=''>{product?.crops}</h1>
+                            <div className='flex flex-row gap-2'>
+                                <h1 className='text-lg md:text-xl'><PiPlantBold /></h1>
+                                <h1 className='text-lg md:text-xl'>{product?.crops}</h1>
                             </div>
                         }
                     </div>
                     <div>
                         {
-                            (product?.insect || product?.pest || product?.fungi) &&
-                            <div>
-                                <h1 className='text-xl md:text-2xl font-bold'>Insects</h1>
-                                <h1 className=''>{product?.insect}</h1>
-                                <h1 className=''>{product?.pest}</h1>
-                                <h1 className=''>{product?.fungi}</h1>
+                            (product?.pests) &&
+                            <div className='flex flex-row gap-4'>
+                                <h1 className='text-lg md:text-xl'><FaBug className='' /></h1>
+                                <h1 className='text-lg md:text-xl'>{product?.pests}</h1>
                             </div>
                         }
                     </div>
                     <div className='flex flex-row gap-10 text-white'>
-                        <button className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>Call us</button>
+                        <a href="tel:+919699375115">
+                            <button className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>{callUs}</button>
+                        </a>
                         <Link to='/enquiry' className='bg-green-600 hover:bg-green-700 border rounded-md py-2 px-4 hover:scale-105 duration-300 transition ease-in-out'>
                             <button>
-                                Enquiry Now
+                                {enquiryNow}
                             </button>
                         </Link>
                     </div>

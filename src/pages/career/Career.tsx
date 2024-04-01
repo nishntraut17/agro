@@ -178,7 +178,7 @@ export default function Career() {
                                 type="submit"
                                 className="block w-full rounded-md bg-green-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-950"
                             >
-                                Sent
+                                {translatedText.send}
                             </button>
                         </div>
                     </div>
@@ -193,6 +193,7 @@ function getTranslatedText(language: string) {
     switch (language) {
         case "English":
             return {
+                send: "Send",
                 firstName: "First Name",
                 lastName: "Last Name",
                 email: "Email",
@@ -209,6 +210,7 @@ function getTranslatedText(language: string) {
             };
         case "Marathi":
             return {
+                send: "पाठवा",
                 firstName: "पहिले नाव",
                 lastName: "आडनाव",
                 email: "ईमेल",
@@ -225,6 +227,7 @@ function getTranslatedText(language: string) {
             };
         case "Hindi":
             return {
+                send: "भेजें",
                 firstName: "पहला नाम",
                 lastName: "उपनाम",
                 email: "ईमेल",
@@ -241,6 +244,7 @@ function getTranslatedText(language: string) {
             };
         default:
             return {
+                send: "Send",
                 firstName: "First Name",
                 lastName: "Last Name",
                 email: "Email",

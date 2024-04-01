@@ -32,13 +32,13 @@ export default function Footer() {
                         {/* Our Products */}
                         <div className="col-span-1 mt-20 ">
                             <h1 className="text-2xl font-bold mb-4">{translatedText.ourProducts}</h1>
-                            <ul className="flex flex-col gap-5 font-semibold">
-                                <li><Link to='/products/insecticides' className="flex flex-row gap-4"><GiFertilizerBag className="text-lg text-white" />{translatedText.insectisides}</Link></li>
-                                <li><Link to='/products/fungicides' className="flex flex-row gap-4"><FaBug className="text-lg text-white" />{translatedText.fungicides}</Link></li>
-                                <li><Link to='/products/herbicides' className="flex flex-row gap-4"><PiPlant className="text-lg text-white" />{translatedText.herbicides}</Link></li>
-                                <li><Link to='/products/micro-nutrients-fertilizers' className="flex flex-row gap-4"><FaBugSlash className="text-lg text-white" />{translatedText.micronutrients}</Link></li>
-                                <li><Link to='/products/bio-fertilizers' className="flex flex-row gap-4"><GiFertilizerBag className="text-lg text-white" />{translatedText.biofertilisers}</Link></li>
-                                <li><Link to='/products/plant-growth-regulators' className="flex flex-row gap-4"><RiPlantFill className="text-lg text-white" />{translatedText.pgr}</Link></li>
+                            <ul className="flex flex-col gap-5 font-semibold ">
+                                <li><Link to='/products/insecticides' className="flex items-center gap-4"><GiFertilizerBag className="text-lg text-white  m-2" />{translatedText.insectisides}</Link></li>
+                                <li><Link to='/products/fungicides' className="flex items-center gap-4"><FaBug className="text-lg text-white m-2" />{translatedText.fungicides}</Link></li>
+                                <li><Link to='/products/herbicides' className="flex items-center gap-4"><PiPlant className="text-lg text-white m-2" />{translatedText.herbicides}</Link></li>
+                                <li><Link to='/products/micro-nutrients-fertilizers' className="flex items-center gap-4"><FaBugSlash className="text-lg text-white m-2" />{translatedText.micronutrients}</Link></li>
+                                <li><Link to='/products/bio-fertilizers' className="flex items-center gap-4"><GiFertilizerBag className="text-lg text-white m-2" />{translatedText.biofertilisers}</Link></li>
+                                <li><Link to='/products/plant-growth-regulators' className="flex items-center gap-4"><RiPlantFill className="text-lg text-white m-2" />{translatedText.pgr}</Link></li>
                             </ul>
                         </div>
 
@@ -114,9 +114,9 @@ function getTranslatedText(language: string) {
                 pgr: "Plant Growth Regulators",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
-                officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
+                officeContent: "Survey No. 53-2/1, kotamgaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
                 phoneTitle: "Phone",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "Head Office",
@@ -126,7 +126,7 @@ function getTranslatedText(language: string) {
                 careers: "Careers",
                 allRightsReserved: "All Rights Reserved",
                 headOfficePhone: "Head Office Contact",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "Kishan Helpline",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, Akola-444004",
@@ -148,9 +148,9 @@ function getTranslatedText(language: string) {
                 pgr: "प्लांट ग्रोथ रेग्युलेटर्स",
                 contactUs: "आमच्याशी संपर्क साधा",
                 officeTitle: "कार्यालय आणि निर्माण ठिकाण",
-                officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटांगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
+                officeContent: "सर्वेक्षण क्रमांक 53-2/1, कोटमगाव, ता. येवला, जि. नाशिक, महाराष्ट्र, भारत - 423401",
                 phoneTitle: "फोन",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "मुख्य कार्यालय",
@@ -160,7 +160,7 @@ function getTranslatedText(language: string) {
                 careers: "करिअर्स",
                 allRightsReserved: "सर्व हक्क राखीव",
                 headOfficePhone: "मुख्य कार्यालय संपर्क",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "किसान सहाय्य लाईन",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पोलीस स्थानकाजवळ, मिडसी क्र. 2, 444004",
@@ -182,19 +182,19 @@ function getTranslatedText(language: string) {
                 pgr: "प्लांट ग्रोथ रेगुलेटर्स",
                 contactUs: "हमसे संपर्क करें",
                 officeTitle: "कार्यालय और निर्माण स्थल",
-                officeContent: "सर्वेक्षण संख्या 53-2/1, कोटांगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",
+                officeContent: "सर्वेक्षण संख्या 53-2/1, कोटमगाव, ता. येवला, जि. नासिक, महाराष्ट्र, भारत - 423401",
                 phoneTitle: "फोन",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "ईमेल",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "मुख्य कार्यालय",
                 branchContent: "बी-14/10/12, कोलगेट चौक, मिडसी वाळूज खंड, गंगापूर, छ. संभाजीनगर-431136",
-                about: "के बारे में",
+                about: "कंपनी के बारे में",
                 products: "उत्पाद",
                 careers: "करियर्स",
                 allRightsReserved: "सर्वाधिकार सुरक्षित",
                 headOfficePhone: "मुख्य कार्यालय संपर्क",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "किसान हेल्पलाइन",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. पद्मावती उद्योग, मिडसी पुलिस स्थानक के पास, मिडसी क्र. 2, 444004",
@@ -212,9 +212,9 @@ function getTranslatedText(language: string) {
                 pgr: "PGR",
                 contactUs: "Contact us",
                 officeTitle: "Office & Mfg. Premises",
-                officeContent: "Survey No. 53-2/1, Kotangaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
+                officeContent: "Survey No. 53-2/1, kotamgaon, Tal. Yeola, Dist. Nashik, Maharashtra, India - 423401",
                 phoneTitle: "Phone",
-                phoneContent: "+91 9420318312, +91 9579291495",
+                phoneContent: "+91 8275017003, +91 9579291495",
                 emailTitle: "Email",
                 emailContent: "support@enjochemagro.com, enjochemagro133@gmail.com",
                 headTitle: "Head Office",
@@ -224,7 +224,7 @@ function getTranslatedText(language: string) {
                 careers: "Careers",
                 allRightsReserved: "All Rights Reserved",
                 headOfficePhone: "Head Office Contact",
-                headOfficeContact: "9420318312,8275017003",
+                headOfficeContact: "8275017003",
                 kishanHelplineText: "Kishan Helpline",
                 kishanHelpLine: "+919699375115",
                 akolaOffice: "C/O. Padmavati Udhyg, near MIDC Police station, MIDC no. 2, 444004",

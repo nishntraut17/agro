@@ -5,7 +5,7 @@ const array = [
         content: "Various types of insecticides, fungicides, and herbicides",
         description: "This product offers a comprehensive range of insecticides, fungicides, and herbicides for crop protection. It includes formulations designed to control pests such as insects, fungi, and weeds that can damage crops and reduce yields. These products are formulated using advanced technologies to ensure effective pest management while minimizing environmental impact.",
         dosage: "As per recommended guidelines for each product",
-        package: "Available in various packaging sizes"
+        package: "25 Kg ( HDPE Bag )"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const array = [
         content: "Sulphated micronutrients mixture",
         description: "Sulphated micronutrients mixture for drip irrigation systems is specially formulated to provide essential micronutrients to plants through drip irrigation. This Grade 1 mixture contains a balanced combination of micronutrients including sulphur, which are vital for various metabolic processes in plants. It helps prevent and correct nutrient deficiencies, promoting healthy growth and optimal yields.",
         dosage: "As per recommended guidelines for drip irrigation systems",
-        package: "Available in various packaging sizes"
+        package: "25 Kg ( HDPE Bag )"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const array = [
         content: "Chelated micronutrients mixture",
         description: "Chelated micronutrients mixture Grade 2 is a premium formulation containing chelated micronutrients. Chelation enhances the availability and uptake of micronutrients by plants, ensuring efficient nutrient utilization. This Grade 2 mixture provides a balanced supply of essential micronutrients necessary for various biochemical processes in plants, promoting healthy growth, and improving yield and quality.",
         dosage: "As per recommended guidelines for each crop",
-        package: "Available in various packaging sizes"
+        package: "25 Kg ( HDPE Bag )"
     },
     {
         id: 4,
