@@ -77,7 +77,7 @@ const IncrementerSection = () => {
                     <div className="pt-4">
                         <CountUp
                             start={0}
-                            end={250}
+                            end={500}
                             delay={0}
                             enableScrollSpy={true}
                             scrollSpyDelay={500}

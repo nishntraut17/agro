@@ -11,7 +11,7 @@ export default function Career() {
         <div className="">
             <PageHeader title={translatedText.career} />
             <div className='flex flex-col md:flex-row md:justify-center'>
-                <form action="" method="" className="bg-stone-100 w-2/3 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
+                <form action="https://formspree.io/f/xayrpvzd" method="post" className="bg-stone-100 w-2/3 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
                             <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">

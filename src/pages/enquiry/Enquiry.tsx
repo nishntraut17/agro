@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
@@ -56,7 +56,7 @@ export default function Enquiry() {
                     </div>
                 </div>
 
-                <form action="" method="" className="md:w-1/2 p-10 bg-slate-100 rounded-sm z-10 shadow-md">
+                <form action="https://formspree.io/f/mjvnaldr" method="post" className="md:w-1/2 p-10 bg-slate-100 rounded-sm z-10 shadow-md">
                     <div>
                         <div className='text-3xl font-extrabold py-4'>{translatedText.enquiry}</div>
                     </div>

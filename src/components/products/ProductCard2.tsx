@@ -84,11 +84,11 @@ const ProductCard2 = ({ filter }: {
                         </div>
                         <div className="p-4 hover:opacity-80 text-green-950">
                             <h1 className="text-xl font-extrabold mb-2">{product.name}</h1>
-                            <p className="text-sm mb-2">{product.ingrediants}</p>
+                            <p className="text-sm mb-2">{product.ingrediants.length > 32 ? <div>{product.ingrediants.substring(0, 32)}...</div> : product.ingrediants}</p>
                             <h1 className="text-l font-bold mb-2">{getText('Packing Size', 'पॅकिंग साईझ', 'पॅकिंग साईझ')}</h1>
                             <p className="text-sm mb-2">{product.packingSize}</p>
                             <h1 className="text-l font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
-                            <p className="text-sm">{product.dosage}</p>
+                            <p className="text-sm">{product.dosage.length > 15 ? <div>{product.dosage.substring(0, 16)}...</div> : product.dosage}</p>
                             <button
                                 onClick={scrollToTop}
                                 className='rounded bg-green-600 h-10 w-40 mt-2 hover:scale-105 transition duration-150 ease-in-out'>
