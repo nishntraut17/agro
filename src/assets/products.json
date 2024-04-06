@@ -90,11 +90,12 @@
     {
         "id": 9,
         "name": "VAJEER",
-        "feature":"Vajeer is a natural insecticide made from various plant extracts, Vajeer protects crops from various types of insects, mites, mealybugs and caterpillars.",
+        "feature":"Vajeer (Chlorantraniliprole 18.5% w/w SC)) is a plant systemic insecticide that belongs to the group anthranilic diamide,which has a unique mode of action called Ryanodine Receptor Activators that disrupt normal muscle functions within the pest",
         "ingrediants": "Botanical extracts",
-        "crops": "cotton, vegetables, fruit crops",
-        "packingSize": "25 ml, 50 ml, 100 ml, 250 ml",
-        "dosage": "0.4 ml per liter of water for spraying",
+        "crops": " soybeans, Pigen Pea, Black Gram, Cotton,Brinjal, Cabbage, Chilli, Groundnut,Maize, Okra, Rice, Sugarcane",
+        "packingSize": "30 ml , 60 ml , 150 ml",
+        "dosage": "60 ml per acre",
+        "pests": "Pod Borer, American Boll Worm,Spotted Bollworm Fruit Borers & Caterpillars, Termite Early Shoot Borer And Top Borer Stem Borer, Leaf Borer",
         "type": "insecticide"
     },
     {
@@ -222,7 +223,7 @@
         "id": 21,
         "name": "Thripkill plus",
         "ingrediants": "Karanj Oil - 60%, Essential Oil - 14%.",
-        "feature": "Thripkill plus (Tolfenpyrad 15% EC) is a systemic insecticide. It is highly effective against a wide range of sucking and chewing pests (Diamond Backmoth). Thripkill plus works as a one-time solution for targeted pests and also reduces the cost of crop protection for farmers.",
+        "feature": "Thripkill plus ( Tolfenpyrad 15% EC) is a topical insecticide. It is highly effective against a wide range of sucking insects and chewing insects (diamond back moth). Thripkill plus acts as a one shot solution for multiple target pests and also reduces the cost of crop protection",
         "crops": "Cotton, Okra, Onion, Cabbage, Pepper",
         "pests": "Whiteflies, Thrips, Aphids, Plant Hoppers, Diamond Backmoths",
         "dosage": "500 ml per acre",
@@ -238,7 +239,7 @@
         "dosage": "250 ml per acre",
         "type": "insecticide",
         "pests": "yellow mites, red mites, red spiders, two-spotted mites",
-        "crops": "Rice"
+        "crops": "Rose"
     },
     { 
         "id": 23,
@@ -309,12 +310,13 @@
     {
         "id": 29,
         "name": "RETAINZA",
-        "feature":"Retainza is a biochemical that provides effective control and prevention of thrips, mites, whiteflies and sucking insects on crops",
+        "feature":"Fipronil 2.92% w/w Emulsifiable Concentrate (EC) is recommended for the control of termites in buildings through pre & post construction treatments",
         "ingrediants": "Karanj Oil - 60%, Essential Oil - 14%.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "1 ml per liter of water for spraying",
+        "dosage": "100 ml per L Water",
         "crops":"Vegetables, Fruits, Cotton",
-        "type": "insecticide"
+        "type": "insecticide",
+        "pests": "termites"
     },
     {
         "id": 30,
@@ -714,7 +716,7 @@
     },
     {
         "id": 67,
-        "name": "TRICONEX",
+        "name": "TRIACONEX",
         "ingrediants": "Triacontanol EW 0.01 % min",
         "feature":"Triconex contains Tricontanol 0.1% EW It is a plant growth regulator. Tricontanol is a naturally occurring fatty alcohol, phytohormone or plant growth stimulant found in the cuticle and wax of plants. When used properly, tricontanol can significantly increase the amount of chlorophyll in leaves, resulting in an improved rate of photosynthesis. It is a non-toxic and eco-friendly formulation",
         "packingSize": "100 ml, 250 ml, 500 ml, 1 ltr",
@@ -744,13 +746,13 @@
     },
     {
         "id": 70,
-        "name": "TEJO PRO",
+        "name": "TEJA PRO",
         "ingrediants": "Gibberellic Acid 40% WSG",
         "packingSize": "2.5 gm, 12.5 gm",
         "dosage": "10 gm per acre",
         "type": "pgr",
         "crops": "Rice, Grape",
-        "feature": "Tejo Pro is a plant growth regulator containing Gibberellic Acid 40% WSG as the active ingredient. It is specifically designed to promote plant growth and development. Tejo Pro stimulates cell elongation, resulting in increased stem and leaf growth. It also enhances flowering and fruiting, leading to improved crop yield. Tejo Pro is easy to apply and provides effective results in promoting plant growth and productivity."
+        "feature": "Teja Pro is a plant growth regulator containing Gibberellic Acid 40% WSG as the active ingredient. It is specifically designed to promote plant growth and development. Tejo Pro stimulates cell elongation, resulting in increased stem and leaf growth. It also enhances flowering and fruiting, leading to improved crop yield. Tejo Pro is easy to apply and provides effective results in promoting plant growth and productivity."
     },
     {
         "id": 71,
@@ -795,7 +797,7 @@
     {
         "id": 75,
         "name": "Supreem G-40",
-        "feature":"0.5 Misuprem G-40 for Spray is a special granular plant growth regulator that is a useful flowering stimulant for crops. Also increase in number of vines, increase in vegetative growth, increase in number of flowers, overall plant growth with root development are all benefits of Supreem G-40",
+        "feature":"Supreem G-40 for Spray is a special granular plant growth regulator that is a useful flowering stimulant for crops. Also increase in number of vines, increase in vegetative growth, increase in number of flowers, overall plant growth with root development are all benefits of Supreem G-40",
         "ingrediants": "L-Glycine-2.6%, Octadecadienoic Acid-1.4%.",
         "packingSize": "1 kg",
         "dosage": "1 - 2 kg per acre",
@@ -954,7 +956,7 @@
     {
         "id": 91,
         "name": "ANEX-BORDO",
-        "feature":"Anex Bordeaux mixture is mainly used in orchards, vineyards, nurseries and fields to control fungal infections, primary downy mildew, as well as fungal infections on grape vines. The copper ions of Bordeaux mixture affect the enzymes in the fungal spores in such a way that the fungus inhibits germination. This means that the mixture needs to be applied before the outbreak of fungal diseases",
+        "feature":"Anex Bordo mixture is mainly used in orchards, vineyards, nurseries and fields to control fungal infections, primary downy mildew, as well as fungal infections on grape vines. The copper ions of Bordeaux mixture affect the enzymes in the fungal spores in such a way that the fungus inhibits germination. This means that the mixture needs to be applied before the outbreak of fungal diseases",
         "ingrediants": "Copper-20%, Calcium-10%.",
         "crops":"Fruits, Vegetables, Nursery",
         "packingSize": "500 gm, 1 kg",
@@ -964,9 +966,10 @@
     {
         "id": 92,
         "name": "BIO STIKCY TRAPS",
-        "ingrediants": "",
-        "packingSize": "",
-        "dosage": "",
+        "ingrediants": "BIO STICKY TRAPS (Jumbo) 3MM - Insect Killer , For Sucking Pest",
+        "packingSize": "10 pic, 25 pic      ",
+        "dosage": " 50-150 traps per acre depending on plant population",
+        "pests": "White Flies, Aphids, Thrips, Fruit Flies, Jassids, Leaf Hoppers, Leaf miners and Moths ",
         "type": "pgr"
     },
     {
