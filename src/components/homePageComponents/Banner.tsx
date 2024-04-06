@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
     return (
         <div>
-            <img src='/banner.jpg' alt="banner" className="w-full max-h-[608px]" />
+            <img src='/banner-min-min.jpg' alt="banner" className="w-full max-h-[608px]" />
         </div>
     )
 }
