@@ -20,10 +20,22 @@ const fadeInAnimationVariants = {
     }),
 }
 
+interface Product {
+    id: number;
+    name?: string | undefined;
+    type?: string;
+    ingrediants?: string | undefined;
+    packingSize?: string | undefined;
+    dosage?: string | undefined;
+    pests?: string | undefined;
+    crops?: string | undefined;
+    feature?: string | undefined;
+}
+
 const ProductCard2 = ({ filter }: {
     filter: string
 }) => {
-    let products;
+    let products: Product[] = [];
     let viewProduct = "View Product";
     const language = useSelector((state: RootState) => state.languageReducer.language);
     if (language === 'Hindi') {
@@ -63,13 +75,13 @@ const ProductCard2 = ({ filter }: {
         <main className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:px-20">
             {
                 products.filter(
-                    (product: any) => {
+                    (product: Product) => {
                         if (filter === 'none') {
                             return product;
                         }
                         return product.type === filter;
                     }
-                ).map((product: any, index: number) => (
+                ).map((product: Product, index: number) => (
                     <motion.div
                         variants={fadeInAnimationVariants}
                         initial="initial"
@@ -84,11 +96,11 @@ const ProductCard2 = ({ filter }: {
                         </div>
                         <div className="p-4 hover:opacity-80 text-green-950">
                             <h1 className="text-xl font-extrabold mb-2">{product.name}</h1>
-                            <p className="text-sm mb-2">{product.ingrediants.length > 32 ? <div>{product.ingrediants.substring(0, 32)}...</div> : product.ingrediants}</p>
+                            <p className="text-sm mb-2">{product.ingrediants && product.ingrediants.length > 32 ? <div>{product.ingrediants.substring(0, 32)}...</div> : product.ingrediants}</p>
                             <h1 className="text-l font-bold mb-2">{getText('Packing Size', 'पॅकिंग साईझ', 'पॅकिंग साईझ')}</h1>
                             <p className="text-sm mb-2">{product.packingSize}</p>
                             <h1 className="text-l font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
-                            <p className="text-sm">{product.dosage.length > 15 ? <div>{product.dosage.substring(0, 16)}...</div> : product.dosage}</p>
+                            <p className="text-sm">{product.dosage && product.dosage.length > 15 ? <div>{product.dosage.substring(0, 16)}...</div> : product.dosage}</p>
                             <button
                                 onClick={scrollToTop}
                                 className='rounded bg-green-600 h-10 w-40 mt-2 hover:scale-105 transition duration-150 ease-in-out'>
