@@ -141,11 +141,12 @@ export default function Career() {
                                     {translatedText.uploadResume}
                                 </label>
                                 <div className="mt-2.5">
-                                    <input
-                                        type="file"
+                                    <textarea
                                         name="upload-resume"
                                         id="upload-resume"
-                                        className="block w-full px-3.5 py-2 pl-20 "
+                                        rows={4}
+                                        className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6"
+                                        defaultValue={''}
                                     />
                                 </div>
                             </div>
@@ -194,7 +195,7 @@ function getTranslatedText(language: string) {
                 linkedinProfileLink: "Linkedin Profile Link",
                 postApplyingFor: "Post Applying For",
                 availableStartDate: "Available Start Date",
-                uploadResume: "Upload Resume",
+                uploadResume: "Resume",
                 coverLetter: "Cover Letter",
                 phoneNumber: "Phone Number",
                 career: "Career",
@@ -211,7 +212,7 @@ function getTranslatedText(language: string) {
                 linkedinProfileLink: "लिंक्डइन प्रोफाइल लिंक",
                 postApplyingFor: "पद लागू असलेला",
                 availableStartDate: "उपलब्ध सुरुवात तारीख",
-                uploadResume: "रिझ्यूम अपलोड करा",
+                uploadResume: "रिझ्यूम",
                 coverLetter: "कव्हर पत्र",
                 phoneNumber: "फोन नंबर",
                 career: "करिअर",
@@ -228,7 +229,7 @@ function getTranslatedText(language: string) {
                 linkedinProfileLink: "लिंक्डइन प्रोफाइल लिंक",
                 postApplyingFor: "पद के लिए आवेदन",
                 availableStartDate: "उपलब्ध स्टार्ट डेट",
-                uploadResume: "रिज्यूम अपलोड करें",
+                uploadResume: "रिज्यूम",
                 coverLetter: "कवर पत्र",
                 phoneNumber: "फोन नंबर",
                 career: "करियर",
@@ -245,7 +246,7 @@ function getTranslatedText(language: string) {
                 linkedinProfileLink: "Linkedin Profile Link",
                 postApplyingFor: "Post Applying For",
                 availableStartDate: "Available Start Date",
-                uploadResume: "Upload Resume",
+                uploadResume: "Resume",
                 coverLetter: "Cover Letter",
                 phoneNumber: "Phone Number",
                 career: "Career",
