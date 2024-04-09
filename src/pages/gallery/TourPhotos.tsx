@@ -19,11 +19,35 @@ const TourPhotos = () => {
     let meetings = [
         {
             id: 1,
-            path: "dwarka2017",
-            headingEnglish: "DWARKA TOUR 2017",
-            headingHindi: "द्वारका यात्रा 2017",
-            headingMarathi: "द्वारका यात्रा 2017",
-            size: [1, 2, 3, 4, 5, 6, 7],
+            path: "thailand24",
+            headingEnglish: "Thailand TOUR 2024",
+            headingHindi: "थाईलैंड यात्रा 2024",
+            headingMarathi: "थाईलैंड यात्रा 2024",
+            size: [1, 2, 3, 4, 5],
+        },
+        {
+            id: 2,
+            path: "kashmir",
+            headingEnglish: "Kashmir TOUR 2024",
+            headingHindi: "कश्मीर यात्रा 2024",
+            headingMarathi: "कश्मीर यात्रा 2024",
+            size: [1, 2],
+        },
+        {
+            id: 3,
+            path: "diu",
+            headingEnglish: "Somnath,Diu,Sasan Gir tour 2024",
+            headingHindi: "सोमनाथ, दिउ, सासन गिर यात्रा 2024",
+            headingMarathi: "सोमनाथ, दिउ, सासन गिर यात्रा 2024",
+            size: [1, 2, 3, 4],
+        },
+        {
+            id: 4,
+            path: "thailand23",
+            headingEnglish: "Thailand TOUR 2023",
+            headingHindi: "थाईलैंड यात्रा 2023",
+            headingMarathi: "थाईलैंड यात्रा 2023",
+            size: [1, 2, 3, 4, 5],
         },
         {
             id: 6,
@@ -34,36 +58,13 @@ const TourPhotos = () => {
             size: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
         },
         {
-            id: 7,
-            path: "thailand24",
-            headingEnglish: "Thailand TOUR 2024",
-            headingHindi: "थाईलैंड यात्रा 2024",
-            headingMarathi: "थाईलैंड यात्रा 2024",
-            size: [1, 2, 3, 4, 5],
+            id: 1,
+            path: "dwarka2017",
+            headingEnglish: "DWARKA TOUR 2017",
+            headingHindi: "द्वारका यात्रा 2017",
+            headingMarathi: "द्वारका यात्रा 2017",
+            size: [1, 2, 3, 4, 5, 6, 7],
         },
-        {
-            id: 8,
-            path: "thailand23",
-            headingEnglish: "Thailand TOUR 2023",
-            headingHindi: "थाईलैंड यात्रा 2023",
-            headingMarathi: "थाईलैंड यात्रा 2023",
-            size: [1, 2, 3, 4, 5],
-        },
-        {
-            id: 9,
-            path: "kashmir",
-            headingEnglish: "Kashmir TOUR 2024",
-            headingHindi: "कश्मीर यात्रा 2024",
-            headingMarathi: "कश्मीर यात्रा 2024",
-            size: [1, 2],
-        }, {
-            id: 10,
-            path: "diu",
-            headingEnglish: "Somnath,Diu,Sasan Gir tour 2024",
-            headingHindi: "सोमनाथ, दिउ, सासन गिर यात्रा 2024",
-            headingMarathi: "सोमनाथ, दिउ, सासन गिर यात्रा 2024",
-            size: [1, 2, 3, 4],
-        }
     ]
 
     return (

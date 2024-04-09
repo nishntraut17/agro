@@ -8,6 +8,14 @@ const AnnualDealerMeeting = () => {
     let annualDealerMeeting = "Annual Dealer Meeting";
     let meetings = [
         {
+            id: 1,
+            path: "sambhajinagar",
+            headingEnglish: "Annual Dealers meeting 2023 at Chtrapati Sambhajinagar",
+            headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२३",
+            headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2023",
+            size: [1, 2, 3, 4, 5, 6, 7, 8],
+        },
+        {
             id: 2,
             path: "goa",
             headingEnglish: "TOP SELLLERS MEET 2022 AT GOA",
@@ -17,22 +25,6 @@ const AnnualDealerMeeting = () => {
         },
         {
             id: 3,
-            path: "kerala",
-            headingEnglish: "TOP SELLERS MEET 2014 AT KERALA ",
-            headingMarathi: "केरळ येथे टॉप सेलर्स मीट २०१४",
-            headingHindi: "केरला में शीर्ष विक्रेताओं की मीट 2014",
-            size: [1, 2, 3, 4, 5, 6, 7, 8],
-        },
-        {
-            id: 4,
-            path: "sambhajinagar",
-            headingEnglish: "Annual Dealers meeting 2023 at Chtrapati Sambhajinagar",
-            headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२३",
-            headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2023",
-            size: [1, 2, 3, 4, 5, 6, 7, 8],
-        },
-        {
-            id: 5,
             path: "sambhajinagar2",
             headingEnglish: "Annual Dealers meeting 2022 AT Chtrapati Sambhajinagar",
             headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२२",
@@ -40,7 +32,7 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
-            id: 7,
+            id: 4,
             path: "wardha",
             headingEnglish: "ANNUAL DEALERS MEETING 2017 AT WARDHA",
             headingMarathi: "वार्षिक डीलर सभा २०१७ वर्धा",
@@ -48,7 +40,15 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4]
         },
         {
-            id: 8,
+            id: 5,
+            path: "kerala",
+            headingEnglish: "TOP SELLERS MEET 2014 AT KERALA ",
+            headingMarathi: "केरळ येथे टॉप सेलर्स मीट २०१४",
+            headingHindi: "केरला में शीर्ष विक्रेताओं की मीट 2014",
+            size: [1, 2, 3, 4, 5, 6, 7, 8],
+        },
+        {
+            id: 6,
             path: "wardha2",
             headingEnglish: "ANNUAL DEALER MEET 2014 AT WARDHA",
             headingMarathi: "वार्षिक डीलर सभा २०१४ वर्धा",
