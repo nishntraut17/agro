@@ -90,8 +90,8 @@
     {
         "id": 9,
         "name": "VAJEER",
-        "feature":"Vajeer (Chlorantraniliprole 18.5% w/w SC)) is a plant systemic insecticide that belongs to the group anthranilic diamide,which has a unique mode of action called Ryanodine Receptor Activators that disrupt normal muscle functions within the pest",
-        "ingrediants": "Botanical extracts",
+        "feature":"Vajeer (Chlorantraniliprole 18.5% w/w SC) is a plant systemic insecticide that belongs to the group anthranilic diamide,which has a unique mode of action called Ryanodine Receptor Activators that disrupt normal muscle functions within the pest",
+        "ingrediants": "Chlorantraniliprole 18.5% w/w SC",
         "crops": " soybeans, Pigen Pea, Black Gram, Cotton,Brinjal, Cabbage, Chilli, Groundnut,Maize, Okra, Rice, Sugarcane",
         "packingSize": "30 ml , 60 ml , 150 ml",
         "dosage": "60 ml per acre",
@@ -222,7 +222,7 @@
     {
         "id": 21,
         "name": "Thripkill plus",
-        "ingrediants": "Karanj Oil - 60%, Essential Oil - 14%.",
+        "ingrediants": "Tolfenpyrad 15% EC",
         "feature": "Thripkill plus ( Tolfenpyrad 15% EC) is a topical insecticide. It is highly effective against a wide range of sucking insects and chewing insects (diamond back moth). Thripkill plus acts as a one shot solution for multiple target pests and also reduces the cost of crop protection",
         "crops": "Cotton, Okra, Onion, Cabbage, Pepper",
         "pests": "Whiteflies, Thrips, Aphids, Plant Hoppers, Diamond Backmoths",
