@@ -22,8 +22,8 @@ const CompanyNews = () => {
     return (
         <div className='bg-slate-50'>
             <PageHeader title={companyNews} />
-            <div className=''>
-                <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{companyNews}</div>
+            <div className='p-4'>
+                <div className="text-4xl py-8 font-extrabold">{companyNews}</div>
                 <div className="min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:px-20">
                     {images.map((image, index) => (
                         <div key={index} className={`flex flex-col gap-4 ${horizontalImage.includes(image) ? 'h-80 w-64' : 'h-64 w-80'} overflow-hidden rounded-sm`}>

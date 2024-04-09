@@ -69,7 +69,7 @@ const AnnualDealerMeeting = () => {
 
 
     return (
-        <div className=''>
+        <div className='bg-slate-50'>
             <PageHeader title={annualDealerMeeting} />
             <div className='p-4 md:px-20'>
                 <h1 className='text-4xl py-8 font-extrabold'>{annualDealerMeeting}</h1>

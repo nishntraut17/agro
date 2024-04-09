@@ -7,8 +7,8 @@
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "dosage": "500 ml per acre",
         "type": "insecticide",
-        "crops": "Cotton.",
-        "pests": "bollworms."
+        "crops": "Cotton",
+        "pests": "bollworms"
     },
     {
         "id": 2,
@@ -40,7 +40,7 @@
         "crops":"Chilli, Cotton, Okra, Maize, Sorghum, Wheat, Soybean, Sunflower.",
         "pests": "thrips, mites, maggots, shoot fly, whitefly.",
         "packingSize": "50 ml, 100ml, 250 ml, 500 ml, 1 ltr",
-        "dosage": "3-5 ml per kg of seed",
+        "dosage": "5 ml per kg of seed",
         "type": "insecticide"
     },
     {
@@ -576,7 +576,7 @@
         "feature": "Eastline (Pyraclostrobin 20% WG) is a high quality broad-spectrum fungicide that controls more than 50 major diceases that threaten yield and crop quality. Eastline helps prevent fungal diseases and provides protection to crops.",
         "ingrediants": "Pyraclostrobin 20% WG",
         "crops":"Soyabean, cotton, banana, chilli, maize, tomato, groundnut",
-        "packingSize": "200 gm",
+        "packingSize": "250 gm, 500 gm, 1 Kg",
         "dosage": "200 gm per acre",
         "pests": "Early blight, late blight, fruit spot, leaf spot, sheath blight, tick disease.",
         "type": "fungicide"
@@ -987,8 +987,8 @@
         "id": 94,
         "name": "ENJOFERT",
         "feature": "Enjofert is a balanced multi-micronutrient product in liquid form. Enjofert effectively supplies all the essential trace elements to the crop to produce fast, healthy growth with high yields. Enjofert helps in proper application of NPK fertilizers. Enzofert increases chlorophyll synthesis which produces more food for plants.",
-        "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Molybdenum 0.1%, Boron 0.5%",
-        "crops": "Crops - All crops",
+        "ingrediants": "Fe-2.5%, Mn-1%, Zn-3%, Cu-1%, B-0.5%, Mo-0.1%",
+        "crops": "All crops",
         "packingSize": "250 ml, 500 ml, 1 ltr, 5 ltr, 20 ltr",
         "dosage": "600-100 ml per acre",
         "type": "micronutrients-fertiliser"
@@ -997,7 +997,7 @@
         "id": 95,
         "name": "ANEX-D",
         "feature":"Annex-D is a mixture of water soluble micronutrients and is a well-balanced mixture of essential micronutrients as per the standards approved by the state government. Annex-D provides important micronutrients required by plants. The use of Annex-D increases the availability and absorption of other major and secondary essential nutrients. Annex-D improves flower aroma and fruit color, fruit size. Annex-D is specially formulated for drip and should be applied by drip only.",
-        "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
+        "ingrediants": "Fe-2%, Mn-1%, Zn-5%, Cu-0.5%, B-1%",
         "packingSize": "2 kg, 5 kg, 10 kg",
         "dosage": "2 to 5 kg per acre",
         "crops":"All crops",
@@ -1006,7 +1006,7 @@
     {
         "id": 96,
         "name": "ANEX-COMBI",
-        "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Boron 0.5%, Molybdenum 0.1%",
+        "ingrediants": "Fe-2.5%, Mn-1%, Zn-3%, Cu-1%, B-0.5%, Mo-0.1%",
         "feature":"Anex-combi increases the availability of micronutrients to crops, as well as increasing the nutrient carrying capacity of crops. Anex-combi improves the activity of photosynthesis by increasing the amount of chlorophyll. Anex-Combi is useful in overcoming micronutrient deficiency which develops resistance against pests and traces. Anex-combi increases flowering and fruiting and maximizes yield.",
         "crops": "All crops",
         "packingSize": "100 gm, 250 gm, 500 gm, 1 kg",
@@ -1018,7 +1018,7 @@
         "name": "ENJOFERT SOIL",
         "feature":"Enzofert soil is a well-balanced mixture of essential micronutrients. Enzofert Soil provides important micronutrients that plants need. Enzofert soil application increases the availability and uptake of other major and secondary essential nutrients. Enjofert Soil helps plants grow healthy and well. Enzofert soil improves flower fragrance, fruit color, fruit size.",
         "crops": "All crops",
-        "ingrediants": "Iron 2%, Mangnese 1%, Zinc 5%, Copper 0.5%, Boron 1%",
+        "ingrediants": "Fe-2%, Mn-1%, Zn-5%, Cu-0.5%, B-1%",
         "packingSize": "10 kg, 25 kg, 50 kg",
         "dosage": "10 to 20 kg per acre",
         "type": "micronutrients-fertiliser"
@@ -1027,7 +1027,7 @@
         "id": 98,
         "name": "ZINBOR",
         "feature":"ZINBOR is a micronutrient blend fertilizer recommended for spraying on acid soil crops in Maharashtra state. ZINBOR is in a fully chelated form. ZINBOR is used as a fertilizer to overcome zinc and boron deficiency in plants and it also improves crop growth.",
-        "ingrediants": "Iron 0%, Mangnese 0%, Zinc 3%, Copper 0%, Boron 0.5%, Molybdenum 0.1%",
+        "ingrediants": "Zn-3%, B-0.5%",
         "packingSize": "250 ml, 500 ml, 1 ltr",
         "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, tuber crops, vegetables",
         "dosage": "2 ml per liter of water for spraying",
@@ -1066,7 +1066,7 @@
         "id": 102,
         "name": "ANEX-B",
         "ingrediants": "Boron 20%",
-        "feature":"Annex-B contains 20% boron as an element. Boron is a micronutrient that plants need for their health and growth. Some of the symptoms shown by crops suffering from boron deficiency are failure to flower, stunted fruit development, fruit and tuber rot, wilting and curling. Annex-B is used for growth of new cells, formation of flowers and fruits, development of roots",
+        "feature":"Anex-B contains 20% boron as an element. Boron is a micronutrient that plants need for their health and growth. Some of the symptoms shown by crops suffering from boron deficiency are failure to flower, stunted fruit development, fruit and tuber rot, wilting and curling. Annex-B is used for growth of new cells, formation of flowers and fruits, development of roots",
         "crops": "fruits, vegetables",
         "packingSize": "250 gm, 500 gm, 1 Kg",
         "dosage": "500gm/acre",
@@ -1174,8 +1174,8 @@
     },
     {
         "id": 113,
-        "name": "ANEX MYCO Gold",
-        "feature": "ANEX - Application of Mycogold GR in agriculture improves soil structure, moisture retention, promotes root growth and provides plant nutrients including N, P, K, Mg, S and micronutrients. Contributes to increasing water uptake by plants, thereby improving soil characteristics by increasing microbial activity. It becomes more fertile and provides an increased amount of nutrients to the plant, thereby increasing the photosynthetic activity of the crop, as well as increasing disease and pest resistance in the crop.",
+        "name": "ANEX MYCO GOLD GR",
+        "feature": "ANEX Mycogold GR in agriculture improves soil structure, moisture retention, promotes root growth and provides plant nutrients including N, P, K, Mg, S and micronutrients. Contributes to increasing water uptake by plants, thereby improving soil characteristics by increasing microbial activity. It becomes more fertile and provides an increased amount of nutrients to the plant, thereby increasing the photosynthetic activity of the crop, as well as increasing disease and pest resistance in the crop.",
         "ingrediants": "Microrhiza",
         "crops":"Oilseeds, Pulses, Cotton, Sugarcane, Cereals, Fruit Crops, Tuber Crops, Vegetables and Cultivated Crops",
         "packingSize": "4 Kg",
