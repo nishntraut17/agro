@@ -23,13 +23,13 @@
     },
     {
         "id": 3,
-        "name": "",
+        "name": "JAWA",
         "feature":"JAWA (Thiamethoxam 25% Wg) is a granular soluble insecticide. It protects against insects for longer than other insecticides. JAWA is highly effective at low doses against a wide spectrum of sap-sucking insects, soil and foliar insects. JAWA is highly systematic and therefore suitable for application through spray, drench or drip irrigation.",
         "ingrediants": "Thiamethoxam 25% WG",
         "crops":"Cotton, Rice, Mango, Wheat, Okra, Mustard, Tomato, Potato, Mossambi, Eggplant.",
         "packingSize": "50gm, 100 gm, 250 gm, 500 gm",
         "pests":"thrips, moth, whitefly, stem borer, hopper, mosquito bug, thrips.",
-        "dosage": "100 ml per acre",
+        "dosage": "100 gm per acre",
         "type": "insecticide"
     },
     {
@@ -93,7 +93,7 @@
         "feature":"Vajeer (Chlorantraniliprole 18.5% w/w SC) is a plant systemic insecticide that belongs to the group anthranilic diamide,which has a unique mode of action called Ryanodine Receptor Activators that disrupt normal muscle functions within the pest",
         "ingrediants": "Chlorantraniliprole 18.5% w/w SC",
         "crops": " soybeans, Pigen Pea, Black Gram, Cotton,Brinjal, Cabbage, Chilli, Groundnut,Maize, Okra, Rice, Sugarcane",
-        "packingSize": "30 ml , 60 ml , 150 ml",
+        "packingSize": "30 ml , 60 ml , 150 ml, 300 ml",
         "dosage": "60 ml per acre",
         "pests": "Pod Borer, American Boll Worm,Spotted Bollworm Fruit Borers & Caterpillars, Termite Early Shoot Borer And Top Borer Stem Borer, Leaf Borer",
         "type": "insecticide"
@@ -171,7 +171,7 @@
         "ingrediants": "Imidacloprid 70% WG",
         "crops": "Rice, Cotton, Cucumber, Okra.",
         "packingSize": "10 gm, 30 gm, 75 gm, 100 gm",
-        "dosage": "500 ml per acre",
+        "dosage": "500 gm per acre",
         "type": "insecticide",
         "pests": "hoppers, thrips, moths, thrips."
     },
