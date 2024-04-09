@@ -261,7 +261,7 @@
         "packingSize": "1 kg, 5 kg",
         "dosage": "5 kg per acre",
         "type": "insecticide",
-        "pests": "Pests- Stem Borer, Gall Midge, Rice Hispa, Humani"
+        "pests": "Stem Borer, Gall Midge, Rice Hispa, Humani"
     },
     { 
         "id": 25,
@@ -313,7 +313,7 @@
         "feature":"Fipronil 2.92% w/w Emulsifiable Concentrate (EC) is recommended for the control of termites in buildings through pre & post construction treatments",
         "ingrediants": "Karanj Oil - 60%, Essential Oil - 14%.",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "100 ml per L Water",
+        "dosage": "500 ml per acre",
         "crops":"Vegetables, Fruits, Cotton",
         "type": "insecticide",
         "pests": "termites"
@@ -326,7 +326,7 @@
         "crops":"cotton",
         "pests":"American bollworm, pink bollworm",
         "packingSize": "250 ml, 500 ml, 1 ltr",
-        "dosage": "400 gm per acre",
+        "dosage": "400 ml per acre",
         "type": "insecticide"
     },
     {
@@ -966,11 +966,12 @@
     {
         "id": 92,
         "name": "BIO STIKCY TRAPS",
-        "ingrediants": "BIO STICKY TRAPS (Jumbo) 3MM - Insect Killer , For Sucking Pest",
+        "ingrediants": "",
         "packingSize": "10 pic, 25 pic      ",
         "dosage": " 50-150 traps per acre depending on plant population",
         "pests": "White Flies, Aphids, Thrips, Fruit Flies, Jassids, Leaf Hoppers, Leaf miners and Moths ",
-        "type": "pgr"
+        "type": "pgr",
+        "feature":"BIO STICKY TRAPS (Jumbo) 3MM are highly effective insect killers specifically designed for sucking pests. These traps utilize a sticky surface to capture pests such as White Flies, Aphids, Thrips, Fruit Flies, Jassids, Leaf Hoppers, Leaf miners, and Moths. They come in a convenient packing size of 10 pieces or 25 pieces. With a dosage recommendation of 50-150 traps per acre, depending on the plant population, these traps provide a reliable and eco-friendly solution for pest management."
     },
     {
         "id": 93,
@@ -988,7 +989,7 @@
         "feature": "Enjofert is a balanced multi-micronutrient product in liquid form. Enjofert effectively supplies all the essential trace elements to the crop to produce fast, healthy growth with high yields. Enjofert helps in proper application of NPK fertilizers. Enzofert increases chlorophyll synthesis which produces more food for plants.",
         "ingrediants": "Iron 2.5%, Mangnese 1%, Zinc 3%, Copper 1%, Molybdenum 0.1%, Boron 0.5%",
         "crops": "Crops - All crops",
-        "packingSize": "20 ltr, 5 ltr, 1 ltr, 500 ml, 250 ml",
+        "packingSize": "250 ml, 500 ml, 1 ltr, 5 ltr, 20 ltr",
         "dosage": "600-100 ml per acre",
         "type": "micronutrients-fertiliser"
     },
