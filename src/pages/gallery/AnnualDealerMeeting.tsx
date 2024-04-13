@@ -9,8 +9,8 @@ const AnnualDealerMeeting = () => {
     let meetings = [
         {
             id: 1,
-            path: "sambhajinagar",
-            headingEnglish: "Annual Dealers meeting 2023 at Chtrapati Sambhajinagar",
+            path: "sambhajinagar2",
+            headingEnglish: "Annual Dealers meeting 2023 AT Chatrapati Sambhajinagar",
             headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२३",
             headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2023",
             size: [1, 2, 3, 4, 5, 6, 7, 8],
@@ -25,8 +25,8 @@ const AnnualDealerMeeting = () => {
         },
         {
             id: 3,
-            path: "sambhajinagar2",
-            headingEnglish: "Annual Dealers meeting 2022 AT Chtrapati Sambhajinagar",
+            path: "sambhajinagar",
+            headingEnglish: "Annual Dealers meeting 2022 at Chatrapati Sambhajinagar",
             headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२२",
             headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2022",
             size: [1, 2, 3, 4, 5, 6, 7, 8],
