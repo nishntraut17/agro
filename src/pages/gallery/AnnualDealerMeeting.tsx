@@ -9,6 +9,14 @@ const AnnualDealerMeeting = () => {
     let meetings = [
         {
             id: 1,
+            path: "sambhajinagar3",
+            headingEnglish: "Annual Dealers meeting 2024 AT Chatrapati Sambhajinagar",
+            headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा 2024",
+            headingHindi: "छत्रपति संभाजीनगर में वार्षिक डीलर सम्मेलन 2024",
+            size: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+        },
+        {
+            id: 2,
             path: "sambhajinagar2",
             headingEnglish: "Annual Dealers meeting 2023 AT Chatrapati Sambhajinagar",
             headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२३",
@@ -16,7 +24,7 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
-            id: 2,
+            id: 3,
             path: "goa",
             headingEnglish: "TOP SELLLERS MEET 2022 AT GOA",
             headingMarathi: "गोवा येथे टॉप सेलर्स मीट २०२२",
@@ -24,7 +32,7 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4, 5, 6, 7, 8, 9],
         },
         {
-            id: 3,
+            id: 4,
             path: "sambhajinagar",
             headingEnglish: "Annual Dealers meeting 2022 at Chatrapati Sambhajinagar",
             headingMarathi: "छत्रपती संभाजीनगर येथे वार्षिक डीलर्स सभा २०२२",
@@ -32,7 +40,7 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
-            id: 4,
+            id: 5,
             path: "wardha",
             headingEnglish: "ANNUAL DEALERS MEETING 2017 AT WARDHA",
             headingMarathi: "वार्षिक डीलर सभा २०१७ वर्धा",
@@ -40,7 +48,7 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4]
         },
         {
-            id: 5,
+            id: 6,
             path: "kerala",
             headingEnglish: "TOP SELLERS MEET 2014 AT KERALA ",
             headingMarathi: "केरळ येथे टॉप सेलर्स मीट २०१४",
@@ -48,7 +56,7 @@ const AnnualDealerMeeting = () => {
             size: [1, 2, 3, 4, 5, 6, 7, 8],
         },
         {
-            id: 6,
+            id: 7,
             path: "wardha2",
             headingEnglish: "ANNUAL DEALER MEET 2014 AT WARDHA",
             headingMarathi: "वार्षिक डीलर सभा २०१४ वर्धा",
@@ -79,7 +87,7 @@ const AnnualDealerMeeting = () => {
                             return (
                                 <div
                                     key={index}
-                                    className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded p-4 md:p-8 '>
+                                    className='flex flex-col gap-8 bg-slate-100 z-30 shadow-md rounded p-4 md:p-8 md:m-4'>
                                     <div className='text-2xl font-bold'>{
                                         language === "English" ? meeting.headingEnglish :
                                             language === "Marathi" ? meeting.headingMarathi :

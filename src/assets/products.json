@@ -817,11 +817,11 @@
     {
         "id": 77,
         "name": "E-CHARGE",
-        "feature":"E-Charge is a natural biostimulant, a research product to rapidly increase yield potential by stimulating crops. In E-Charge, bio-enzymes provide stimulants through a specific process on amino acids obtained from protein materials, thereby greatly increasing the productivity of the crop. Also, the number of flowers increases, resulting in healthy and fast growth of the crop",
+        "feature":"E-Charge is a natural biostimulant designed to enhance productivity by stimulating peak performance. It contains biologically active compounds that act as stimulants through specific processes involving amino acids derived from biotic enzymes, resulting in a significant increase in crop productivity. Additionally, it promotes healthy and rapid growth in the number of flowers.",
         "ingrediants": "L-Cysteine-5.2%, Vitamin-1.5%, Protein-18%.",
         "crops":"Oilseeds, pulses, cotton, cereals, fruit crops, vegetables.",
-        "packingSize": "50 ml, 100 ml, 250 ml, 500 ml, 1 ltr",
-        "dosage": "1 to 1.5 ml per ltr of water",
+        "packingSize": "100 ml, 250 ml, 500 ml, 1 L",
+        "dosage": "1 ml per liter of water for foliar application",
         "type": "pgr"
     },
     {

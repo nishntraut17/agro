@@ -15,20 +15,25 @@ const NewLaunch = () => {
     } else {
         newlaunchProducts = "New Launch Products";
     }
+    const verical = [4, 7];
 
     return (
         <div className=''>
             <PageHeader title={newlaunchProducts} />
             <h1 className='pt-4 px-4 md:px-20 text-3xl md:text-5xl font-extrabold md:p-4'>{newlaunchProducts}</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 p-4 md:px-20 md:py-8 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-4 p-4 md:px-20 gap-8 justify-center items-center'>
                 {
-                    [1, 2].map((item, index) => {
-                        return (
-                            <div key={index} className='col-span-1 h-full w-full overflow-hidden rounded'>
+                    [1, 2, 3, 4, 5, 6, 7].map((item, index) => (
+                        verical.includes(item) ? (
+                            <div key={index} className='col-span-1 w-2/3 h-84 overflow-hidden rounded'>
+                                <img src={`/newlaunch/${item}.jpg`} alt='product' className='w-full h-full hover:scale-105 transition ease-in-out duration-150' />
+                            </div>
+                        ) : (
+                            <div key={index} className='col-span-1 w-full h-52 overflow-hidden rounded'>
                                 <img src={`/newlaunch/${item}.jpg`} alt='product' className='w-full h-full hover:scale-105 transition ease-in-out duration-150' />
                             </div>
                         )
-                    })
+                    ))
                 }
             </div>
         </div>

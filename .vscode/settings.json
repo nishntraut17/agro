@@ -15,6 +15,7 @@
         "srcs",
         "sublink",
         "sublinks",
-        "submens"
+        "submens",
+        "verical"
     ]
 }
