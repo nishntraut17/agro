@@ -5,7 +5,7 @@ const array = [
         content: "Various types of insecticides, fungicides, and herbicides",
         description: "This product offers a comprehensive range of insecticides, fungicides, and herbicides for crop protection. It includes formulations designed to control pests such as insects, fungi, and weeds that can damage crops and reduce yields. These products are formulated using advanced technologies to ensure effective pest management while minimizing environmental impact.",
         dosage: "As per recommended guidelines for each product",
-        package: "25 Kg ( HDPE Bag )"
+        package: "50 Ltr/ 200 Ltr ( HDPE Bag )"
     },
     {
         id: 1,
@@ -27,7 +27,7 @@ const array = [
         id: 3,
         title: "Multi activity bio organic granules",
         content: "Sea weed extract, Amino acids, Humic acid, Herbal extract and Anti root rot substances",
-        description: "Due to sea weed extract based product there is overall growth of crops due to plant cell division.Due to blend of vital amino acids,there is healthy and vigorous growth with increased number of flowers and fruits.Due toHerbal Extract, plants are protected from sucking pests in the initial stages of their growth. Herbal Extract also prevents attacks from other insects and pests as well as protects the plant from nematodes and termites.Due to Anti root rot substances,Due to soil gets sterilized by killing harmful fungi such as Fugerium and Pithium. > Due to all above constituents blended in one granular formulation. Multi Activity Bio Organic Granules is found to be more effective than any other granular formulation available in market.",
+        description: "Due to sea weed extract based product there is overall growth of crops due to plant cell division.Due to blend of vital amino acids,there is healthy and vigorous growth with increased number of flowers and fruits. Due to Anti root rot substances,Due to soil gets sterilized by killing harmful fungi such as Fugerium and Pithium. Due to all above constituents blended in one granular formulation. Multi Activity Bio Organic Granules is found to be more effective than any other granular formulation available in market",
         dosage: "8 to 16 Kg per Acre as per type of crop",
         package: "25 Kg ( HDPE Bag )"
     },
@@ -51,7 +51,7 @@ const array = [
         id: 6,
         title: "Humic Acid Granules",
         content: "Humic Acid",
-        description: "Humic Acid Granules have the ability to buffer soil pH, making them suitable for a wide range of soil types. They can help neutralize acidic or alkaline soils, creating a more balanced pH level for plant growth.It enhances soil structure, promote microbial activity, and increase nutrient availability.increase the organic matter contentStimulates root development, leading to stronger and healthier plants.It enhances seed germination, improves nutrient uptake Increases plant resistance to stressors such as drought and disease.",
+        description: "Humic Acid Granules have the ability to buffer soil pH, making them suitable for a wide range of soil types. They can help neutralize acidic or alkaline soils, creating a more balanced pH level for plant growth. Additionally, they enhance soil structure, promote microbial activity, and increase nutrient availability. These granules also increase the organic matter content, stimulate root development, leading to stronger and healthier plants. Moreover, they enhance seed germination and improve nutrient uptake, while increasing plant resistance to stressors such as drought and disease.",
         dosage: "10 Kg / Acre",
         package: "25 Kg ( HDPE Bag )"
     },
