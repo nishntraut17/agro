@@ -46,12 +46,9 @@ export default function Footer() {
                         <div className="col-span-1 sm:col-span-1 mt-20">
                             <h1 className="text-2xl font-bold mb-4">{translatedText.contactUs}</h1>
                             <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.officeTitle} content={translatedText.officeContent} />
+                            <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.headTitle} content={translatedText.branchContent} />
                             <ContactInfo icon={<FaPhoneVolume className="text-lg text-white" />} title={translatedText.phoneTitle} content={translatedText.phoneContent} />
                             <ContactInfo icon={<MdEmail className="text-lg text-white" />} title={translatedText.emailTitle} content={translatedText.emailContent} />
-                            <ContactInfo icon={<FaLocationDot className="text-lg text-white" />} title={translatedText.headTitle} content={translatedText.branchContent} />
-                            <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.headOfficePhone} content={translatedText.headOfficeContact} />
-                            <ContactInfo icon={<FaPhoneVolume className="text-lg " />} title={translatedText.kishanHelplineText} content={translatedText.kishanHelpLine} />
-                            <ContactInfo icon={<FaLocationDot className="text-lg " />} title={translatedText.akolaOfficeText} content={translatedText.akolaOffice} />
                         </div>
                     </div>
                 </div>

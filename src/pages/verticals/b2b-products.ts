@@ -1,11 +1,11 @@
 const array = [
     {
         id: 0,
-        title: "All types of Insecticides, Fungicides, and Herbicides",
+        title: "All types of Pesticides Technical",
         content: "Various types of insecticides, fungicides, and herbicides",
         description: "This product offers a comprehensive range of insecticides, fungicides, and herbicides for crop protection. It includes formulations designed to control pests such as insects, fungi, and weeds that can damage crops and reduce yields. These products are formulated using advanced technologies to ensure effective pest management while minimizing environmental impact.",
         dosage: "As per recommended guidelines for each product",
-        package: "50 Ltr/ 200 Ltr ( HDPE Bag )"
+        package: "50 Ltr/ 200 Ltr ( HDPE Drum )"
     },
     {
         id: 1,
