@@ -8,7 +8,7 @@ export default function Career() {
     const translatedText = getTranslatedText(language);
 
     return (
-        <div className="">
+        <div className="varela-round-regular">
             <PageHeader title={translatedText.career} />
             <div className='flex flex-col md:flex-row md:justify-center'>
                 <form action="https://formspree.io/f/xayrpvzd" method="post" className="bg-stone-100 w-2/3 md:my-8 z-50 md:rounded-l-sm shadow-lg p-8 md:p-20">

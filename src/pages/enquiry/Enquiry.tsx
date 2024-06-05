@@ -36,7 +36,7 @@ export default function Enquiry() {
     ];
 
     return (
-        <div className="">
+        <div className="varela-round-regular">
             <PageHeader title={translatedText.enquiry} />
             <div className='flex flex-col md:flex-row md:gap-8 gap-4 p-8 md:p-16'>
                 <div className='flex flex-col gap-4 md:w-1/2'>

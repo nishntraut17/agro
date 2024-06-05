@@ -20,7 +20,7 @@ const AboutCompany = () => {
     }
 
     return (
-        <div className='flex flex-col lg:flex-row gap-20 '>
+        <div className='varela-round-regular flex flex-col lg:flex-row gap-20 '>
             <div className='lg:w-1/2 shadow-xl z-30 bg-stone-200 p-8'>
                 <div className='text-2xl md:text-3xl font-extrabold mb-4'>{aboutCompany}</div>
                 <p className='font-light'>{info}</p>

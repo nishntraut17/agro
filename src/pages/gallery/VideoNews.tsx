@@ -39,7 +39,7 @@ const VideoNews = () => {
     ]
 
     return (
-        <div className=''>
+        <div className='varela-round-regular'>
             <PageHeader title={videoNews} />
             <h1 className='text-2xl md:text-4xl font-extrabold p-4 py-8 md:px-24 '>{videoNews}</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-4 md:px-24'>

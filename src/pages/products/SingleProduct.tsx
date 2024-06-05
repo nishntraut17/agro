@@ -38,7 +38,7 @@ const SingleProduct = () => {
     }
 
     return (
-        <div className=''>
+        <div className='varela-round-regular'>
             <PageHeader title={product.name} />
             <div className='flex flex-col md:flex-row p-4 gap-4 md:p-8'>
                 <div className='h-72 w-full md:h-[32rem] md:w-1/3 flex flex-row justify-center'>

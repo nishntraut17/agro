@@ -37,7 +37,7 @@ const NewLaunch = () => {
     ];
 
     return (
-        <div className='bg-slate-50'>
+        <div className='bg-slate-50 varela-round-regular'>
             <PageHeader title={newlaunchProducts} />
             <div className='p-4 md:px-20'>
                 <h1 className='pt-4 px-4 text-3xl md:text-5xl font-extrabold md:p-4'>{newlaunchProducts}</h1>

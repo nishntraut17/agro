@@ -14,7 +14,7 @@ export default function Herbisides() {
         allHerbisides = 'सर्व शाकनाशी'
     }
     return (
-        <div className="bg-slate-50">
+        <div className="bg-slate-50 varela-round-regular">
             <PageHeader title={allHerbisides} />
             <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{allHerbisides}</div>
             <ProductCard2 filter={"herbicide"} />

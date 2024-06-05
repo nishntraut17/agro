@@ -70,7 +70,7 @@ const TourPhotos = () => {
     return (
         <div>
             <PageHeader title={tourPhotos} />
-            <div className='p-4 md:px-20'>
+            <div className='p-4 md:px-20 varela-round-regular'>
                 <h1 className='text-4xl py-8 font-extrabold'>{tourPhotos}</h1>
                 <div>
                     {

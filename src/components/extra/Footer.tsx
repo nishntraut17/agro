@@ -17,7 +17,13 @@ export default function Footer() {
     const translatedText = getTranslatedText(language); // Define this function to fetch translated text
 
     return (
-        <div className="relative bg-lime-950 text-white bg-cover bg-center" >
+        <div className="varela-round-regular relative bg-lime-950 text-white bg-cover bg-center" >
+            <div className="absolute">
+                <img src='./leaf27.png' alt='leaf' className="" />
+            </div>
+            <div className="absolute bottom-0 right-0">
+                <img src='./leaf26.png' alt='leaf' className="" />
+            </div>
             <div className="z-20">
                 <div className="p-4 lg:px-12">
                     {/* Company Description */}

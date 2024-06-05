@@ -47,7 +47,7 @@ const AboutValues = () => {
     }
 
     return (
-        <div className="mb-8 flex flex-col md:flex-row">
+        <div className="varela-round-regular mb-8 flex flex-col md:flex-row">
             <div className="md:w-1/4 hidden md:block">
                 <img src="/values.png" alt="ceo" width={1000} height={1000} className="rounded-md  h-3/4 w-full" />
             </div>

@@ -15,7 +15,7 @@ export default function ProductsPage() {
         allProducts = "सर्व उत्पाद"
     }
     return (
-        <div className="bg-slate-50">
+        <div className="bg-slate-50 varela-round-regular">
             <PageHeader title={allProducts} />
             <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{allProducts}</div>
             <ProductCard2 filter={"none"} />

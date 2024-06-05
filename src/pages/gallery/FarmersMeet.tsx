@@ -21,7 +21,7 @@ const FarmersMeet = () => {
     return (
         <div>
             <PageHeader title={farmersMeet} />
-            <div className='p-4 md:px-20'>
+            <div className='p-4 md:px-20 varela-round-regular'>
                 <h1 className='text-4xl py-8 font-extrabold'>{farmersMeet}</h1>
                 <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
                     {

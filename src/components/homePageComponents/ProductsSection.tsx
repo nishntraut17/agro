@@ -53,7 +53,7 @@ const ProductsSection = () => {
 
 
     return (
-        <div className="md:px-8 md:py-8 grid grid-cols-1 md:grid-cols-4 gap-4 px-4 text-green-900">
+        <div className="varela-round-regular md:px-8 md:py-8 grid grid-cols-1 md:grid-cols-4 gap-4 px-4 text-green-900">
             <div className="col-span-1 md:col-span-2 p-4 flex flex-col gap-4">
                 <h1 className="text-5xl font-bold mb-2 text-dark-green-custom">
                     {language === "English" && "Enjo-Chem Agrochemicals Products"}
@@ -95,24 +95,26 @@ const ProductsSection = () => {
                         key={index}
                         className="col-span-1 md:col-span-1"
                     >
-                        <div className="rounded-sm overflow-hidden bg-white shadow-sm flex flex-row justify-between hover:cursor-pointer hover:shadow-md border border-gray-200">
-                            <div className="overflow-hidden flex justify-center items-center h-64">
-                                <img
-                                    src={`/products/${index + 1}.png`}
-                                    alt="insecticide1"
-                                    className="transition-transform duration-300 hover:scale-105 h-3/4 w-full"
-                                />
-                            </div>
+                        <Link to={`/products/${index + 1}`} onClick={scrollToTop}>
+                            <div className="rounded-sm overflow-hidden bg-white shadow-sm flex flex-row justify-between hover:cursor-pointer hover:shadow-md border border-gray-200">
+                                <div className="overflow-hidden flex justify-center items-center h-64">
+                                    <img
+                                        src={`/products/${index + 1}.png`}
+                                        alt="insecticide1"
+                                        className="transition-transform duration-300 hover:scale-105 h-3/4 w-full"
+                                    />
+                                </div>
 
-                            <div className="p-4 hover:opacity-80">
-                                <h1 className="text-xl font-bold mb-2">{product.name}</h1>
-                                <p className="text-sm mb-2">{product.ingrediants}</p>
-                                <h1 className="text-xl font-bold mb-2">{getText('Packing Size', 'पॅकिंग साईझ', 'पॅकिंग साईझ')}</h1>
-                                <p className="text-sm mb-2">{product.packingSize}</p>
-                                <h1 className="text-xl font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
-                                <p className="text-sm">{product.dosage}</p>
+                                <div className="p-4 hover:opacity-80">
+                                    <h1 className="text-xl font-bold mb-2">{product.name}</h1>
+                                    <p className="text-sm mb-2">{product.ingrediants}</p>
+                                    <h1 className="text-xl font-bold mb-2">{getText('Packing Size', 'पॅकिंग साईझ', 'पॅकिंग साईझ')}</h1>
+                                    <p className="text-sm mb-2">{product.packingSize}</p>
+                                    <h1 className="text-xl font-bold mb-2">{getText('Dosage', 'खुराक', 'खुराक')}</h1>
+                                    <p className="text-sm">{product.dosage}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </motion.div>
                 ))
             }

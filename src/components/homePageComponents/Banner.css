@@ -1,0 +1,28 @@
+/* Banner.css */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ff0000;
+    /* Change the color of the buttons */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Add a semi-transparent background */
+    border-radius: 50%;
+    /* Make the buttons round */
+    width: 40px;
+    /* Adjust the width */
+    height: 40px;
+    /* Adjust the height */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Change background on hover */
+    color: #000000;
+    /* Change color on hover */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px;
+    /* Adjust the size of the arrow icons */
+}

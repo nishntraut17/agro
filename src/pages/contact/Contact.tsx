@@ -38,7 +38,7 @@ export default function Contact() {
     ];
 
     return (
-        <div className="mb-20">
+        <div className="mb-20 varela-round-regular">
             <PageHeader title={translatedText.contactUs} />
             <div className='flex flex-col md:flex-row gap-4 sm:mt-20 mx-6 md:mx-20 lg:mx-40'>
                 <div className="md:w-1/2">

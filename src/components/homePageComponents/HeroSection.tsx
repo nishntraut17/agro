@@ -14,7 +14,7 @@ export default function HeroSection() {
     }
 
     return (
-        <div className="py-3 md:py-5 lg:py-8 flex flex-col md:flex-row items-center justify-center px-4 lg:px-10">
+        <div className="py-3 md:py-5 lg:py-8 flex flex-col md:flex-row items-center justify-center px-4 lg:px-10 varela-round-regular">
             <div className="p-2 lg:w-3/4 lg:mb-0 flex flex-col gap-4">
                 <h1 className="font-extrabold text-2xl lg:text-4xl">
                     {text}

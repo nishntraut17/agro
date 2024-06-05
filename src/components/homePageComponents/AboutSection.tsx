@@ -30,7 +30,7 @@ export default function AboutSection() {
     }
 
     return (
-        <section className=" text-white relative pt-12 md:pt-0 pb-8" style={{ backgroundImage: "url('/spray3.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+        <section className="varela-round-regular text-white relative pt-12 md:pt-0 pb-8" style={{ backgroundImage: "url('/spray3.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black opacity-60"></div>
             {/* Content */}

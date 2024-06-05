@@ -14,7 +14,7 @@ export default function Fungisides() {
         allFungicides = "सर्व फंगाइसाइड्स"
     }
     return (
-        <div className="bg-slate-50">
+        <div className="bg-slate-50 varela-round-regular">
             <PageHeader title={allFungicides} />
             <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{allFungicides}</div>
             <ProductCard2 filter={"fungicide"} />

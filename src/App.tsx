@@ -28,7 +28,7 @@ import TourPhotos from './pages/gallery/TourPhotos';
 import SingleProduct from './pages/products/SingleProduct';
 import FarmersMeet from './pages/gallery/FarmersMeet';
 import SingleB2B from './pages/verticals/SingleB2B';
-import TinyNavbar from './components/navBarComponents/TinyNavbar';
+import Navbar from './components/navBarComponents/Navbar';
 
 function App() {
   const language = localStorage.getItem('language');
@@ -38,7 +38,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <NewNavbar />
+        <Navbar />
         <Whatsapp />
         <Routes>
           <Route path="/" element={<Home />} />

@@ -31,7 +31,7 @@ const B2B = () => {
     };
 
     return (
-        <div className='bg-green-50'>
+        <div className='bg-green-50 varela-round-regular'>
             <PageHeader title={b2bText} />
             <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">{b2bText}</div>
             <div className='"min-h-screen grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:px-20 bg-green-50"'>

@@ -22,7 +22,7 @@ const Ceo = () => {
     }
 
     return (
-        <div className="flex flex-col items-center gap-10 md:flex-row">
+        <div className="varela-round-regular flex flex-col items-center gap-10 md:flex-row">
             <div className="h-[300px] md:w-1/3 md:h-[350px]">
                 <img src="/ceo.png" alt="ceo" className="rounded-md h-full" />
             </div>

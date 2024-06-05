@@ -20,7 +20,7 @@ const CompanyNews = () => {
     const horizontalImage = [1, 2];
 
     return (
-        <div className='bg-slate-50'>
+        <div className='bg-slate-50 varela-round-regular'>
             <PageHeader title={companyNews} />
             <div className='p-4'>
                 <div className="text-4xl py-8 font-extrabold">{companyNews}</div>

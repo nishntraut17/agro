@@ -83,7 +83,10 @@ export default function LeafletMap() {
             whileInView={{ left: "2rem" }}
             transition={transition}
         >
-            <div className="flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-8 lg:pt-40 ">
+            <div className="varela-round-regular flex flex-col justify-center space-y-8 lg:flex-row lg:space-x-8 bg-green-950 p-8 lg:pt-40 ">
+                <div className="absolute right-10">
+                    <img src='./leaf22.png' alt='leaf' className="" />
+                </div>
                 <div className="border rounded-sm w-full h-[400px] overflow-hidden">
                     <MapContainer center={[19.766670, 74.475853]} zoom={6} style={{ height: '400px' }}>
                         <TileLayer

@@ -18,7 +18,7 @@ export default function PGR() {
         extraInfo = "एन्जो-केम क्रॉप केयर, एन्जो-केम कृषि रसायन उद्योगाची सहाय्यक कंपनी";
     }
     return (
-        <div className="bg-slate-50">
+        <div className="bg-slate-50 varela-round-regular">
             <PageHeader title={allPGR} />
             <div className="text-4xl font-extrabold py-4 px-8 lg:px-24">
                 <div>{allPGR}</div>

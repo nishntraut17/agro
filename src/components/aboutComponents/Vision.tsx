@@ -23,7 +23,7 @@ const Vision = () => {
     }
 
     return (
-        <div className="flex flex-col md:flex-row">
+        <div className="varela-round-regular flex flex-col md:flex-row">
             <div className="md:w-1/4 h-72 hidden md:block">
                 <img src="/vision.png" alt="ceo" className="rounded-md h-full w-full" />
             </div>

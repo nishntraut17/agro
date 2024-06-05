@@ -51,7 +51,7 @@ const SingleB2B = () => {
     return (
         <>
             <PageHeader title={array[id].title} />
-            <div className='flex flex-col md:flex-row gap-4 p-4 md:p-20'>
+            <div className='flex flex-col md:flex-row gap-4 p-4 md:p-20 varela-round-regular'>
                 <div className='h-64 w-full md:h-[360px] md:w-1/3'>
                     <img src={`/b2b/${id}.jpg`} alt={array[id].title} className='w-full h-full' />
                 </div>

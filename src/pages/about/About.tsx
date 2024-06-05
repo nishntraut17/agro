@@ -19,7 +19,7 @@ export default function About() {
     }
 
     return (
-        <main className="flex flex-col">
+        <main className="varela-round-regular flex flex-col">
             <PageHeader title={aboutUs} />
             <div className="px-4 md:px-20 text-green-950 md:text-2xl font-semibold flex flex-col gap-8">
                 <Ceo />
